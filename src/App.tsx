@@ -9,7 +9,7 @@ import { display } from "@primeuix/themes/aura/inplace";
 const SiteHeader = () => (
   <Toolbar className="!px-0">
     <div style={{display:"flex",flexDirection:"row",textAlign:"center",alignItems:"center"}}>
-      <span className="text-lg font-semibold tracking-wide px-4">XrayTeam Studio</span>
+      <span className="hidden md:inline-block text-lg font-semibold tracking-wide px-4">XrayTeam Studio</span>
       <nav className="flex gap-5">
         <NavLink
           to="/"
@@ -49,7 +49,7 @@ function App() {
     // <>  </>
     <div className="min-h-screen from-surface-50 to-surface-100  text-surface-900 dark:text-surface-0 font-[family-name:var(--font-geist-sans)]">
       <SiteHeader />
-      <main className="mx-auto max-w-6xl px-6 py-10">
+      <main style={{width: "90%"}} className="mx-auto">
         {renderRoutes()}
       </main>
     </div>

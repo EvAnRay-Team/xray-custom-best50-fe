@@ -1,9 +1,11 @@
 import { Button } from "primereact/button";
 import { Card } from "primereact/card";
+import { InputText } from "primereact/inputtext";
+import { FloatLabel } from "primereact/label/float";
 import { Link } from "react-router-dom";
 
 const Home = () => (
-  <Card className="rounded-3xl p-10 space-y-8">
+  <Card className="rounded-3xl p-10 space-y-8 mx-6 my-10">
     <div className="flex items-center justify-between gap-4">
       <div>
         <p className="text-xs uppercase tracking-[0.4em]">コントロールパネル</p>
@@ -23,6 +25,10 @@ const Home = () => (
         <p className="mt-2 text-2xl font-semibold">Noir プリセット</p>
       </Card>
     </div>
+    <FloatLabel>
+      <InputText id="qq-input" />
+      <label htmlFor="qq-input">Tencent ID</label>
+    </FloatLabel>
     <Button as={Link} to="/customizer" rounded className="w-fit">
       スタイル設定を開く
     </Button>
