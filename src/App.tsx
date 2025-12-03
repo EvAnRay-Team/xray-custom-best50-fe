@@ -3,7 +3,6 @@ import ThemeSwitcher from "./components/theme-switcher";
 import Home from "./pages/Home";
 import Customizer from "./pages/Customizer";
 import { Toolbar } from 'primereact/toolbar';
-import { display } from "@primeuix/themes/aura/inplace";
 // import { NavLink } from "react-router-dom";
 
 const SiteHeader = () => (

@@ -4,10 +4,8 @@ import "./index.css";
 import App from "./App.tsx";
 import { PrimeReactProvider } from "@primereact/core/config";
 import Noir from "./themes/noir.ts";
-import Aura from '@primeuix/themes/aura';
 import { ThemeProvider } from "./context/theme-context.tsx";
 import { BrowserRouter } from "react-router-dom";
-import { definePreset } from "@primeuix/themes";
 
 
 
