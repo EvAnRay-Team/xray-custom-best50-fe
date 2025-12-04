@@ -14,7 +14,7 @@ const SiteHeader = () => {
         <span className="hidden md:inline-block text-lg font-semibold tracking-wide px-4">xRay Studio</span>
         <nav className="flex gap-5">
           <NavLink
-            to="/"
+            to="/xray-custom-best50-fe/"
             end
             className={({ isActive }) =>
               `px-3 py-1 rounded-full transition text-sm font-medium ${
@@ -27,7 +27,7 @@ const SiteHeader = () => {
             {t("header.dashboard")}
           </NavLink>
           <NavLink
-            to="/customizer"
+            to="/xray-custom-best50-fe/customizer"
             className={({ isActive }) =>
               `px-3 py-1 rounded-full transition text-sm font-medium ${
                 isActive
@@ -51,8 +51,8 @@ const SiteHeader = () => {
 function App() {
   const renderRoutes = () => (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/customizer" element={<Customizer />} />
+      <Route path="/xray-custom-best50-fe/" element={<Home />} />
+      <Route path="/xray-custom-best50-fe/customizer" element={<Customizer />} />
     </Routes>
   );
 
