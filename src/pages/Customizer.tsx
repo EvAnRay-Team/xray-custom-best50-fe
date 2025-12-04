@@ -35,24 +35,24 @@ const OSS_BASE_URL = "https://xray-studio.oss-cn-shanghai.aliyuncs.com";
 const backgrounds: VisualOption[] = [
   { label: "DX", value: "dx"},
   { label: "Splash", value: "splash"},
-  { label: "Splash Plus", value: "splashp"},
-  { label: "Univers", value: "uni"},
-  { label: "Festival", value: "fes"},
-  { label: "Festival Plus", value: "fesp"},
-  { label: "Buddies", value: "bud"},
-  { label: "Buddies Plus", value: "budp"},
-  { label: "Prism", value: "prism"},
-  { label: "Prism Plus", value: "prismp"},
+  { label: "Splash PLUS", value: "splashp"},
+  { label: "UNiVERSE", value: "uni"},
+  { label: "FESTiVAL", value: "fes"},
+  { label: "FESTiVAL PLUS", value: "fesp"},
+  { label: "BUDDiES", value: "bud"},
+  { label: "BUDDiES PLUS", value: "budp"},
+  { label: "PRiSM", value: "prism"},
+  { label: "PRiSM PLUS", value: "prismp"},
 ];
 
 const rankSets: VisualOption[] = [
   { label: "Default", value: "defaut" },
   { label: "DX", value: "dx" },
-  { label: "Festival", value: "fes" },
-  { label: "Prism", value: "prism" },
   { label: "Splash", value: "splash" },
-  { label: "Univers", value: "uni" },
-  { label: "Buddies", value: "bud" },
+  { label: "UNiVERSE", value: "uni" },
+  { label: "FESTiVAL", value: "fes" },
+  { label: "BUDDiES", value: "bud" },
+  { label: "PRiSM", value: "prism" },
 ];
 
 const danSets: VisualOption[] = [
@@ -79,7 +79,7 @@ const danSets: VisualOption[] = [
   { label: "真九段", value: "20" },
   { label: "真十段", value: "21" },
   { label: "真皆伝", value: "22" },
-  { label: "里皆伝", value: "23" },
+  { label: "裏皆伝", value: "23" },
 ];
 
 
@@ -114,18 +114,18 @@ const classSets: VisualOption[] = [
   { label: "SSS2", value: "23" },
   { label: "SSS1", value: "24" },
 
-  { label: "Legend", value: "25" },
+  { label: "LEGEND", value: "25" },
 ];
 
 const recommendSets: VisualOption[] = [
   { label: "Default", value: "defaut" },
   { label: "Dx", value: "dx" },
   { label: "Splash", value: "splash" },  
-  { label: "Univers", value: "uni" },
-  { label: "Festival", value: "fes" },  
-  { label: "Buddies", value: "bud" },
-  { label: "Circle", value: "circle" },  
-  { label: "Prism", value: "prism" },
+  { label: "UNiVERSE", value: "uni" },
+  { label: "FESTiVAL", value: "fes" },  
+  { label: "BUDDiES", value: "bud" },
+  { label: "PRiSM", value: "prism" },
+  { label: "CiRCLE", value: "circle" },  
 ]
 
 
