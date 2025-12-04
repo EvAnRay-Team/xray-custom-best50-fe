@@ -8,7 +8,7 @@ import { Toolbar } from 'primereact/toolbar';
 const SiteHeader = () => (
   <Toolbar className="!px-0">
     <div style={{display:"flex",flexDirection:"row",textAlign:"center",alignItems:"center"}}>
-      <span className="hidden md:inline-block text-lg font-semibold tracking-wide px-4">XrayTeam Studio</span>
+      <span className="hidden md:inline-block text-lg font-semibold tracking-wide px-4">xRay Studio</span>
       <nav className="flex gap-5">
         <NavLink
           to="/"

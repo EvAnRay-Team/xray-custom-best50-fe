@@ -1,79 +1,57 @@
+import type { DialogContentInstance } from '@primereact/types/shared/dialog';
 import { useState, useEffect, useRef } from "react";
 import { Card } from "primereact/card";
 import { Button } from "primereact/button";
+// @ts-ignore - dom-to-image-more 没有类型定义
+// import domtoimage from "dom-to-image-more";
 import { Fieldset } from "primereact/fieldset";
 import { Motion } from "@primereact/core/motion";
 import { MinusIcon, PlusIcon } from "@primereact/icons";
 import { Dialog } from "primereact/dialog";
 import { InputText } from "primereact/inputtext";
-import { InputNumber } from "primereact/inputnumber";
-import { FloatLabel } from "primereact/label/float";
-// import { usePopoverOpenChangeEvent } from '@primereact/types/shared/popover';
 import { Chip } from "primereact/chip";
-import { getAsset } from "../static";
 import { InputGroup } from "primereact/inputgroup";
+import frameDropdownData from "../dropdown/frame_dropdown_data.json";
+import iconDropdownData from "../dropdown/icon_dropdown_data.json";
+import plateDropdownData from "../dropdown/plate_dropdown_data.json";
+import charaDropdownData from "../dropdown/chara_dropdown_data.json";
 
 type VisualOption = { label: string; value: string; image?: string };
 
-const mustGetAsset = (path: string) => {
-  const asset = getAsset(path);
-  if (!asset) throw new Error(`静态资源缺失: ${path}`);
-  return asset;
+type DropdownItem = {
+  name_str: string;
+  name_id: number;
 };
 
+type DropdownGenre = {
+  genre: string;
+  items: DropdownItem[];
+};
 
-const FrameDemo = mustGetAsset("demo/UI_Frame_105601.png");
-const IconDemo = mustGetAsset("demo/UI_Icon_000301.png");
-const PlateDemo = mustGetAsset("demo/UI_Plate_458012.png");
-// const RecommendDemo = mustGetAsset("demo/UI_Plate_458012.png");
-// const RankDemo = mustGetAsset("demo/UI_Rank_105601.png");
-// const NameDemo = mustGetAsset("demo/UI_Name_105601.png");
-
+// OSS 资源基础地址，后续如果迁移存储只需修改这里
+const OSS_BASE_URL = "https://xray-studio.oss-cn-shanghai.aliyuncs.com";
 
 const backgrounds: VisualOption[] = [
-  { label: "DX", value: "dx", image: mustGetAsset("bg/dx.png") },
-  { label: "Splash", value: "splash", image: mustGetAsset("bg/splash.png") },
-  { label: "Splash Plus", value: "splashp", image: mustGetAsset("bg/splashp.png") },
-  { label: "Univers", value: "uni", image: mustGetAsset("bg/uni.png") },
-  { label: "Festival", value: "fes", image: mustGetAsset("bg/fes.png") },
-  { label: "Festival Plus", value: "fesp", image: mustGetAsset("bg/fesp.png") },
-  { label: "Buddies", value: "bud", image: mustGetAsset("bg/bud.png") },
-  { label: "Buddies Plus", value: "budp", image: mustGetAsset("bg/budp.png") },
-  { label: "Prism", value: "prism", image: mustGetAsset("bg/prism.png") },
-  { label: "Prism Plus", value: "prismp", image: mustGetAsset("bg/prismp.png") },
+  { label: "DX", value: "dx"},
+  { label: "Splash", value: "splash"},
+  { label: "Splash Plus", value: "splashp"},
+  { label: "Univers", value: "uni"},
+  { label: "Festival", value: "fes"},
+  { label: "Festival Plus", value: "fesp"},
+  { label: "Buddies", value: "bud"},
+  { label: "Buddies Plus", value: "budp"},
+  { label: "Prism", value: "prism"},
+  { label: "Prism Plus", value: "prismp"},
 ];
 
-const ranks: VisualOption[] = [
-  { label: "Default", value: "default" },
+const rankSets: VisualOption[] = [
+  { label: "Default", value: "defaut" },
   { label: "DX", value: "dx" },
   { label: "Festival", value: "fes" },
   { label: "Prism", value: "prism" },
   { label: "Splash", value: "splash" },
   { label: "Univers", value: "uni" },
   { label: "Buddies", value: "bud" },
-];
-
-
-
-const cardFrames: VisualOption[] = [
-  { label: "Basic Card", value: "basic", image: mustGetAsset("card/card_bg/card_basic.png") },
-  { label: "Expert Card", value: "expert", image: mustGetAsset("card/card_bg/card_expert.png") },
-  { label: "Master Card", value: "master", image: mustGetAsset("card/card_bg/card_master.png") },
-];
-
-const charaSets: VisualOption[] = [
-  { label: "角色 A", value: "chara-1", image: mustGetAsset("chara/chara_base_1.png") },
-  { label: "角色 B", value: "chara-4", image: mustGetAsset("chara/chara_base_4.png") },
-  { label: "角色 C", value: "chara-7", image: mustGetAsset("chara/chara_base_7.png") },
-];
-
-const rankSets: VisualOption[] = [
-  { label: "Bud S", value: "bud-s", image: mustGetAsset("card/rank/bud_rank_s.png") },
-  { label: "Fes S", value: "fes-s", image: mustGetAsset("card/rank/fes_rank_s.png") },
-  { label: "Prism S", value: "prism-s", image: mustGetAsset("card/rank/prism_rank_s.png") },
-  { label: "Splash S", value: "splash-s", image: mustGetAsset("card/rank/splash_rank_s.png") },
-  { label: "Uni S", value: "uni-s", image: mustGetAsset("card/rank/uni_rank_s.png") },
-  { label: "DX S", value: "dx-s", image: mustGetAsset("card/rank/dx_rank_s.png") },
 ];
 
 const danSets: VisualOption[] = [
@@ -138,36 +116,34 @@ const classSets: VisualOption[] = [
   { label: "Legend", value: "25" },
 ];
 
-const travelBuddies = [
-  { label: "旅行伙伴 1", value: "buddy-1" },
-  { label: "旅行伙伴 2", value: "buddy-2" },
-  { label: "旅行伙伴 3", value: "buddy-3" },
-  { label: "旅行伙伴 4", value: "buddy-4" },
-  { label: "旅行伙伴 5", value: "buddy-5" },
-];
+const recommendSets: VisualOption[] = [
+  { label: "Default", value: "defaut" },
+  { label: "Dx", value: "dx" },
+  { label: "Splash", value: "splash" },  
+  { label: "Univers", value: "uni" },
+  { label: "Festival", value: "fes" },  
+  { label: "Buddies", value: "bud" },
+  { label: "Circle", value: "circle" },  
+  { label: "Prism", value: "prism" },
+]
 
-const travelLevels = [
-  { label: "Lv.1", value: "lv1" },
-  { label: "Lv.2", value: "lv2" },
-  { label: "Lv.3", value: "lv3" },
-  { label: "Lv.4", value: "lv4" },
-  { label: "Lv.5", value: "lv5" },
-];
 
-type PreviewProps = { background: VisualOption; card: VisualOption; chara: VisualOption; rank: VisualOption };
 
-const PreviewCard = ({ background, card, chara, rank }: PreviewProps) => {
+type PreviewProps = { customData: FormData };
+
+const PreviewCard = ({ customData }: PreviewProps) => {
   const baseW = 1700;
   const baseH = 2369;
   const canvasRef = useRef<HTMLDivElement | null>(null);
   const [scale, setScale] = useState(1);
   const [viewportWidth, setViewportWidth] = useState<number | null>(null);
+  const mainTravelLevel = customData.travelConfigs?.[0]?.level ?? 1;
 
   useEffect(() => {
     const el = canvasRef.current;
     const parent = el?.parentElement;
     if (!parent) return;
-  
+
     const update = () => {
       const parentWidth = parent.clientWidth || 1;
       const vh = typeof window !== "undefined" ? window.innerHeight : baseH;
@@ -183,7 +159,7 @@ const PreviewCard = ({ background, card, chara, rank }: PreviewProps) => {
       // 同时考虑宽度和高度，两者取较小值，兼顾 PC 和手机
       setScale(Math.min(scaleW, scaleH));
     };
-  
+
     const ro = new ResizeObserver(update);
     update();
     ro.observe(parent);
@@ -192,128 +168,756 @@ const PreviewCard = ({ background, card, chara, rank }: PreviewProps) => {
 
   const isDesktop = viewportWidth && viewportWidth >= 1024;
 
+  // const handleSaveScreenshot = async () => {
+  //   if (!canvasRef.current) return;
+
+  //   try {
+  //     // 等待所有图片加载完成
+  //     const images = canvasRef.current.querySelectorAll('img');
+  //     const imagePromises = Array.from(images).map((img) => {
+  //       if (img.complete) {
+  //         return Promise.resolve();
+  //       }
+  //       return new Promise<void>((resolve, reject) => {
+  //         img.onload = () => resolve();
+  //         img.onerror = () => resolve(); // 即使加载失败也继续
+  //         // 设置超时，避免无限等待
+  //         setTimeout(() => resolve(), 5000);
+  //       });
+  //     });
+
+  //     await Promise.all(imagePromises);
+
+  //     // 临时移除所有边框样式和 transform（截图后会自动恢复）
+  //     const originalStyles: Map<HTMLElement, { 
+  //       border: string; 
+  //       outline: string; 
+  //       boxShadow: string;
+  //       transform: string;
+  //     }> = new Map();
+
+  //     // 保存并移除 canvasRef 自身的 transform
+  //     let originalCanvasTransform = '';
+  //     if (canvasRef.current) {
+  //       originalCanvasTransform = canvasRef.current.style.transform;
+  //       canvasRef.current.style.transform = 'none';
+  //     }
+
+  //     const allElements = canvasRef.current.querySelectorAll('*');
+  //     allElements.forEach((el) => {
+  //       const htmlEl = el as HTMLElement;
+  //       // 保存原始样式
+  //       originalStyles.set(htmlEl, {
+  //         border: htmlEl.style.border,
+  //         outline: htmlEl.style.outline,
+  //         boxShadow: htmlEl.style.boxShadow,
+  //         transform: htmlEl.style.transform,
+  //       });
+  //       // 移除所有边框相关样式和 transform
+  //       htmlEl.style.border = 'none';
+  //       htmlEl.style.outline = 'none';
+  //       htmlEl.style.boxShadow = 'none';
+  //       htmlEl.style.transform = 'none';
+  //     });
+
+  //     try {
+  //       // 使用 dom-to-image-more 截图，支持现代 CSS 特性
+  //       // 注意：需要截图的是实际尺寸的内容，而不是缩放后的
+  //       const dataUrl = await domtoimage.toPng(canvasRef.current, {
+  //         quality: 1.0, // 最高质量
+  //         cacheBust: true, // 强制刷新缓存
+  //         bgcolor: '#ffffff', // 白色背景
+  //         filter: (node: Node) => {
+  //           // 过滤掉不需要的元素（如按钮等）
+  //           if (node instanceof HTMLElement) {
+  //             // 保留所有图片和内容元素
+  //             return true;
+  //           }
+  //           return true;
+  //         },
+  //       });
+
+  //       // 创建下载链接
+  //       const link = document.createElement('a');
+  //       link.href = dataUrl;
+  //       link.download = `custom-best50-${Date.now()}.png`;
+  //       document.body.appendChild(link);
+  //       link.click();
+  //       document.body.removeChild(link);
+  //     } finally {
+  //       // 恢复原始样式
+  //       originalStyles.forEach((originalStyle, el) => {
+  //         el.style.border = originalStyle.border;
+  //         el.style.outline = originalStyle.outline;
+  //         el.style.boxShadow = originalStyle.boxShadow;
+  //         el.style.transform = originalStyle.transform;
+  //       });
+  //       // 恢复 canvasRef 的 transform
+  //       if (canvasRef.current) {
+  //         canvasRef.current.style.transform = originalCanvasTransform;
+  //       }
+  //     }
+  //   } catch (error) {
+  //     console.error('保存截图失败:', error);
+  //     alert('保存截图失败，请重试');
+  //   }
+  // };
+
   return (
-    <Card
-      style={{
-        height: !isDesktop ? baseH * scale : undefined,
-        width: isDesktop ? baseW * scale : undefined,
-        overflow: "hidden",
-      }}
-    >
-      <div style={{height: baseH * scale }}>
-        <div
-          ref={canvasRef}
-          className="relative overflow-hidden"
-          style={{
-            width: baseW,
-            height: baseH,
-            transform: `scale(${scale})`,
-            transformOrigin: "top left",
-          }}
-        >
-
-          <img src={FrameDemo} alt="框体" className="absolute top-0 left-0 w-full h-auto" />
-          
-          <img
-            src={PlateDemo}
-            alt="姓名框"
-            style={{ position: "absolute", left: 32, top: 27, width: 1104, height: 178 }}
-          />
-          <img
-            src={IconDemo}
-            alt="头像"
-            style={{ position: "absolute", left: 46, top: 41, width: 150, height: 150 }}
-          />
-          <img
-            src={mustGetAsset("nameplate/name.png")}
-            alt="名字"
-            style={{ position: "absolute", left: 0, top: 0 }}
-          />
-          <img
-            src={mustGetAsset("nameplate/rat/rat_150.png")}
-            alt="rat"
-            style={{ position: "absolute", left: -3, top: 0 }}
-          />
-          <img
-            src={mustGetAsset("nameplate/dan/fbr_14.png")}
-            alt="dan"
-            style={{ position: "absolute", left: 0, top: 0 }}
-          />
+    <div>
+      <Card
+        style={{
+          height: !isDesktop ? baseH * scale : undefined,
+          width: isDesktop ? baseW * scale : undefined,
+          overflow: "hidden",
+        }}
+      >
+        <div style={{ height: baseH * scale }}>
+          <div>
 
 
+            <div
+              ref={canvasRef}
+              className="relative overflow-hidden"
+              style={{
+                width: baseW,
+                height: baseH,
+                transform: `scale(${scale})`,
+                transformOrigin: "top left",
+              }}
+            >
+
+              <img
+                src={typeof customData.frame === "number" ? `${OSS_BASE_URL}/frame/UI_Frame_${String(customData.frame).padStart(6, '0')}.png` : customData.frame}
+                alt="框体"
+                className="absolute top-0 left-0 w-full h-auto"
+              />
+
+              <img
+                src={typeof customData.plate === "number" ? `${OSS_BASE_URL}/plate/UI_Plate_${String(customData.plate).padStart(6, '0')}.png` : customData.plate}
+                alt="姓名框"
+                style={{ position: "absolute", left: 32, top: 27, width: 1104, height: 178 }}
+              />
+              <img
+                src={typeof customData.icon === "number" ? `${OSS_BASE_URL}/icon/UI_Icon_${String(customData.icon).padStart(6, '0')}.png` : customData.icon}
+                alt="头像"
+                style={{ position: "absolute", left: 46, top: 41, width: 150, height: 150 }}
+              />
+              <img
+                src={`${OSS_BASE_URL}/rat/name.png`}
+                alt="名字"
+                style={{ position: "absolute", left: 0, top: 0 }}
+              />
+              <img
+                src={`${OSS_BASE_URL}/rat/rat_150.png`}
+                alt="rat"
+                style={{ position: "absolute", left: -3, top: 0 }}
+              />
+              <img
+                src={`${OSS_BASE_URL}/dan/dan_${customData.dan}.png`}
+                alt="dan"
+                style={{ position: "absolute", left: 0, top: 0 }}
+              />
 
 
-          <img
-            src={mustGetAsset("nameplate/class/class_25.png")}
-            alt="fbr"
-            style={{ position: "absolute", left: 0, top: -2 }}
-          />
-          <img
-            src={mustGetAsset("nameplate/title/15000.png")}
-            alt="title"
-            style={{ position: "absolute", left: 0, top: 0 }}
-          />
-
-          <span
-            style={{ position: "absolute", left: 330, top: 41, fontSize: 28, color: "#FFDA48", letterSpacing: "4.1px", margin: 0, padding: 0 }}
-          >
-            16500
-          </span>
-
-          <span
-            style={{ position: "absolute", left: 218, top: 91, fontSize: 40, color: "#000000", margin: 0, padding: 0 }}
-          >
-            客制化Best50
-          </span>
-
-          <span
-            style={{
-              position: "absolute",
-              left: 260,
-              top: 155,
-              fontSize: 28,
-              color: "#000",
-              margin: 0,
-              padding: 0,
-              zIndex: 999,
-            }}
-            className="rating-total-span"
-          >
-            旧版本*****+新版本****
-          </span>
 
 
-          <img src={background.image} alt="背景预览" className="h-full w-full object-cover" />
-          <img src={card.image} alt="卡面预览" className="absolute bottom-6 left-6 w-56 rounded-xl shadow-2xl" />
-          <img src={chara.image} alt="角色预览" className="absolute bottom-4 right-10 w-44 drop-shadow-[0_22px_35px_rgba(0,0,0,0.45)]" />
-          <img src={rank.image} alt="段位" className="absolute top-6 right-6 w-20 drop-shadow-[0_10px_25px_rgba(0,0,0,0.55)]" />
-          <div
-            className="absolute left-6 top-6 rounded-full bg-black/45 px-4 py-1 tracking-[0.3em] text-white"
-            style={{ fontSize: "2rem" }}
-          >
-            PREVIEW
+              <img
+                src={`${OSS_BASE_URL}/class/class_${customData.gameClass}.png`}
+                alt="fbr"
+                style={{ position: "absolute", left: 0, top: -2 }}
+              />
+              <img
+                src={`${OSS_BASE_URL}/title/15000.png`}
+                alt="title"
+                style={{ position: "absolute", left: 0, top: 0 }}
+              />
+
+              <span
+                style={{ position: "absolute", left: 330, top: 41, fontSize: 28, color: "#FFDA48", letterSpacing: "4.1px", margin: 0, padding: 0 }}
+              >
+                16500
+              </span>
+
+              <span
+                style={{ position: "absolute", left: 218, top: 91, fontSize: 40, color: "#000000", margin: 0, padding: 0 }}
+              >
+                客制化Best50
+              </span>
+
+              <img
+                src={`${OSS_BASE_URL}/bg/${customData.background}.png`}
+                alt="背景预览"
+                className="h-full w-full object-cover"
+              />
+
+
+              {customData.frameMode === "recommend" ? (
+                <>
+                  <img
+                    src={`${OSS_BASE_URL}/recommend/${customData.recommend}_rec.png`}
+                    alt="推荐框体"
+                    style={{ position: "absolute", left: 23, top: 269 }}
+                  />
+                </>
+              ) : (
+                <>
+                  {/* 角色展示区域，参考 static/chara.py 的合成逻辑 */}
+                  <div style={{position: "absolute",left: 23,top: 269,width: 998,height: 394,}}>
+                    {/* 左侧角色底板 */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        left: 0,
+                        top: 0,
+                        width: 226,
+                        height: 429,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {/* base */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_base_6.png`}
+                        alt="角色底板"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 角色本体，使用 mask 裁切，参考 chara.py 的 mask 思路 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          left: -44,
+                          top: 67,
+                          width: 327,
+                          height: 327,
+                          overflow: "hidden",
+                        }}
+                      >
+                        {/* TODO: 后续可以将 UI_Chara 的编号做成可配置，这里先用示例 ID 000301 */}
+                        <img
+                          src={`${OSS_BASE_URL}/demo/UI_Chara_000301.png`}
+                          alt="角色"
+                          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        />
+                      </div>
+
+                      {/* 上层角色边框 */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_frame_6.png`}
+                        alt="角色边框"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 等级文字：Lv + 1-9999，参考 chara.py 的居中排布 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: 10,
+                          left: 0,
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          color: "#FFFFFF",
+                          textShadow: "0 0 4px rgba(0,0,0,0.8)",
+                          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+                        }}
+                      >
+                        <span style={{ fontSize: 20, marginRight: 4 }}>Lv</span>
+                        <span style={{ fontSize: 30 }}>{mainTravelLevel}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div style={{position: "absolute",left: 23+223*1,top: 269,width: 998,height: 394,}}>
+                    {/* 左侧角色底板 */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        left: 0,
+                        top: 0,
+                        width: 226,
+                        height: 429,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {/* base */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_base_6.png`}
+                        alt="角色底板"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 角色本体，使用 mask 裁切，参考 chara.py 的 mask 思路 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          left: -44,
+                          top: 67,
+                          width: 327,
+                          height: 327,
+                          overflow: "hidden",
+                        }}
+                      >
+                        {/* TODO: 后续可以将 UI_Chara 的编号做成可配置，这里先用示例 ID 000301 */}
+                        <img
+                          src={`${OSS_BASE_URL}/demo/UI_Chara_000301.png`}
+                          alt="角色"
+                          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        />
+                      </div>
+
+                      {/* 上层角色边框 */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_frame_6.png`}
+                        alt="角色边框"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 等级文字：Lv + 1-9999，参考 chara.py 的居中排布 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: 10,
+                          left: 0,
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          color: "#FFFFFF",
+                          textShadow: "0 0 4px rgba(0,0,0,0.8)",
+                          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+                        }}
+                      >
+                        <span style={{ fontSize: 20, marginRight: 4 }}>Lv</span>
+                        <span style={{ fontSize: 30 }}>{mainTravelLevel}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div style={{position: "absolute",left: 23+223*2,top: 269,width: 998,height: 394,}}>
+                    {/* 左侧角色底板 */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        left: 0,
+                        top: 0,
+                        width: 226,
+                        height: 429,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {/* base */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_base_6.png`}
+                        alt="角色底板"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 角色本体，使用 mask 裁切，参考 chara.py 的 mask 思路 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          left: -44,
+                          top: 67,
+                          width: 327,
+                          height: 327,
+                          overflow: "hidden",
+                        }}
+                      >
+                        {/* TODO: 后续可以将 UI_Chara 的编号做成可配置，这里先用示例 ID 000301 */}
+                        <img
+                          src={`${OSS_BASE_URL}/demo/UI_Chara_000301.png`}
+                          alt="角色"
+                          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        />
+                      </div>
+
+                      {/* 上层角色边框 */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_frame_6.png`}
+                        alt="角色边框"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 等级文字：Lv + 1-9999，参考 chara.py 的居中排布 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: 10,
+                          left: 0,
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          color: "#FFFFFF",
+                          textShadow: "0 0 4px rgba(0,0,0,0.8)",
+                          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+                        }}
+                      >
+                        <span style={{ fontSize: 20, marginRight: 4 }}>Lv</span>
+                        <span style={{ fontSize: 30 }}>{mainTravelLevel}</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div style={{position: "absolute",left: 23+223*3,top: 269,width: 998,height: 394,}}>
+                    {/* 左侧角色底板 */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        left: 0,
+                        top: 0,
+                        width: 226,
+                        height: 429,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {/* base */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_base_6.png`}
+                        alt="角色底板"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 角色本体，使用 mask 裁切，参考 chara.py 的 mask 思路 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          left: -44,
+                          top: 67,
+                          width: 327,
+                          height: 327,
+                          overflow: "hidden",
+                        }}
+                      >
+                        {/* TODO: 后续可以将 UI_Chara 的编号做成可配置，这里先用示例 ID 000301 */}
+                        <img
+                          src={`${OSS_BASE_URL}/demo/UI_Chara_000301.png`}
+                          alt="角色"
+                          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        />
+                      </div>
+
+                      {/* 上层角色边框 */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_frame_6.png`}
+                        alt="角色边框"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 等级文字：Lv + 1-9999，参考 chara.py 的居中排布 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: 10,
+                          left: 0,
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          color: "#FFFFFF",
+                          textShadow: "0 0 4px rgba(0,0,0,0.8)",
+                          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+                        }}
+                      >
+                        <span style={{ fontSize: 20, marginRight: 4 }}>Lv</span>
+                        <span style={{ fontSize: 30 }}>{mainTravelLevel}</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div style={{position: "absolute",left: 23+223*4,top: 269,width: 998,height: 394,}}>
+                    {/* 左侧角色底板 */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        left: 0,
+                        top: 0,
+                        width: 226,
+                        height: 429,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {/* base */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_base_6.png`}
+                        alt="角色底板"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 角色本体，使用 mask 裁切，参考 chara.py 的 mask 思路 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          left: -44,
+                          top: 67,
+                          width: 327,
+                          height: 327,
+                          overflow: "hidden",
+                        }}
+                      >
+                        {/* TODO: 后续可以将 UI_Chara 的编号做成可配置，这里先用示例 ID 000301 */}
+                        <img
+                          src={`${OSS_BASE_URL}/demo/UI_Chara_000301.png`}
+                          alt="角色"
+                          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        />
+                      </div>
+
+                      {/* 上层角色边框 */}
+                      <img
+                        src={`${OSS_BASE_URL}/chara_temp/chara_frame_6.png`}
+                        alt="角色边框"
+                        style={{ position: "absolute", left: 0, top: 0, width: 226, height: 429 }}
+                      />
+
+                      {/* 等级文字：Lv + 1-9999，参考 chara.py 的居中排布 */}
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: 10,
+                          left: 0,
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          color: "#FFFFFF",
+                          textShadow: "0 0 4px rgba(0,0,0,0.8)",
+                          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+                        }}
+                      >
+                        <span style={{ fontSize: 20, marginRight: 4 }}>Lv</span>
+                        <span style={{ fontSize: 30 }}>{mainTravelLevel}</span>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+
+
+
+
+
+
+              {/* card */}
+              <div style={{ position: "absolute", left: 15, top: 749, width: 323, height: 137 }}>
+                <img
+                  src={`${OSS_BASE_URL}/cover/834.png`}
+                  style={{ position: "absolute", left: 20, top: 18, width: 100, height: 100 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/card_bg/card_basic.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/rank/${customData.rank}_rank_sssp.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/combo4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/fs4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/star/star_5.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/type/type_dx.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+              </div>
+
+              <div style={{ position: "absolute", left: 15 + 334, top: 749, width: 323, height: 137 }}>
+                <img
+                  src={`${OSS_BASE_URL}/cover/834.png`}
+                  style={{ position: "absolute", left: 20, top: 18, width: 100, height: 100 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/card_bg/card_advanced.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/rank/${customData.rank}_rank_sssp.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/combo4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/fs4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/star/star_5.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/type/type_dx.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+              </div>
+
+              <div style={{ position: "absolute", left: 15 + 334 * 2, top: 749, width: 323, height: 137 }}>
+                <img
+                  src={`${OSS_BASE_URL}/cover/834.png`}
+                  style={{ position: "absolute", left: 20, top: 18, width: 100, height: 100 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/card_bg/card_expert.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/rank/${customData.rank}_rank_sssp.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/combo4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/fs4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/star/star_5.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/type/type_dx.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+              </div>
+
+              <div style={{ position: "absolute", left: 15 + 334 * 3, top: 749, width: 323, height: 137 }}>
+                <img
+                  src={`${OSS_BASE_URL}/cover/834.png`}
+                  style={{ position: "absolute", left: 20, top: 18, width: 100, height: 100 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/card_bg/card_master.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/rank/${customData.rank}_rank_sssp.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/combo4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/fs4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/star/star_5.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/type/type_dx.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+              </div>
+
+              <div style={{ position: "absolute", left: 15 + 334 * 4, top: 749, width: 323, height: 137 }}>
+
+                <img
+                  src={`${OSS_BASE_URL}/cover/834.png`}
+                  style={{ position: "absolute", left: 20, top: 18, width: 100, height: 100 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/card_bg/card_remaster.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/rank/${customData.rank}_rank_sssp.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/combo4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/bound/fs4.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/star/star_5.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+                <img
+                  src={`${OSS_BASE_URL}/type/type_dx.png`}
+                  style={{ position: "absolute", left: 0, top: 0, width: 323, height: 137 }}
+                />
+              </div>
+
+              {/* <img
+                src={charaSets.find(chara => chara.value === customData.chara)?.image}
+                alt="角色预览"
+                className="absolute bottom-4 right-10 w-44 drop-shadow-[0_22px_35px_rgba(0,0,0,0.45)]"
+              /> */}
+              {/* <div
+                className="absolute left-6 top-6 rounded-full bg-black/45 px-4 py-1 tracking-[0.3em] text-white"
+                style={{ fontSize: "2rem" }}
+              >
+                PREVIEW
+              </div> */}
+
+
+
+
+
+            </div>
           </div>
-
-
-
-
-
         </div>
-      </div>
-    </Card>
+      </Card>
+      {/* <div style={{ position:"relative", top: -100 }} className="flex justify-center">
+        <Button
+          onClick={handleSaveScreenshot}
+          severity="primary"
+        >
+          <i className="pi pi-download mr-2" />
+          <span>保存截图</span>
+        </Button>
+      </div> */}
+    </div>
   );
 };
 
+type FormData = {
+  background: string;
+  rank: string;
+  dan: string;
+  gameClass: string;
+  plate: string | number;
+  icon: string | number;
+  frame: string | number;
+  frameMode: "recommend" | "chara";
+  recommend: string;
+  travelConfigs: Array<{ buddy: string; level: number; id: number }>;
+};
+
 const Customizer = () => {
-  const [background, setBackground] = useState(backgrounds[0].value);
-  const [rank, setRank] = useState(ranks[0].value);
-  const [dan, setDan] = useState(danSets[0].value);
-  const [gameClass, setGameClass] = useState(classSets[0].value);
-
-  const [plate, setPlate] = useState(0);
-  const [icon, setIcon] = useState(0);
-  const [frame, setFrame] = useState(0);
-
+  const [formData, setFormData] = useState<FormData>({
+    background: backgrounds[0].value,
+    rank: rankSets[0].value,
+    dan: danSets[0].value,
+    gameClass: classSets[0].value,
+    plate: 458012,
+    icon: 301,
+    frame: 105601,
+    frameMode: "recommend",
+    recommend: 'defaut',
+    travelConfigs: Array.from({ length: 5 }, () => ({ buddy: "", level: 1, id: 0 })),
+  });
 
   const [showBg, setShowBg] = useState(false);
   const [showRecommendChara, setShowRecommendChara] = useState(false);
@@ -321,40 +925,131 @@ const Customizer = () => {
   const [showDan, setShowDan] = useState(false);
   const [showGameClass, setShowGameClass] = useState(false);
   const [showCollectibles, setShowCollectibles] = useState(false);
+  const [showRecommend, setShowRecommend] = useState(false);
 
-
-  const [card, setCard] = useState(cardFrames[0].value);
-  const [chara, setChara] = useState(charaSets[0].value);
-  // const [rank, setRank] = useState(rankSets[0].value);
-  const [plateMode, setPlateMode] = useState<"recommend" | "chara">("recommend");
-  const [travelConfigs, setTravelConfigs] = useState(
-    () => Array.from({ length: 5 }, () => ({ buddy: travelBuddies[0].value, level: travelLevels[0].value, id: "" }))
-  );
   const [openSelectChara, setOpenSelectChara] = useState(false);
-  const backgroundMeta = backgrounds.find((item) => item.value === background) ?? backgrounds[0];
-  const cardMeta = cardFrames.find((item) => item.value === card) ?? cardFrames[0];
-  const charaMeta = charaSets.find((item) => item.value === chara) ?? charaSets[0];
-  const rankMeta = rankSets.find((item) => item.value === rank) ?? rankSets[0];
+  const [selectingField, setSelectingField] = useState<"plate" | "icon" | "frame" | "chara" | "travel" | null>(null);
+  const [selectingTravelIndex, setSelectingTravelIndex] = useState<number | null>(null);
+  const [selectedGenre, setSelectedGenre] = useState<string | null>(null);
+
+  // 根据 selectingField 获取对应的数据
+  const getDropdownData = (): DropdownGenre[] => {
+    if (selectingField === "frame") {
+      return frameDropdownData as DropdownGenre[];
+    } else if (selectingField === "icon") {
+      return iconDropdownData as DropdownGenre[];
+    } else if (selectingField === "plate") {
+      return plateDropdownData as DropdownGenre[];
+    } else if (selectingField === "chara" || selectingField === "travel") {
+      return charaDropdownData as DropdownGenre[];
+    }
+    return [];
+  };
+
+  const dropdownData = getDropdownData();
+  const selectedGenreData = dropdownData.find((g) => g.genre === selectedGenre);
+
+  // 获取显示名称：如果是 name_id，查找对应的 name_str；如果是本地资源路径，返回文件名
+  const getDisplayName = (value: string | number, field: "plate" | "icon" | "frame"): string => {
+    if (!value) return "";
+
+    // 如果是数字（name_id），查找对应的 name_str
+    if (typeof value === "number") {
+      // 根据字段类型获取对应的数据
+      let data: DropdownGenre[] = [];
+      if (field === "frame") {
+        data = frameDropdownData as DropdownGenre[];
+      } else if (field === "icon") {
+        data = iconDropdownData as DropdownGenre[];
+      } else if (field === "plate") {
+        data = plateDropdownData as DropdownGenre[];
+      }
+
+      // 在所有分类中查找对应的 item
+      for (const genre of data) {
+        const item = genre.items.find((i) => i.name_id === value);
+        if (item) {
+          return item.name_str;
+        }
+      }
+      return value.toString(); // 如果找不到，返回 name_id
+    }
+
+    // 如果是字符串（本地资源路径），返回文件名
+    if (typeof value === "string") {
+      if (value.includes("demo/") || value.includes("static/")) {
+        return value.split("/").pop() || value;
+      }
+      // 如果是 URL，尝试提取 name_id
+      const match = value.match(/\/(\d+)\.png$/);
+      if (match) {
+        const nameId = parseInt(match[1]);
+        return getDisplayName(nameId, field);
+      }
+      return value;
+    }
+
+    return "";
+  };
+
+  // 获取图片 URL：根据 name_id 或本地路径构建 URL
+  const getImageUrl = (value: string | number, field: "plate" | "icon" | "frame"): string => {
+    if (!value) return "";
+
+    // 如果是数字（name_id），构建 OSS URL
+    if (typeof value === "number") {
+      const typeMap: Record<"frame" | "icon" | "plate", string> = {
+        frame: "frame",
+        icon: "icon",
+        plate: "plate"
+      };
+      return `${OSS_BASE_URL}/${typeMap[field]}/${value}.png`;
+    }
+
+    // 如果是字符串（本地资源路径），直接返回
+    return value;
+  };
+
+  const handleInputChange = (name: keyof FormData, value: any) => {
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleTravelConfigChange = (index: number, field: "buddy" | "level" | "id", value: string | number) => {
+    setFormData((prev) => {
+      const newConfigs = [...prev.travelConfigs];
+      newConfigs[index] = { ...newConfigs[index], [field]: value };
+      return { ...prev, travelConfigs: newConfigs };
+    });
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log("表单数据:", formData);
+    // 这里可以添加提交逻辑
+  };
+
+  useEffect(() => {
+    // 每当formData变化时会触发该回调
+    // 你可以在这里放置相关的刷新/副作用逻辑
+    console.log("formData has changed:", formData);
+  }, [formData]);
 
   return (
-    <div style={{width:"100%"}}>
-      <div style={{width:"100%"}} className="flex flex-col lg:flex-row lg:items-start lg:gap-10">
+    <div style={{ width: "100%" }}>
+      <div style={{ width: "100%" }} className="flex flex-col lg:flex-row lg:items-start lg:gap-10">
         {/* 左侧：预览卡，PC 端固定在左侧 */}
-        <div style={{ paddingTop: "16px" }} className="lg:flex-none lg:sticky lg:top-24 lg:self-start mb-4 lg:mb-0">
+        <div style={{ padding: "16px" }} className="lg:flex-none lg:sticky lg:top lg:self-start mb-4 lg:mb-0">
           <PreviewCard
-            background={backgroundMeta}
-            card={cardMeta}
-            chara={charaMeta}
-            rank={rankMeta}
+            customData={formData}
           />
         </div>
 
         {/* 右侧：设置区域，PC 端可滚动；移动端正常纵向排布 */}
         <div style={{ padding: "16px" }} className="lg:flex-1 lg:pl-10">
-          <div className="settings-container lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto space-y-4">
+          <form onSubmit={handleSubmit} className="settings-container lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto space-y-4">
             <Fieldset>
               <Fieldset.Legend onClick={() => setShowBg((prev) => !prev)}>
-                <Button variant="text" size="small" className="mr-2 align-middle">
+                <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showBg ? <MinusIcon /> : <PlusIcon />}
                 </Button>
                 <span className="align-middle font-medium text-sm">背景レイヤー</span>
@@ -364,11 +1059,14 @@ const Customizer = () => {
                 <Fieldset.Content>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5 mt-3">
                     {backgrounds.map((option) => {
-                      const isActive = background === option.value;
+                      const isActive = formData.background === option.value;
                       return (
                         <Button
                           key={option.value}
-                          onClick={() => setBackground(option.value)}
+                          type="button"
+                          name="background"
+                          value={option.value}
+                          onClick={() => handleInputChange("background", option.value)}
                           severity={isActive ? "primary" : "secondary"}
                           className="w-full justify-start"
                         >
@@ -383,23 +1081,31 @@ const Customizer = () => {
               </Motion>
             </Fieldset>
 
-
+            {/* rank */}
             <Fieldset>
               <Fieldset.Legend onClick={() => setShowRank((prev) => !prev)}>
-                <Button variant="text" size="small" className="mr-2 align-middle">
+                <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showRank ? <MinusIcon /> : <PlusIcon />}
                 </Button>
                 <span className="align-middle font-medium text-sm">rank</span>
-                <span className="ml-4 text-xs text-surface-500 align-middle">{ranks.length} 选项</span>
+                <span className="ml-4 text-xs text-surface-500 align-middle">{rankSets.length} 选项</span>
               </Fieldset.Legend>
               <Motion in={showRank} name="p-toggleable-content">
                 <Fieldset.Content>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5 mt-3">
-                    {ranks.map((option) => {
-                      const isActive = rank === option.value;
+                    {rankSets.map((option) => {
+                      const isActive = formData.rank === option.value;
                       return (
-                        <Button size="small"
-                          key={option.value} onClick={() => setRank(option.value)} severity={isActive ? "primary" : "secondary"} className="w-full justify-start">
+                        <Button
+                          type="button"
+                          size="small"
+                          key={option.value}
+                          name="rank"
+                          value={option.value}
+                          onClick={() => handleInputChange("rank", option.value)}
+                          severity={isActive ? "primary" : "secondary"}
+                          className="w-full justify-start"
+                        >
                           <span className="text-sm font-semibold">{option.label}</span>
                         </Button>
                       );
@@ -409,9 +1115,10 @@ const Customizer = () => {
               </Motion>
             </Fieldset>
 
+            {/* dan */}
             <Fieldset>
               <Fieldset.Legend onClick={() => setShowDan((prev) => !prev)}>
-                <Button variant="text" size="small" className="mr-2 align-middle">
+                <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showDan ? <MinusIcon /> : <PlusIcon />}
                 </Button>
                 <span className="align-middle font-medium text-sm">dan</span>
@@ -421,9 +1128,18 @@ const Customizer = () => {
                 <Fieldset.Content>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5 mt-3">
                     {danSets.map((option) => {
-                      const isActive = dan === option.value;
+                      const isActive = formData.dan === option.value;
                       return (
-                        <Button size="small" key={option.value} onClick={() => setDan(option.value)} severity={isActive ? "primary" : "secondary"} className="w-full justify-start">
+                        <Button
+                          type="button"
+                          size="small"
+                          key={option.value}
+                          name="dan"
+                          value={option.value}
+                          onClick={() => handleInputChange("dan", option.value)}
+                          severity={isActive ? "primary" : "secondary"}
+                          className="w-full justify-start"
+                        >
                           <span className="text-sm font-semibold">{option.label}</span>
                         </Button>
                       );
@@ -434,9 +1150,10 @@ const Customizer = () => {
 
             </Fieldset>
 
+            {/* class */}
             <Fieldset>
               <Fieldset.Legend onClick={() => setShowGameClass((prev) => !prev)}>
-                <Button variant="text" size="small" className="mr-2 align-middle">
+                <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showGameClass ? <MinusIcon /> : <PlusIcon />}
                 </Button>
                 <span className="align-middle font-medium text-sm">class</span>
@@ -446,9 +1163,18 @@ const Customizer = () => {
                 <Fieldset.Content>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5 mt-3">
                     {classSets.map((option) => {
-                      const isActive = gameClass === option.value;
+                      const isActive = formData.gameClass === option.value;
                       return (
-                        <Button size="small" key={option.value} onClick={() => setGameClass(option.value)} severity={isActive ? "primary" : "secondary"} className="w-full justify-start">
+                        <Button
+                          type="button"
+                          size="small"
+                          key={option.value}
+                          name="gameClass"
+                          value={option.value}
+                          onClick={() => handleInputChange("gameClass", option.value)}
+                          severity={isActive ? "primary" : "secondary"}
+                          className="w-full justify-start"
+                        >
                           <span className="text-sm font-semibold">{option.label}</span>
                         </Button>
                       );
@@ -458,48 +1184,102 @@ const Customizer = () => {
               </Motion>
             </Fieldset>
 
+            {/* 收藏品 */}
             <Fieldset>
               <Fieldset.Legend onClick={() => setShowCollectibles((prev) => !prev)}>
-                <Button variant="text" size="small" className="mr-2 align-middle">
+                <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showCollectibles ? <MinusIcon /> : <PlusIcon />}
                 </Button>
                 <span className="align-middle font-medium text-sm">collectibles</span>
               </Fieldset.Legend>
               <Motion in={showCollectibles} name="p-toggleable-content">
                 <Fieldset.Content>
-                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5 mt-3">
-                    <InputGroup>
-                      <InputText readOnly size="small" placeholder="plate" />
+                  <div className="grid gap-3 sm:grid-cols-1 lg:grid-cols-3 mt-3">
+                    <InputGroup className="w-full">
+                      <InputText
+                        name="plate"
+                        readOnly
+                        size="small"
+                        placeholder="plate"
+                        value={getDisplayName(formData.plate, "plate")}
+                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleInputChange("plate", e.target.value)}
+                      />
                       <InputGroup.Addon>
-                        <Button size="small" severity="secondary" variant="text">
-                          <i className="pi pi-search" onClick={() => setOpenSelectChara(true)} />
+                        <Button
+                          type="button"
+                          size="small"
+                          severity="secondary"
+                          variant="text"
+                          onClick={() => {
+                            setSelectingField("plate");
+                            setOpenSelectChara(true);
+                          }}
+                        >
+                          <i className="pi pi-search" />
                         </Button>
                       </InputGroup.Addon>
                     </InputGroup>
-                    <InputGroup>
-                      <InputText readOnly size="small" placeholder="icon" />
+                    <InputGroup className="w-full">
+                      <InputText
+                        name="icon"
+                        readOnly
+                        size="small"
+                        placeholder="icon"
+                        value={getDisplayName(formData.icon, "icon")}
+                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleInputChange("icon", e.target.value)}
+                      />
                       <InputGroup.Addon>
-                        <Button size="small" severity="secondary" variant="text">
-                          <i className="pi pi-search" onClick={() => setOpenSelectChara(true)} />
+                        <Button
+                          type="button"
+                          size="small"
+                          severity="secondary"
+                          variant="text"
+                          onClick={() => {
+                            setSelectingField("icon");
+                            setOpenSelectChara(true);
+                          }}
+                        >
+                          <i className="pi pi-search" />
                         </Button>
                       </InputGroup.Addon>
                     </InputGroup>
-                    <InputGroup>
-                      <InputText readOnly size="small" placeholder="frame" />
+                    <InputGroup className="w-full">
+                      <InputText
+                        name="frame"
+                        readOnly
+                        size="small"
+                        placeholder="frame"
+                        value={getDisplayName(formData.frame, "frame")}
+                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleInputChange("frame", e.target.value)}
+                      />
                       <InputGroup.Addon>
-                        <Button size="small" severity="secondary" variant="text">
-                          <i className="pi pi-search" onClick={() => setOpenSelectChara(true)} />
+                        <Button
+                          type="button"
+                          size="small"
+                          severity="secondary"
+                          variant="text"
+                          onClick={() => {
+                            setSelectingField("frame");
+                            setOpenSelectChara(true);
+                          }}
+                        >
+                          <i className="pi pi-search" />
                         </Button>
                       </InputGroup.Addon>
                     </InputGroup>
                   </div>
+                  <p className="mt-2 text-xs text-surface-500 dark:text-surface-400">
+                    提示：点击每一项右侧的放大镜按钮，从列表中选择对应的姓名框 / 头像 / 框体。
+                  </p>
                 </Fieldset.Content>
               </Motion>
             </Fieldset>
 
+            {/* 开关选项 */}
             <Fieldset>
               <Fieldset.Legend onClick={() => setShowRecommendChara((prev) => !prev)}>
                 <Button
+                  type="button"
                   variant="text"
                   size="small"
                   className="mr-2 align-middle"
@@ -512,45 +1292,120 @@ const Customizer = () => {
                 <Fieldset.Content>
                   <div className="flex gap-2 mt-3">
                     <Button
-                      severity={plateMode === "recommend" ? "primary" : "secondary"}
-                      onClick={() => setPlateMode("recommend")}
+                      type="button"
+                      name="frameMode"
+                      value="recommend"
+                      severity={formData.frameMode === "recommend" ? "primary" : "secondary"}
+                      onClick={() => handleInputChange("frameMode", "recommend")}
                     >
                       <span className="align-middle font-medium text-sm">Recommend</span>
                     </Button>
                     <Button
-                      severity={plateMode === "chara" ? "primary" : "secondary"}
-                      onClick={() => setPlateMode("chara")}
+                      type="button"
+                      name="frameMode"
+                      value="chara"
+                      severity={formData.frameMode === "chara" ? "primary" : "secondary"}
+                      onClick={() => handleInputChange("frameMode", "chara")}
                     >
                       <span className="align-middle font-medium text-sm">Chara</span>
                     </Button>
                   </div>
                   <div className="mt-3 text-sm">
-                    {plateMode === "recommend" ? (
-                      <span>Recommend 配置占位（后续可在此添加推荐相关设置）</span>
+                    {formData.frameMode === "recommend" ? (
+                                        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5 mt-3">
+                                        {recommendSets.map((option) => {
+                                          const isActive = formData.recommend === option.value;
+                                          return (
+                                            <Button
+                                              type="button"
+                                              size="small"
+                                              key={option.value}
+                                              name="recommend"
+                                              value={option.value}
+                                              onClick={() => handleInputChange("recommend", option.value)}
+                                              severity={isActive ? "primary" : "secondary"}
+                                              className="w-full justify-start"
+                                            >
+                                              <span className="text-sm font-semibold">{option.label}</span>
+                                            </Button>
+                                          );
+                                        })}
+                                      </div>
                     ) : (
                       <div>
-                        {travelConfigs.map((cfg, index) => (
+                        {formData.travelConfigs.map((cfg, index) => (
                           <div key={index} className="space-y-2 mt-8">
                             <div className="flex flex-wrap gap-2">
                               <div className="flex items-center gap-2">
                                 <Chip severity="secondary">{index + 1}</Chip>
                                 <InputGroup>
-                                  <InputText readOnly size="small" placeholder="旅行パートナー" />
+                                  <InputText
+                                    name={`travelConfigs[${index}].buddy`}
+                                    readOnly
+                                    size="small"
+                                    placeholder="旅行パートナー"
+                                    value={cfg.buddy}
+                                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleTravelConfigChange(index, "buddy", e.target.value)}
+                                  />
                                   <InputGroup.Addon>
-                                    <Button size="small" severity="secondary" variant="text">
-                                      <i className="pi pi-search" onClick={() => setOpenSelectChara(true)} />
+                                    <Button
+                                      type="button"
+                                      size="small"
+                                      severity="secondary"
+                                      variant="text"
+                                      onClick={() => {
+                                        setSelectingField("travel");
+                                        setSelectingTravelIndex(index);
+                                        setOpenSelectChara(true);
+                                      }}
+                                    >
+                                      <i className="pi pi-search" />
                                     </Button>
                                   </InputGroup.Addon>
                                 </InputGroup>
+
+                                
                                 <InputGroup>
                                   <InputGroup.Addon>
-                                    <Button size="small" severity="secondary">
+                                    <Button
+                                      type="button"
+                                      size="small"
+                                      severity="secondary"
+                                      onClick={() => {
+                                        const current = Number(cfg.level) || 0;
+                                        const next = Math.min(current + 1, 9999);
+                                        handleTravelConfigChange(index, "level", next);
+                                      }}
+                                    >
                                       <i className="pi pi-plus" />
                                     </Button>
                                   </InputGroup.Addon>
-                                  <InputText size="small" placeholder="レベル" />
+                                  <InputText
+                                    name={`travelConfigs[${index}].level`}
+                                    size="small"
+                                    placeholder="レベル (1-9999)"
+                                    value={String(cfg.level ?? "")}
+                                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                                      const raw = e.target.value.replace(/[^0-9]/g, "");
+                                      if (!raw) {
+                                        handleTravelConfigChange(index, "level", 1);
+                                        return;
+                                      }
+                                      const num = Math.max(1, Math.min(9999, parseInt(raw, 10)));
+                                      handleTravelConfigChange(index, "level", num);
+                                    }}
+                                  />
                                   <InputGroup.Addon>
-                                    <Button size="small" severity="secondary">
+                                    <Button
+                                      type="button"
+                                      size="small"
+                                      severity="secondary"
+                                      onClick={() => {
+                                        const current = Number(cfg.level) || 1;
+                                        const next = Math.max(current - 1, 1);
+                                        handleTravelConfigChange(index, "level", next);
+                                      }}
+                                    >
                                       <i className="pi pi-minus" />
                                     </Button>
                                   </InputGroup.Addon>
@@ -565,129 +1420,120 @@ const Customizer = () => {
                 </Fieldset.Content>
               </Motion>
             </Fieldset>
-          </div>
+          </form>
         </div>
       </div>
 
-      {/* <Card className="rounded-3xl border border-surface-200 dark:border-surface-800 bg-surface-0/70 dark:bg-surface-900/70 p-6 space-y-4">
-        <header className="flex items-center justify-between text-sm font-medium text-surface-500">
-          <span>カードデザイン</span>
-          <span>{cardFrames.length} 选项</span>
-        </header>
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-4">
-          {cardFrames.map((option) => {
-            const isActive = card === option.value;
-            return (
-              <Button
-                key={option.value}
-                onClick={() => setCard(option.value)}
-                className={`rounded-2xl border p-6 text-left transition text-base font-medium ${
-                  isActive
-                    ? "border-primary-400 bg-primary-50/60 dark:bg-primary-500/10 text-primary-600"
-                    : "border-surface-200 dark:border-surface-800 hover:border-primary-300"
-                }`}
-              >
-                <div className="aspect-[7/10] overflow-hidden rounded-2xl border border-white/20 shadow-inner">
-                  <img src={option.image} alt={option.label} className="h-full w-full object-cover" />
-                </div>
-                <span className="mt-4 block text-sm font-semibold">{option.label}</span>
-              </Button>
-            );
-          })}
-        </div>
-      </Card>
-      <Card className="rounded-3xl border border-surface-200 dark:border-surface-800 bg-surface-0/70 dark:bg-surface-900/70 p-6 space-y-4">
-        <header className="flex items-center justify-between text-sm font-medium text-surface-500">
-          <span>キャラクタースタイル</span>
-          <span>{charaSets.length} 选项</span>
-        </header>
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-6">
-          {charaSets.map((option) => {
-            const isActive = chara === option.value;
-            return (
-              <Button
-                key={option.value}
-                onClick={() => setChara(option.value)}
-                className={`rounded-2xl border p-4 text-left transition text-base font-medium ${
-                  isActive
-                    ? "border-primary-400 bg-primary-50/60 dark:bg-primary-500/10 text-primary-600"
-                    : "border-surface-200 dark:border-surface-800 hover:border-primary-300"
-                }`}
-              >
-                <div className="aspect-[3/5] overflow-hidden rounded-2xl bg-surface-0/40">
-                  <img src={option.image} alt={option.label} className="h-full w-full object-contain" />
-                </div>
-                <span className="mt-3 block text-sm font-semibold">{option.label}</span>
-              </Button>
-            );
-          })}
-        </div>
-      </Card>
-      <Card className="rounded-3xl border border-surface-200 dark:border-surface-800 bg-surface-0/70 dark:bg-surface-900/70 p-6 space-y-4">
-        <header className="flex items-center justify-between text-sm font-medium text-surface-500">
-          <span>ランクバッジ</span>
-          <span>{rankSets.length} 选项</span>
-        </header>
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-6">
-          {rankSets.map((option) => {
-            const isActive = rank === option.value;
-            return (
-              <Button
-                key={option.value}
-                onClick={() => setRank(option.value)}
-                className={`rounded-2xl border p-4 text-left transition text-base font-medium ${
-                  isActive
-                    ? "border-primary-400 bg-primary-50/60 dark:bg-primary-500/10 text-primary-600"
-                    : "border-surface-200 dark:border-surface-800 hover:border-primary-300"
-                }`}
-              >x w
-                <div className="aspect-[4/3] overflow-hidden rounded-xl bg-surface-0/30">
-                  <img src={option.image} alt={option.label} className="h-full w-full object-contain" />
-                </div>
-                <span className="mt-3 block text-sm font-semibold">{option.label}</span>
-              </Button>
-            );
-          })}
-        </div>
-      </Card> */}
 
 
 
 
 
 
-      {/* 临时数据 Popover 示例 */}
-      <Dialog open={openSelectChara} onOpenChange={(e: any) => setOpenSelectChara(e.value as boolean)} modal draggable={false}>
-        <Dialog.Portal style={{ width: '25rem' }}>
+
+      {/* 选择收藏品 Dialog */}
+      <Dialog
+        open={openSelectChara}
+        opened={openSelectChara}
+        onOpenChange={(e: any) => setOpenSelectChara(e.value as boolean)}
+        modal
+        draggable={false}
+      >
+        <Dialog.Portal style={{ width: '40rem', maxWidth: '90vw' }}>
           <Dialog.Header>
-            <Dialog.Title>Edit Profile</Dialog.Title>
+            <Dialog.Title>
+              {selectingField === "plate" && "选择姓名框"}
+              {selectingField === "icon" && "选择头像"}
+              {selectingField === "frame" && "选择框体"}
+            </Dialog.Title>
             <Dialog.HeaderActions>
               <Dialog.Close />
             </Dialog.HeaderActions>
           </Dialog.Header>
           <Dialog.Content>
-            <div className="flex flex-col gap-2">
-              {charaSets.map((option) => (
-                <Button key={option.value} onClick={() => setChara(option.value)}>
-                  {option.label}
-                </Button>
-              ))}
-            </div>
+            {(instance: DialogContentInstance) => {
+              const { dialog } = instance;
+              return (
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <label className="block text-sm font-medium mb-2 text-surface-700 dark:text-surface-300">
+                      选择分类 ({dropdownData.length})
+                    </label>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-48 overflow-y-auto p-1 border border-surface-200 dark:border-surface-700 rounded-lg">
+                      {dropdownData.map((genreData) => (
+                        <Button
+                          key={genreData.genre}
+                          type="button"
+                          size="small"
+                          severity={selectedGenre === genreData.genre ? "primary" : "secondary"}
+                          onClick={() => setSelectedGenre(genreData.genre)}
+                          className="text-left justify-start text-xs"
+                        >
+                          <span className="truncate">{genreData.genre}</span>
+                          <span className="ml-2 text-xs opacity-70">({genreData.items.length})</span>
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* 第二层：选择 Item */}
+                  {selectedGenreData ? (
+                    <div>
+                      <label className="block text-sm font-medium mb-2 text-surface-700 dark:text-surface-300">
+                        选择项目 - {selectedGenreData.genre} ({selectedGenreData.items.length})
+                      </label>
+                      <div className="grid grid-cols-1 gap-2 max-h-64 overflow-y-auto p-1 border border-surface-200 dark:border-surface-700 rounded-lg">
+                        {selectedGenreData.items.map((item) => (
+                          <Button
+                            key={item.name_id}
+                            type="button"
+                            size="small"
+                            severity="secondary"
+                            onClick={() => {
+                              if (!selectingField) {
+                                return;
+                              }
+
+                              if (selectingField === "plate" || selectingField === "icon" || selectingField === "frame") {
+                                // 收藏品：直接存储 name_id 到对应字段
+                                handleInputChange(selectingField, item.name_id);
+                              } else if (selectingField === "travel") {
+                                // 旅行搭档：使用双层选择（chara_dropdown_data），写入 travelConfigs
+                                if (selectingTravelIndex == null) {
+                                  return;
+                                }
+                                handleTravelConfigChange(selectingTravelIndex, "buddy", item.name_str);
+                                handleTravelConfigChange(selectingTravelIndex, "id", item.name_id);
+                              } else {
+                                return;
+                              }
+
+                              setSelectedGenre(null);
+                              setSelectingField(null);
+                              setSelectingTravelIndex(null);
+                              setOpenSelectChara(false);
+                              dialog?.close?.();
+                            }}
+                            className="text-left justify-start"
+                          >
+                            <span className="truncate">{item.name_str}</span>
+                          </Button>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="text-sm text-surface-500 dark:text-surface-400 text-center py-8">
+                      请先选择一个分类
+                    </div>
+                  )}
+                </div>
+              )
+            }
+            }
+
           </Dialog.Content>
         </Dialog.Portal>
       </Dialog>
-      {/* <Popover open={openSelectChara} usePopoverOpenChangeEvent={(e: any) => setOpenSelectChara(e.value)}>
-        <Popover.Trigger className="min-w-48">
-          Show Popover
-        </Popover.Trigger>
-        <Popover.Portal>
-          <Popover.Content>
-            <div className="flex flex-col gap-2">
-              
-            </div>
-          </Popover.Content>
-        </Popover.Portal>
-      </Popover> */}
     </div>
   );
 };

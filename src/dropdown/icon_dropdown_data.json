@@ -1,0 +1,6798 @@
+[
+  {
+    "genre": "10周年記念ちほー2",
+    "items": [
+      {
+        "name_str": "でらっくま（10周年）",
+        "name_id": 350701
+      },
+      {
+        "name_str": "らいむっくま（10周年）",
+        "name_id": 350702
+      },
+      {
+        "name_str": "れもんっくま（10周年）",
+        "name_id": 350703
+      },
+      {
+        "name_str": "ラズ（10周年）",
+        "name_id": 350704
+      },
+      {
+        "name_str": "シフォン（10周年）",
+        "name_id": 350705
+      },
+      {
+        "name_str": "ソルト（10周年）",
+        "name_id": 350706
+      },
+      {
+        "name_str": "乙姫（10周年）",
+        "name_id": 350707
+      },
+      {
+        "name_str": "みるく（10周年）",
+        "name_id": 350708
+      },
+      {
+        "name_str": "しゃま（10周年）",
+        "name_id": 350709
+      },
+      {
+        "name_str": "maimaiちゃん（10周年）",
+        "name_id": 350710
+      },
+      {
+        "name_str": "はっぴー（10周年）",
+        "name_id": 350711
+      },
+      {
+        "name_str": "カメ（10周年）",
+        "name_id": 350712
+      },
+      {
+        "name_str": "タイ（10周年）",
+        "name_id": 350713
+      },
+      {
+        "name_str": "ニャイン（10周年）",
+        "name_id": 350714
+      },
+      {
+        "name_str": "ナカムラさん（10周年）",
+        "name_id": 350715
+      },
+      {
+        "name_str": "ブクロ（10周年）",
+        "name_id": 350716
+      },
+      {
+        "name_str": "maimai筐体",
+        "name_id": 350717
+      },
+      {
+        "name_str": "maimai筐体（GreeN）",
+        "name_id": 350718
+      },
+      {
+        "name_str": "maimai筐体（ORANGE）",
+        "name_id": 350719
+      },
+      {
+        "name_str": "maimai筐体（PiNK）",
+        "name_id": 350720
+      },
+      {
+        "name_str": "maimai筐体（MURASAKi）",
+        "name_id": 350721
+      },
+      {
+        "name_str": "maimai筐体（MiLK）",
+        "name_id": 350722
+      },
+      {
+        "name_str": "maimai筐体（FiNALE）",
+        "name_id": 350723
+      },
+      {
+        "name_str": "maimai筐体（でらっくす）",
+        "name_id": 350724
+      },
+      {
+        "name_str": "maimai筐体（Splash）",
+        "name_id": 350725
+      },
+      {
+        "name_str": "maimai筐体（UNiVERSE）",
+        "name_id": 350726
+      },
+      {
+        "name_str": "maimai筐体（FESTiVAL）",
+        "name_id": 350727
+      }
+    ]
+  },
+  {
+    "genre": "7sRefちほー",
+    "items": [
+      {
+        "name_str": "リズ",
+        "name_id": 200401
+      },
+      {
+        "name_str": "シュトルツ",
+        "name_id": 200402
+      },
+      {
+        "name_str": "リヒティカイト",
+        "name_id": 200403
+      },
+      {
+        "name_str": "エーペルージュ",
+        "name_id": 200404
+      },
+      {
+        "name_str": "アシッド",
+        "name_id": 200405
+      }
+    ]
+  },
+  {
+    "genre": "7sRefちほー2",
+    "items": [
+      {
+        "name_str": "リズ",
+        "name_id": 250401
+      },
+      {
+        "name_str": "アシッド",
+        "name_id": 250402
+      },
+      {
+        "name_str": "ゲルプテディ",
+        "name_id": 250403
+      },
+      {
+        "name_str": "オーランジェット",
+        "name_id": 250404
+      },
+      {
+        "name_str": "W?K?Y?",
+        "name_id": 250405
+      }
+    ]
+  },
+  {
+    "genre": "7sRefちほー3",
+    "items": [
+      {
+        "name_str": "リズ",
+        "name_id": 400401
+      },
+      {
+        "name_str": "フルーンシュピラー",
+        "name_id": 400402
+      },
+      {
+        "name_str": "シュヴァルツローゼ",
+        "name_id": 400403
+      },
+      {
+        "name_str": "ヘルブラオ",
+        "name_id": 400404
+      },
+      {
+        "name_str": "アシッド（幼少期）",
+        "name_id": 400405
+      }
+    ]
+  },
+  {
+    "genre": "7sRefちほー4",
+    "items": [
+      {
+        "name_str": "W?K?Y?",
+        "name_id": 550301
+      },
+      {
+        "name_str": "ロートスカラ",
+        "name_id": 550302
+      },
+      {
+        "name_str": "アシッド",
+        "name_id": 550303
+      }
+    ]
+  },
+  {
+    "genre": "Arcaeaちほー",
+    "items": [
+      {
+        "name_str": "光／サマー",
+        "name_id": 105601
+      },
+      {
+        "name_str": "対立／サマー",
+        "name_id": 105602
+      },
+      {
+        "name_str": "サヤ",
+        "name_id": 105603
+      },
+      {
+        "name_str": "叶永",
+        "name_id": 105604
+      },
+      {
+        "name_str": "エト",
+        "name_id": 105605
+      },
+      {
+        "name_str": "ルナ",
+        "name_id": 105606
+      },
+      {
+        "name_str": "紅",
+        "name_id": 105607
+      },
+      {
+        "name_str": "レーテー",
+        "name_id": 105608
+      }
+    ]
+  },
+  {
+    "genre": "Arcaeaちほー2",
+    "items": [
+      {
+        "name_str": "光／Fracture",
+        "name_id": 306101
+      },
+      {
+        "name_str": "対立／Tempest",
+        "name_id": 306102
+      },
+      {
+        "name_str": "アリス&テニエル",
+        "name_id": 306103
+      },
+      {
+        "name_str": "ラグランジュ",
+        "name_id": 306104
+      }
+    ]
+  },
+  {
+    "genre": "Arcaeaちほー3",
+    "items": [
+      {
+        "name_str": "エト&ルナ（ウィンター）",
+        "name_id": 505701
+      },
+      {
+        "name_str": "マヤ",
+        "name_id": 505702
+      }
+    ]
+  },
+  {
+    "genre": "BLACK ROSEちほー10",
+    "items": [
+      {
+        "name_str": "フォッサノーバ",
+        "name_id": 500301
+      },
+      {
+        "name_str": "ディオティス",
+        "name_id": 500302
+      },
+      {
+        "name_str": "クレメンス（エージェント）",
+        "name_id": 500303
+      },
+      {
+        "name_str": "エレノラ（エージェント）",
+        "name_id": 500304
+      },
+      {
+        "name_str": "ディオティス（天使）",
+        "name_id": 500305
+      }
+    ]
+  },
+  {
+    "genre": "BLACK ROSEちほー6",
+    "items": [
+      {
+        "name_str": "クレメンス",
+        "name_id": 250601
+      },
+      {
+        "name_str": "バイロン",
+        "name_id": 250602
+      },
+      {
+        "name_str": "エリー",
+        "name_id": 250603
+      }
+    ]
+  },
+  {
+    "genre": "BLACK ROSEちほー7",
+    "items": [
+      {
+        "name_str": "アウル",
+        "name_id": 300601
+      },
+      {
+        "name_str": "ヒュド・ルー",
+        "name_id": 300602
+      },
+      {
+        "name_str": "エリー",
+        "name_id": 300603
+      },
+      {
+        "name_str": "マスティマ",
+        "name_id": 300604
+      },
+      {
+        "name_str": "バイロン(堕天使)",
+        "name_id": 300605
+      }
+    ]
+  },
+  {
+    "genre": "BLACK ROSEちほー8",
+    "items": [
+      {
+        "name_str": "ルイ（幼少期）",
+        "name_id": 350601
+      },
+      {
+        "name_str": "SDニック",
+        "name_id": 350602
+      },
+      {
+        "name_str": "SDブラット",
+        "name_id": 350603
+      },
+      {
+        "name_str": "SDアウル",
+        "name_id": 350604
+      },
+      {
+        "name_str": "ニック＆ブラット",
+        "name_id": 350605
+      }
+    ]
+  },
+  {
+    "genre": "BLACK ROSEちほー9",
+    "items": [
+      {
+        "name_str": "フィッツ公",
+        "name_id": 400601
+      },
+      {
+        "name_str": "マティルダ",
+        "name_id": 400602
+      },
+      {
+        "name_str": "クリーノス",
+        "name_id": 400603
+      },
+      {
+        "name_str": "クリーノス（天使）",
+        "name_id": 400604
+      },
+      {
+        "name_str": "リッツ（悪魔）",
+        "name_id": 400605
+      }
+    ]
+  },
+  {
+    "genre": "BLACKROSEちほー",
+    "items": [
+      {
+        "name_str": "アウル",
+        "name_id": 701
+      },
+      {
+        "name_str": "リッツ",
+        "name_id": 702
+      },
+      {
+        "name_str": "ニック",
+        "name_id": 703
+      },
+      {
+        "name_str": "エリー",
+        "name_id": 704
+      },
+      {
+        "name_str": "ヒュド・ルー",
+        "name_id": 705
+      },
+      {
+        "name_str": "クレメンス",
+        "name_id": 706
+      },
+      {
+        "name_str": "ラルフ",
+        "name_id": 707
+      },
+      {
+        "name_str": "バイロン",
+        "name_id": 708
+      },
+      {
+        "name_str": "マスティマ",
+        "name_id": 709
+      }
+    ]
+  },
+  {
+    "genre": "BLACKROSEちほー2",
+    "items": [
+      {
+        "name_str": "ルイ",
+        "name_id": 50801
+      },
+      {
+        "name_str": "ニック（悪魔憑き）",
+        "name_id": 50802
+      },
+      {
+        "name_str": "ティノ",
+        "name_id": 50803
+      },
+      {
+        "name_str": "エレノラ",
+        "name_id": 50804
+      }
+    ]
+  },
+  {
+    "genre": "BLACKROSEちほー3",
+    "items": [
+      {
+        "name_str": "ロー",
+        "name_id": 100601
+      },
+      {
+        "name_str": "マリー",
+        "name_id": 100602
+      },
+      {
+        "name_str": "ハンナ",
+        "name_id": 100603
+      },
+      {
+        "name_str": "トリスタン",
+        "name_id": 100604
+      },
+      {
+        "name_str": "クレメンス(悪魔)",
+        "name_id": 100605
+      }
+    ]
+  },
+  {
+    "genre": "BLACKROSEちほー4",
+    "items": [
+      {
+        "name_str": "アウル(幼少期)",
+        "name_id": 150201
+      },
+      {
+        "name_str": "トリスタン",
+        "name_id": 150202
+      },
+      {
+        "name_str": "アウル",
+        "name_id": 150203
+      }
+    ]
+  },
+  {
+    "genre": "BLACKROSEちほー5",
+    "items": [
+      {
+        "name_str": "エリザ",
+        "name_id": 200601
+      },
+      {
+        "name_str": "カイン",
+        "name_id": 200602
+      },
+      {
+        "name_str": "ジャック",
+        "name_id": 200603
+      },
+      {
+        "name_str": "アナスタシア",
+        "name_id": 200604
+      },
+      {
+        "name_str": "ラルフ(悪魔憑き)",
+        "name_id": 200605
+      }
+    ]
+  },
+  {
+    "genre": "CHUNITHMちほー",
+    "items": [
+      {
+        "name_str": "No.9_ニナ",
+        "name_id": 255801
+      },
+      {
+        "name_str": "シルヴィアス",
+        "name_id": 255802
+      },
+      {
+        "name_str": "マゼラン・マゼラン",
+        "name_id": 255803
+      },
+      {
+        "name_str": "ミゼラン・ミゼラン",
+        "name_id": 255804
+      },
+      {
+        "name_str": "チュウニペンギン",
+        "name_id": 255805
+      },
+      {
+        "name_str": "ショウニペンギン",
+        "name_id": 255806
+      }
+    ]
+  },
+  {
+    "genre": "CHUNITHMちほー2",
+    "items": [
+      {
+        "name_str": "クラウン",
+        "name_id": 305901
+      },
+      {
+        "name_str": "哲学主 ジェフティ",
+        "name_id": 305902
+      },
+      {
+        "name_str": "憎悪の始まりたる古竜",
+        "name_id": 305903
+      },
+      {
+        "name_str": "七海 あおい",
+        "name_id": 305904
+      },
+      {
+        "name_str": "高砂 瑞穂",
+        "name_id": 305905
+      },
+      {
+        "name_str": "アストライア",
+        "name_id": 305906
+      },
+      {
+        "name_str": "メリム",
+        "name_id": 305907
+      }
+    ]
+  },
+  {
+    "genre": "CHUNITHMちほー3",
+    "items": [
+      {
+        "name_str": "縁​",
+        "name_id": 406201
+      },
+      {
+        "name_str": "冴川 芽依",
+        "name_id": 406202
+      },
+      {
+        "name_str": "ロト・トゥエルヴ",
+        "name_id": 406203
+      },
+      {
+        "name_str": "不来方 とあ​",
+        "name_id": 406204
+      },
+      {
+        "name_str": "ヴェルゼビュートネメシス​",
+        "name_id": 406205
+      },
+      {
+        "name_str": "リヒトシュッツェ​",
+        "name_id": 406206
+      }
+    ]
+  },
+  {
+    "genre": "CHUNITHMちほー4",
+    "items": [
+      {
+        "name_str": "エル・リベルテ",
+        "name_id": 555801
+      },
+      {
+        "name_str": "スザク",
+        "name_id": 555802
+      },
+      {
+        "name_str": "暁 凶香",
+        "name_id": 555803
+      },
+      {
+        "name_str": "マゼラン・マゼラン／ラブリーハンター",
+        "name_id": 555804
+      },
+      {
+        "name_str": "渋沢 ノノ",
+        "name_id": 555805
+      },
+      {
+        "name_str": "MIR-201【ヘカティ・ベアトリクス】",
+        "name_id": 555806
+      }
+    ]
+  },
+  {
+    "genre": "D4DJ Groovy Mixちほー",
+    "items": [
+      {
+        "name_str": "出雲咲姫",
+        "name_id": 255301
+      },
+      {
+        "name_str": "新島衣舞紀",
+        "name_id": 255302
+      },
+      {
+        "name_str": "花巻乙和",
+        "name_id": 255303
+      },
+      {
+        "name_str": "福島ノア",
+        "name_id": 255304
+      },
+      {
+        "name_str": "桜田美夢",
+        "name_id": 255305
+      },
+      {
+        "name_str": "春日春奈",
+        "name_id": 255306
+      },
+      {
+        "name_str": "白鳥胡桃",
+        "name_id": 255307
+      },
+      {
+        "name_str": "竹下みいこ",
+        "name_id": 255308
+      }
+    ]
+  },
+  {
+    "genre": "DECO*27ちほー",
+    "items": [
+      {
+        "name_str": "初音ミク（ヴァンパイア）",
+        "name_id": 305201
+      },
+      {
+        "name_str": "初音ミク（アニマル）",
+        "name_id": 305202
+      },
+      {
+        "name_str": "初音ミク（状態異常彼女）",
+        "name_id": 305203
+      },
+      {
+        "name_str": "初音ミク（U）",
+        "name_id": 305204
+      },
+      {
+        "name_str": "初音ミク（シンデレラ）",
+        "name_id": 305205
+      },
+      {
+        "name_str": "初音ミク（ケサランパサラン）",
+        "name_id": 305206
+      },
+      {
+        "name_str": "初音ミク（ギフト）",
+        "name_id": 305207
+      },
+      {
+        "name_str": "初音ミク（パラサイト）",
+        "name_id": 305208
+      },
+      {
+        "name_str": "初音ミク（ジレンマ）",
+        "name_id": 305209
+      },
+      {
+        "name_str": "DECO*27",
+        "name_id": 305210
+      }
+    ]
+  },
+  {
+    "genre": "DECO*27ちほー2",
+    "items": [
+      {
+        "name_str": "初音ミク（あいたい星人）",
+        "name_id": 555501
+      },
+      {
+        "name_str": "初音ミク（ラビットホール）",
+        "name_id": 555502
+      },
+      {
+        "name_str": "初音ミク（デビルじゃないもん・黒天使）",
+        "name_id": 555503
+      },
+      {
+        "name_str": "初音ミク（ハオ）",
+        "name_id": 555504
+      }
+    ]
+  },
+  {
+    "genre": "Diverse Systemちほー",
+    "items": [
+      {
+        "name_str": "大空 彩",
+        "name_id": 255401
+      },
+      {
+        "name_str": "白戒",
+        "name_id": 255402
+      },
+      {
+        "name_str": "silky6",
+        "name_id": 255403
+      },
+      {
+        "name_str": "削除",
+        "name_id": 255404
+      },
+      {
+        "name_str": "BADASS",
+        "name_id": 255405
+      }
+    ]
+  },
+  {
+    "genre": "FEAT CONTESTちほー",
+    "items": [
+      {
+        "name_str": "FEATちゃん",
+        "name_id": 605401
+      },
+      {
+        "name_str": "YOFUKASHi Sound Team",
+        "name_id": 605402
+      },
+      {
+        "name_str": "ぱりぱりさらうどん",
+        "name_id": 605403
+      },
+      {
+        "name_str": "ヤレギノ",
+        "name_id": 605404
+      },
+      {
+        "name_str": "litmus*",
+        "name_id": 605405
+      },
+      {
+        "name_str": "ちから",
+        "name_id": 605406
+      }
+    ]
+  },
+  {
+    "genre": "GYARIちほー",
+    "items": [
+      {
+        "name_str": "紲星あかり",
+        "name_id": 3301
+      },
+      {
+        "name_str": "結月ゆかり",
+        "name_id": 3302
+      },
+      {
+        "name_str": "弦巻マキ",
+        "name_id": 3303
+      },
+      {
+        "name_str": "琴葉　茜",
+        "name_id": 3304
+      },
+      {
+        "name_str": "琴葉　葵",
+        "name_id": 3305
+      },
+      {
+        "name_str": "GYARI",
+        "name_id": 3306
+      }
+    ]
+  },
+  {
+    "genre": "GYARIちほー2",
+    "items": [
+      {
+        "name_str": "琴葉　葵 チョコミント（Ice!）",
+        "name_id": 105401
+      },
+      {
+        "name_str": "琴葉　葵 チョコミント（慈悲）",
+        "name_id": 105402
+      },
+      {
+        "name_str": "琴葉　茜 チョコミント（？）",
+        "name_id": 105403
+      },
+      {
+        "name_str": "琴葉　茜 チョコミント（おかわりや）",
+        "name_id": 105404
+      },
+      {
+        "name_str": "チョコミン党",
+        "name_id": 105405
+      }
+    ]
+  },
+  {
+    "genre": "HARDCORE TANO*Cちほー2",
+    "items": [
+      {
+        "name_str": "IRRENA",
+        "name_id": 455801
+      },
+      {
+        "name_str": "Srav3R",
+        "name_id": 455802
+      },
+      {
+        "name_str": "P*Light",
+        "name_id": 455803
+      },
+      {
+        "name_str": "DJ Noriken",
+        "name_id": 455804
+      },
+      {
+        "name_str": "DJ Genki",
+        "name_id": 455805
+      }
+    ]
+  },
+  {
+    "genre": "HARDCORETANO*Cちほー",
+    "items": [
+      {
+        "name_str": "t+pazolite",
+        "name_id": 155401
+      },
+      {
+        "name_str": "REDALiCE",
+        "name_id": 155402
+      },
+      {
+        "name_str": "DJ Myosuke",
+        "name_id": 155403
+      },
+      {
+        "name_str": "USAO",
+        "name_id": 155404
+      },
+      {
+        "name_str": "Massive New Krew",
+        "name_id": 155405
+      },
+      {
+        "name_str": "Laur",
+        "name_id": 155406
+      },
+      {
+        "name_str": "DORO*C",
+        "name_id": 155407
+      }
+    ]
+  },
+  {
+    "genre": "HaNaMiNaちほー",
+    "items": [
+      {
+        "name_str": "五十嵐 撫子（決意の夏合宿編）",
+        "name_id": 155301
+      },
+      {
+        "name_str": "萩原 七々瀬（決意の夏合宿編）",
+        "name_id": 155302
+      },
+      {
+        "name_str": "葛城 華",
+        "name_id": 155303
+      },
+      {
+        "name_str": "小野 美苗",
+        "name_id": 155304
+      }
+    ]
+  },
+  {
+    "genre": "IOSYSちほー",
+    "items": [
+      {
+        "name_str": "博麗 霊夢",
+        "name_id": 606001
+      },
+      {
+        "name_str": "霧雨 魔理沙",
+        "name_id": 606002
+      },
+      {
+        "name_str": "チルノ",
+        "name_id": 606003
+      },
+      {
+        "name_str": "十六夜 咲夜",
+        "name_id": 606004
+      },
+      {
+        "name_str": "レミリア・スカーレット",
+        "name_id": 606005
+      }
+    ]
+  },
+  {
+    "genre": "MEGAREXちほー",
+    "items": [
+      {
+        "name_str": "御伽野ひめ",
+        "name_id": 355501
+      },
+      {
+        "name_str": "ハイテックニンジャ",
+        "name_id": 355502
+      },
+      {
+        "name_str": "ぱんしー",
+        "name_id": 355503
+      },
+      {
+        "name_str": "まめゆ",
+        "name_id": 355504
+      },
+      {
+        "name_str": "ダッコ & パンセ",
+        "name_id": 355505
+      },
+      {
+        "name_str": "ナーガ・ネギ",
+        "name_id": 355506
+      },
+      {
+        "name_str": "ネコらぴす",
+        "name_id": 355507
+      },
+      {
+        "name_str": "ネコまめゆねこ",
+        "name_id": 355508
+      },
+      {
+        "name_str": "ネコぽよし",
+        "name_id": 355509
+      },
+      {
+        "name_str": "ジン・スサノ",
+        "name_id": 355510
+      }
+    ]
+  },
+  {
+    "genre": "MonsterZ MATEちほー",
+    "items": [
+      {
+        "name_str": "コーサカ",
+        "name_id": 505301
+      },
+      {
+        "name_str": "アンジョー",
+        "name_id": 505302
+      },
+      {
+        "name_str": "コーサカ（メイトなやつら）",
+        "name_id": 505303
+      },
+      {
+        "name_str": "アンジョー（メイトなやつら）",
+        "name_id": 505304
+      },
+      {
+        "name_str": "天開司（メイトなやつら）",
+        "name_id": 505305
+      },
+      {
+        "name_str": "佐藤ホームズ（メイトなやつら）",
+        "name_id": 505306
+      },
+      {
+        "name_str": "あっくん大魔王（メイトなやつら）",
+        "name_id": 505307
+      },
+      {
+        "name_str": "歌衣メイカ（メイトなやつら）",
+        "name_id": 505308
+      }
+    ]
+  },
+  {
+    "genre": "Muse Dashちほー",
+    "items": [
+      {
+        "name_str": "リン（ベーシスト）",
+        "name_id": 355301
+      },
+      {
+        "name_str": "リン（不良少女）",
+        "name_id": 355302
+      },
+      {
+        "name_str": "ブロウ（パイロット）",
+        "name_id": 355303
+      },
+      {
+        "name_str": "ブロウ（ゾンビガール）",
+        "name_id": 355304
+      },
+      {
+        "name_str": "マリヤ（バイオリニスト）",
+        "name_id": 355305
+      },
+      {
+        "name_str": "マリヤ（小悪魔）",
+        "name_id": 355306
+      },
+      {
+        "name_str": "リン（ニャ宇宙！）",
+        "name_id": 355307
+      },
+      {
+        "name_str": "ブロウ（ニャ宇宙！）",
+        "name_id": 355308
+      },
+      {
+        "name_str": "マリヤ（ニャ宇宙！）",
+        "name_id": 355309
+      }
+    ]
+  },
+  {
+    "genre": "NEEDY GIRL OVERDOSEちほー",
+    "items": [
+      {
+        "name_str": "超絶最かわてんしちゃん",
+        "name_id": 455101
+      },
+      {
+        "name_str": "あめちゃん",
+        "name_id": 455102
+      }
+    ]
+  },
+  {
+    "genre": "NEEDY GIRL OVERDOSEちほー2",
+    "items": [
+      {
+        "name_str": "超てんちゃん（てんしのたからばこ）",
+        "name_id": 555101
+      },
+      {
+        "name_str": "あめちゃん（てんしのたからばこ）",
+        "name_id": 555102
+      },
+      {
+        "name_str": "超てんちゃん（私服）",
+        "name_id": 555103
+      },
+      {
+        "name_str": "超てんちゃん（浴衣）",
+        "name_id": 555104
+      },
+      {
+        "name_str": "超てんちゃん（きゅびずむ）",
+        "name_id": 555105
+      },
+      {
+        "name_str": "ぴえん猫",
+        "name_id": 555106
+      },
+      {
+        "name_str": "パペット超てんちゃん",
+        "name_id": 555107
+      },
+      {
+        "name_str": "超てんちゃん（NEEDY GIRL OVERDOSE）",
+        "name_id": 555108
+      }
+    ]
+  },
+  {
+    "genre": "Paradigm: Rebootちほー",
+    "items": [
+      {
+        "name_str": "アルカイド",
+        "name_id": 605901
+      },
+      {
+        "name_str": "パラ",
+        "name_id": 605902
+      },
+      {
+        "name_str": "ユン",
+        "name_id": 605903
+      },
+      {
+        "name_str": "リン",
+        "name_id": 605904
+      },
+      {
+        "name_str": "ログ",
+        "name_id": 605905
+      }
+    ]
+  },
+  {
+    "genre": "Phigrosちほー",
+    "items": [
+      {
+        "name_str": "鳩",
+        "name_id": 556001
+      },
+      {
+        "name_str": "鳩（Leave All Behind）",
+        "name_id": 556002
+      },
+      {
+        "name_str": "鳩（Retribution ～ Cycle of Redemption ～）",
+        "name_id": 556003
+      },
+      {
+        "name_str": "鳩（Luminescence）",
+        "name_id": 556004
+      }
+    ]
+  },
+  {
+    "genre": "ProjectDIVAちほー",
+    "items": [
+      {
+        "name_str": "初音ミクV3",
+        "name_id": 3501
+      },
+      {
+        "name_str": "エトワール",
+        "name_id": 3502
+      },
+      {
+        "name_str": "天袖",
+        "name_id": 3503
+      }
+    ]
+  },
+  {
+    "genre": "ProjectDIVAちほー2",
+    "items": [
+      {
+        "name_str": "DIVA 初音ミク/スクール",
+        "name_id": 53701
+      },
+      {
+        "name_str": "DIVA 初音ミク/マジシャン",
+        "name_id": 53702
+      },
+      {
+        "name_str": "DIVA 初音ミク/リボンガール",
+        "name_id": 53703
+      },
+      {
+        "name_str": "DIVA 初音ミク/クリスマス",
+        "name_id": 53704
+      },
+      {
+        "name_str": "DIVA 初音ミク/∞",
+        "name_id": 53705
+      }
+    ]
+  },
+  {
+    "genre": "ProjectDIVAちほー3",
+    "items": [
+      {
+        "name_str": "DIVA 初音ミク/アバンガード",
+        "name_id": 206101
+      },
+      {
+        "name_str": "DIVA 巡音ルカ/サクセサー",
+        "name_id": 206102
+      },
+      {
+        "name_str": "DIVA 鏡音リン/トランスミッター",
+        "name_id": 206103
+      },
+      {
+        "name_str": "DIVA 鏡音レン/レシーバー",
+        "name_id": 206104
+      },
+      {
+        "name_str": "DIVA KAITO/オンザロック",
+        "name_id": 206105
+      },
+      {
+        "name_str": "DIVA MEIKO/スカーレット",
+        "name_id": 206106
+      }
+    ]
+  },
+  {
+    "genre": "Rain Dropsちほー",
+    "items": [
+      {
+        "name_str": "緑仙",
+        "name_id": 205901
+      },
+      {
+        "name_str": "三枝明那",
+        "name_id": 205902
+      },
+      {
+        "name_str": "童田明治",
+        "name_id": 205903
+      },
+      {
+        "name_str": "鈴木勝",
+        "name_id": 205904
+      },
+      {
+        "name_str": "える",
+        "name_id": 205905
+      },
+      {
+        "name_str": "ジョー・力一",
+        "name_id": 205906
+      }
+    ]
+  },
+  {
+    "genre": "SSSS_GRIDMANちほー",
+    "items": [
+      {
+        "name_str": "グリッドマン",
+        "name_id": 3201
+      },
+      {
+        "name_str": "響 裕太",
+        "name_id": 3202
+      },
+      {
+        "name_str": "内海 将",
+        "name_id": 3203
+      },
+      {
+        "name_str": "宝多 六花",
+        "name_id": 3204
+      },
+      {
+        "name_str": "新条 アカネ",
+        "name_id": 3205
+      },
+      {
+        "name_str": "サムライ・キャリバー",
+        "name_id": 3206
+      },
+      {
+        "name_str": "マックス",
+        "name_id": 3207
+      },
+      {
+        "name_str": "ボラー",
+        "name_id": 3208
+      },
+      {
+        "name_str": "ヴィット",
+        "name_id": 3209
+      },
+      {
+        "name_str": "アンチ",
+        "name_id": 3210
+      }
+    ]
+  },
+  {
+    "genre": "TJ.hangneilちほー",
+    "items": [
+      {
+        "name_str": "TJ.hangneil",
+        "name_id": 405701
+      },
+      {
+        "name_str": "男の子（神威）",
+        "name_id": 405702
+      },
+      {
+        "name_str": "女の子（神威）",
+        "name_id": 405703
+      }
+    ]
+  },
+  {
+    "genre": "WACCAちほー",
+    "items": [
+      {
+        "name_str": "エリザベス",
+        "name_id": 405401
+      },
+      {
+        "name_str": "リリィ",
+        "name_id": 405402
+      },
+      {
+        "name_str": "ルーン",
+        "name_id": 405403
+      },
+      {
+        "name_str": "【裏】ルーン",
+        "name_id": 405404
+      },
+      {
+        "name_str": "WACCA筐体",
+        "name_id": 405405
+      }
+    ]
+  },
+  {
+    "genre": "ZONeちほー",
+    "items": [
+      {
+        "name_str": "ぞん子",
+        "name_id": 305601
+      },
+      {
+        "name_str": "ぞん子（DEEP DIVE）",
+        "name_id": 305602
+      },
+      {
+        "name_str": "ぞん子（Utopia）",
+        "name_id": 305603
+      },
+      {
+        "name_str": "ぞん子（Unlimited ZERO）",
+        "name_id": 305604
+      },
+      {
+        "name_str": "ZONe",
+        "name_id": 305605
+      },
+      {
+        "name_str": "ZONe DEEP DIVE",
+        "name_id": 305606
+      },
+      {
+        "name_str": "ZONe Utopia",
+        "name_id": 305607
+      }
+    ]
+  },
+  {
+    "genre": "cosMo@暴走Pちほー",
+    "items": [
+      {
+        "name_str": "cosMo＠暴走P",
+        "name_id": 205301
+      },
+      {
+        "name_str": "cosMo＠暴走P（バ美肉）",
+        "name_id": 205302
+      },
+      {
+        "name_str": "空気が嫁ないBoy",
+        "name_id": 205303
+      },
+      {
+        "name_str": "空気が嫁ないGirl",
+        "name_id": 205304
+      },
+      {
+        "name_str": "GOBOU",
+        "name_id": 205305
+      },
+      {
+        "name_str": "HACKPSY",
+        "name_id": 205306
+      },
+      {
+        "name_str": "うさぎのもちよ",
+        "name_id": 205307
+      }
+    ]
+  },
+  {
+    "genre": "cosMo@暴走Pちほー2",
+    "items": [
+      {
+        "name_str": "初音ミク（Let's ミクササイズ！！）",
+        "name_id": 605701
+      },
+      {
+        "name_str": "初音ミク（初音ミクの消失）",
+        "name_id": 605702
+      },
+      {
+        "name_str": "初音ミク（ヤミナベ!!!!）",
+        "name_id": 605703
+      },
+      {
+        "name_str": "アストライア／審判の炎",
+        "name_id": 605704
+      }
+    ]
+  },
+  {
+    "genre": "kawaiiちほー",
+    "items": [
+      {
+        "name_str": "ナノ",
+        "name_id": 150401
+      },
+      {
+        "name_str": "アサド",
+        "name_id": 150402
+      },
+      {
+        "name_str": "ローヴェ",
+        "name_id": 150403
+      },
+      {
+        "name_str": "ドメニカ",
+        "name_id": 150404
+      },
+      {
+        "name_str": "テルス",
+        "name_id": 150405
+      }
+    ]
+  },
+  {
+    "genre": "kawaiiちほー2",
+    "items": [
+      {
+        "name_str": "スズメ",
+        "name_id": 600201
+      },
+      {
+        "name_str": "パドザール",
+        "name_id": 600202
+      },
+      {
+        "name_str": "オクト",
+        "name_id": 600203
+      },
+      {
+        "name_str": "アモ",
+        "name_id": 600204
+      }
+    ]
+  },
+  {
+    "genre": "maimaiシリーズ",
+    "items": [
+      {
+        "name_str": "しゃま 魔導師",
+        "name_id": 6101
+      },
+      {
+        "name_str": "みるく 魔導師",
+        "name_id": 6102
+      },
+      {
+        "name_str": "乙姫 豪華制服",
+        "name_id": 6103
+      },
+      {
+        "name_str": "ラズ 豪華制服",
+        "name_id": 6104
+      },
+      {
+        "name_str": "シフォン 豪華制服",
+        "name_id": 6105
+      },
+      {
+        "name_str": "ソルト 豪華制服",
+        "name_id": 6106
+      },
+      {
+        "name_str": "【でらっくす】まい子",
+        "name_id": 6107
+      },
+      {
+        "name_str": "【でらっくす】まい美",
+        "name_id": 6108
+      },
+      {
+        "name_str": "【でらっくす】ニャイン",
+        "name_id": 6109
+      },
+      {
+        "name_str": "【でらっくす】ナカムラさん",
+        "name_id": 6110
+      },
+      {
+        "name_str": "【でらっくす】苺電気クラゲ",
+        "name_id": 6111
+      },
+      {
+        "name_str": "【でらっくす】カメ",
+        "name_id": 6112
+      },
+      {
+        "name_str": "【でらっくす】タイ",
+        "name_id": 6113
+      },
+      {
+        "name_str": "【でらっくす】ラズ",
+        "name_id": 6114
+      },
+      {
+        "name_str": "【でらっくす】シフォン",
+        "name_id": 6115
+      },
+      {
+        "name_str": "【でらっくす】ソルト",
+        "name_id": 6116
+      },
+      {
+        "name_str": "【でらっくす】乙姫",
+        "name_id": 6117
+      },
+      {
+        "name_str": "【でらっくす】しゃま",
+        "name_id": 6118
+      },
+      {
+        "name_str": "【でらっくす】みるく",
+        "name_id": 6119
+      },
+      {
+        "name_str": "【でらっくす】がっくりmaimai ちゃん",
+        "name_id": 6120
+      },
+      {
+        "name_str": "【でらっくす】mai baby",
+        "name_id": 6121
+      },
+      {
+        "name_str": "【でらっくす】寿司まいまいちゃん",
+        "name_id": 6122
+      },
+      {
+        "name_str": "【でらっくす】寿司はっぴー",
+        "name_id": 6123
+      },
+      {
+        "name_str": "【でらっくす】執事はっぴー",
+        "name_id": 6124
+      },
+      {
+        "name_str": "【でらっくす】妖精まいまいちゃん",
+        "name_id": 6125
+      },
+      {
+        "name_str": "【でらっくす】ダンディー・ダン",
+        "name_id": 6126
+      },
+      {
+        "name_str": "【でらっくす】魚まいまいちゃん",
+        "name_id": 6127
+      },
+      {
+        "name_str": "【でらっくす】パーフェクトはっぴー",
+        "name_id": 6128
+      },
+      {
+        "name_str": "【でらっくす】ディス子(Decision2)",
+        "name_id": 6129
+      },
+      {
+        "name_str": "【でらっくす】ディス子(Sing4)",
+        "name_id": 6130
+      },
+      {
+        "name_str": "ゆるキャン△ 斉藤恵那",
+        "name_id": 6131
+      },
+      {
+        "name_str": "ゆるキャン△ 志摩リン",
+        "name_id": 6132
+      },
+      {
+        "name_str": "ゆるキャン△ 各務原なでしこ",
+        "name_id": 6133
+      },
+      {
+        "name_str": "ゆるキャン△ 犬山あおい",
+        "name_id": 6134
+      },
+      {
+        "name_str": "ゆるキャン△ 大垣千明",
+        "name_id": 6135
+      },
+      {
+        "name_str": "魔法少女 俺 卯野さき",
+        "name_id": 6136
+      },
+      {
+        "name_str": "魔法少女 俺 御翔桜世",
+        "name_id": 6137
+      },
+      {
+        "name_str": "魔法少女 俺 魔法少女オレ",
+        "name_id": 6138
+      },
+      {
+        "name_str": "魔法少女 俺 魔法少女サキガスキ",
+        "name_id": 6139
+      },
+      {
+        "name_str": "魔法少女 俺 御翔桃拾",
+        "name_id": 6140
+      },
+      {
+        "name_str": "魔法少女 俺 兵衛",
+        "name_id": 6141
+      },
+      {
+        "name_str": "魔法少女 俺 ココロちゃん",
+        "name_id": 6142
+      },
+      {
+        "name_str": "魔法少女 俺 矢茂小波",
+        "name_id": 6143
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート パトリシア･オブ･エンド",
+        "name_id": 6144
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート 夕莉シャチ",
+        "name_id": 6145
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート 黒木未知",
+        "name_id": 6146
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート 明日原ユウキ",
+        "name_id": 6147
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート 高田ノブチナ",
+        "name_id": 6148
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート ルーシア･オブ･エンド",
+        "name_id": 6149
+      },
+      {
+        "name_str": "ノラと皇女と野良猫ハート ユウラシア･オブ･エンド",
+        "name_id": 6150
+      },
+      {
+        "name_str": "DIVA 初音ミク/スイムウェアB",
+        "name_id": 6151
+      },
+      {
+        "name_str": "DIVA 初音ミク/スクール",
+        "name_id": 6152
+      },
+      {
+        "name_str": "DIVA 初音ミク/ミコ",
+        "name_id": 6153
+      },
+      {
+        "name_str": "DIVA 初音ミク/ラセツトムクロ",
+        "name_id": 6154
+      },
+      {
+        "name_str": "DIVA 鏡音レン/パンキッシュ",
+        "name_id": 6155
+      },
+      {
+        "name_str": "DIVA 鏡音リン/チアフルキャンディ",
+        "name_id": 6156
+      },
+      {
+        "name_str": "DIVA 初音ミク/ハツネミク",
+        "name_id": 6157
+      },
+      {
+        "name_str": "DIVA 初音ミク/カラフルドロップ",
+        "name_id": 6158
+      },
+      {
+        "name_str": "DIVA 初音ミク/クリスマス",
+        "name_id": 6159
+      },
+      {
+        "name_str": "DIVA 巡音ルカ",
+        "name_id": 6160
+      },
+      {
+        "name_str": "DIVA 鏡音リン",
+        "name_id": 6161
+      },
+      {
+        "name_str": "DIVA 鏡音レン",
+        "name_id": 6162
+      },
+      {
+        "name_str": "DIVA メイコ",
+        "name_id": 6163
+      },
+      {
+        "name_str": "DIVA カイト",
+        "name_id": 6164
+      },
+      {
+        "name_str": "DIVA 巡音ルカ/放課後モード",
+        "name_id": 6165
+      },
+      {
+        "name_str": "DIVA メイコ/ブルークリスタル",
+        "name_id": 6166
+      },
+      {
+        "name_str": "DIVA カイト/スイムウェアV",
+        "name_id": 6167
+      },
+      {
+        "name_str": "DIVA 鏡音リン/蘇芳 妖狐",
+        "name_id": 6168
+      },
+      {
+        "name_str": "DIVA 鏡音レン/スタイリッシュエナジーL",
+        "name_id": 6169
+      },
+      {
+        "name_str": "DIVA 初音ミク/リボンガール",
+        "name_id": 6170
+      },
+      {
+        "name_str": "メイドインアビス リコ",
+        "name_id": 6171
+      },
+      {
+        "name_str": "メイドインアビス レグ",
+        "name_id": 6172
+      },
+      {
+        "name_str": "メイドインアビス ナナチ",
+        "name_id": 6173
+      },
+      {
+        "name_str": "ツインエンジェルBREAK 天月 めぐる",
+        "name_id": 6174
+      },
+      {
+        "name_str": "ツインエンジェルBREAK 如月 すみれ",
+        "name_id": 6175
+      },
+      {
+        "name_str": "ツインエンジェルBREAK 水無月 遥",
+        "name_id": 6176
+      },
+      {
+        "name_str": "ツインエンジェルBREAK 神無月 葵",
+        "name_id": 6177
+      },
+      {
+        "name_str": "ツインエンジェルBREAK 葉月 クルミ",
+        "name_id": 6178
+      },
+      {
+        "name_str": "GRANBLUE FANTASY マリー",
+        "name_id": 6179
+      },
+      {
+        "name_str": "GRANBLUE FANTASY アイドルマリー",
+        "name_id": 6180
+      },
+      {
+        "name_str": "GRANBLUE FANTASY ジータ",
+        "name_id": 6181
+      },
+      {
+        "name_str": "GRANBLUE FANTASY アイドルジータ",
+        "name_id": 6182
+      },
+      {
+        "name_str": "GRANBLUE FANTASY ルリア",
+        "name_id": 6183
+      },
+      {
+        "name_str": "GRANBLUE FANTASY アイドルルリア",
+        "name_id": 6184
+      },
+      {
+        "name_str": "GRANBLUE FANTASY ヴィーラ",
+        "name_id": 6185
+      },
+      {
+        "name_str": "GRANBLUE FANTASY アイドルヴィーラ",
+        "name_id": 6186
+      },
+      {
+        "name_str": "プリンセスコネクト！Re:Dive キャル",
+        "name_id": 6187
+      },
+      {
+        "name_str": "プリンセスコネクト！Re:Dive ペコリーヌ",
+        "name_id": 6188
+      },
+      {
+        "name_str": "プリンセスコネクト！Re:Dive コッコロ",
+        "name_id": 6189
+      },
+      {
+        "name_str": "Shadowverse アリサ1",
+        "name_id": 6190
+      },
+      {
+        "name_str": "Shadowverse アリサ2",
+        "name_id": 6191
+      },
+      {
+        "name_str": "maimai FiNALE",
+        "name_id": 250701
+      },
+      {
+        "name_str": "maimai MiLK",
+        "name_id": 250702
+      },
+      {
+        "name_str": "maimai MURASAKi",
+        "name_id": 250703
+      },
+      {
+        "name_str": "maimai PiNK",
+        "name_id": 250704
+      },
+      {
+        "name_str": "maimai ORANGE",
+        "name_id": 250705
+      },
+      {
+        "name_str": "maimai GreeN",
+        "name_id": 250706
+      },
+      {
+        "name_str": "maimai",
+        "name_id": 250707
+      }
+    ]
+  },
+  {
+    "genre": "sasakure.UKちほー",
+    "items": [
+      {
+        "name_str": "sasakure.UK",
+        "name_id": 405601
+      },
+      {
+        "name_str": "テラ（トンデモワンダーズ）",
+        "name_id": 405602
+      },
+      {
+        "name_str": "カラス（トンデモワンダーズ）",
+        "name_id": 405603
+      },
+      {
+        "name_str": "初音ミク（＊ハロー、プラネット。）",
+        "name_id": 405604
+      }
+    ]
+  },
+  {
+    "genre": "syudouちほー",
+    "items": [
+      {
+        "name_str": "キュートなカノジョ",
+        "name_id": 306001
+      },
+      {
+        "name_str": "ユウヤ",
+        "name_id": 306002
+      },
+      {
+        "name_str": "アマノ ダイキ",
+        "name_id": 306003
+      },
+      {
+        "name_str": "ユウヤ（へべれけ）",
+        "name_id": 306004
+      },
+      {
+        "name_str": "syudou",
+        "name_id": 306005
+      }
+    ]
+  },
+  {
+    "genre": "いよわちほー",
+    "items": [
+      {
+        "name_str": "くらりちゃん",
+        "name_id": 405101
+      },
+      {
+        "name_str": "いまわさん",
+        "name_id": 405102
+      },
+      {
+        "name_str": "1000年ちゃん",
+        "name_id": 405103
+      },
+      {
+        "name_str": "足立レイ",
+        "name_id": 405104
+      },
+      {
+        "name_str": "いよわ",
+        "name_id": 405105
+      }
+    ]
+  },
+  {
+    "genre": "いらすとやちほー",
+    "items": [
+      {
+        "name_str": "踊っているくまのイラスト",
+        "name_id": 106001
+      },
+      {
+        "name_str": "踊っているいぬのイラスト",
+        "name_id": 106002
+      },
+      {
+        "name_str": "踊っているねこのイラスト",
+        "name_id": 106003
+      },
+      {
+        "name_str": "踊っているうさぎのイラスト",
+        "name_id": 106004
+      },
+      {
+        "name_str": "元気な男性のイラスト",
+        "name_id": 106005
+      },
+      {
+        "name_str": "元気な女性のイラスト",
+        "name_id": 106006
+      },
+      {
+        "name_str": "ドラム式洗濯機のイラスト",
+        "name_id": 106007
+      },
+      {
+        "name_str": "コウテイペンギンのイラスト",
+        "name_id": 106008
+      },
+      {
+        "name_str": "コウテイペンギンのヒナのイラスト",
+        "name_id": 106009
+      },
+      {
+        "name_str": "バナナボートに乗る人たちのイラスト",
+        "name_id": 106010
+      }
+    ]
+  },
+  {
+    "genre": "うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。ちほー",
+    "items": [
+      {
+        "name_str": "ラティナ",
+        "name_id": 53801
+      },
+      {
+        "name_str": "デイル",
+        "name_id": 53802
+      },
+      {
+        "name_str": "ケニス",
+        "name_id": 53803
+      },
+      {
+        "name_str": "リタ",
+        "name_id": 53804
+      },
+      {
+        "name_str": "クロエ",
+        "name_id": 53805
+      },
+      {
+        "name_str": "シルビア",
+        "name_id": 53806
+      },
+      {
+        "name_str": "ルディ",
+        "name_id": 53807
+      }
+    ]
+  },
+  {
+    "genre": "おめがシスターズちほー",
+    "items": [
+      {
+        "name_str": "おめがレイ",
+        "name_id": 505401
+      },
+      {
+        "name_str": "おめがリオ",
+        "name_id": 505402
+      },
+      {
+        "name_str": "おめがレイ（実写）",
+        "name_id": 505403
+      },
+      {
+        "name_str": "おめがリオ（実写）",
+        "name_id": 505404
+      }
+    ]
+  },
+  {
+    "genre": "かいりきベアちほー",
+    "items": [
+      {
+        "name_str": "v flower/ベノム",
+        "name_id": 105701
+      },
+      {
+        "name_str": "GUMI/マネマネサイコトロピック",
+        "name_id": 105702
+      },
+      {
+        "name_str": "魔法少女リリカ/アルカリレットウセイ",
+        "name_id": 105703
+      },
+      {
+        "name_str": "かいりきベア",
+        "name_id": 105704
+      },
+      {
+        "name_str": "宍戸 美鈴",
+        "name_id": 105705
+      }
+    ]
+  },
+  {
+    "genre": "かいりきベアちほー2",
+    "items": [
+      {
+        "name_str": "アイア",
+        "name_id": 505201
+      },
+      {
+        "name_str": "グーマー",
+        "name_id": 505202
+      },
+      {
+        "name_str": "ノア",
+        "name_id": 505203
+      },
+      {
+        "name_str": "ナナ",
+        "name_id": 505204
+      }
+    ]
+  },
+  {
+    "genre": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～ちほー",
+    "items": [
+      {
+        "name_str": "四宮 かぐや",
+        "name_id": 53101
+      },
+      {
+        "name_str": "白銀 御行",
+        "name_id": 53102
+      },
+      {
+        "name_str": "藤原 千花",
+        "name_id": 53103
+      },
+      {
+        "name_str": "石上 優",
+        "name_id": 53104
+      },
+      {
+        "name_str": "早坂 愛",
+        "name_id": 53105
+      }
+    ]
+  },
+  {
+    "genre": "からめるちほー",
+    "items": [
+      {
+        "name_str": "からめる/ねこ/ラーメン",
+        "name_id": 3901
+      },
+      {
+        "name_str": "からめる/ねこ/DJ",
+        "name_id": 3902
+      },
+      {
+        "name_str": "からめる/人/まいった",
+        "name_id": 3903
+      },
+      {
+        "name_str": "からめる/人/刺身",
+        "name_id": 3904
+      },
+      {
+        "name_str": "からめる/レース",
+        "name_id": 3905
+      }
+    ]
+  },
+  {
+    "genre": "からめるちほー2",
+    "items": [
+      {
+        "name_str": "ねこ",
+        "name_id": 355601
+      },
+      {
+        "name_str": "ぐるん",
+        "name_id": 355602
+      },
+      {
+        "name_str": "ペンギン",
+        "name_id": 355603
+      },
+      {
+        "name_str": "ウーパールーパー",
+        "name_id": 355604
+      },
+      {
+        "name_str": "デンゲンくん",
+        "name_id": 355605
+      },
+      {
+        "name_str": "うさぎくん",
+        "name_id": 355606
+      },
+      {
+        "name_str": "いぬくん",
+        "name_id": 355607
+      },
+      {
+        "name_str": "あんはっぴーちゃん",
+        "name_id": 355608
+      },
+      {
+        "name_str": "野生のでらっくま",
+        "name_id": 355609
+      },
+      {
+        "name_str": "右肩",
+        "name_id": 355610
+      },
+      {
+        "name_str": "真ん中",
+        "name_id": 355611
+      },
+      {
+        "name_str": "左肩",
+        "name_id": 355612
+      }
+    ]
+  },
+  {
+    "genre": "けものフレンズ2ちほー",
+    "items": [
+      {
+        "name_str": "サーバル",
+        "name_id": 3101
+      },
+      {
+        "name_str": "アライグマ",
+        "name_id": 3102
+      },
+      {
+        "name_str": "フェネック",
+        "name_id": 3103
+      },
+      {
+        "name_str": "ロイヤルペンギン",
+        "name_id": 3104
+      },
+      {
+        "name_str": "コウテイペンギン",
+        "name_id": 3105
+      },
+      {
+        "name_str": "ジェンツーペンギン",
+        "name_id": 3106
+      },
+      {
+        "name_str": "イワトビペンギン",
+        "name_id": 3107
+      },
+      {
+        "name_str": "フンボルトペンギン",
+        "name_id": 3108
+      }
+    ]
+  },
+  {
+    "genre": "こっちのけんとちほー",
+    "items": [
+      {
+        "name_str": "こっちのけんと",
+        "name_id": 605201
+      },
+      {
+        "name_str": "死ぬな君！",
+        "name_id": 605202
+      },
+      {
+        "name_str": "男性A（はいよろこんで）",
+        "name_id": 605203
+      },
+      {
+        "name_str": "男性B（はいよろこんで）",
+        "name_id": 605204
+      },
+      {
+        "name_str": "男性C（はいよろこんで）",
+        "name_id": 605205
+      },
+      {
+        "name_str": "女性A（はいよろこんで）",
+        "name_id": 605206
+      },
+      {
+        "name_str": "タヌキちゃん",
+        "name_id": 605207
+      }
+    ]
+  },
+  {
+    "genre": "ご注文はうさぎですか？？ちほー",
+    "items": [
+      {
+        "name_str": "ココア",
+        "name_id": 105201
+      },
+      {
+        "name_str": "チノ",
+        "name_id": 105202
+      },
+      {
+        "name_str": "リゼ",
+        "name_id": 105203
+      },
+      {
+        "name_str": "千夜",
+        "name_id": 105204
+      },
+      {
+        "name_str": "シャロ",
+        "name_id": 105205
+      }
+    ]
+  },
+  {
+    "genre": "さなちゃんねるちほー",
+    "items": [
+      {
+        "name_str": "名取さな（パレードコーデ）",
+        "name_id": 305501
+      },
+      {
+        "name_str": "名取さな（制服さん）",
+        "name_id": 305502
+      },
+      {
+        "name_str": "名取さな（いつものお洋服）",
+        "name_id": 305503
+      },
+      {
+        "name_str": "名取さな（さなちゃんねる王）",
+        "name_id": 305504
+      },
+      {
+        "name_str": "名取さな（ていねいな王様）",
+        "name_id": 305505
+      },
+      {
+        "name_str": "うさちゃんせんせえ",
+        "name_id": 305506
+      },
+      {
+        "name_str": "ねこちゃんせんせえ",
+        "name_id": 305507
+      },
+      {
+        "name_str": "サーナくん",
+        "name_id": 305508
+      },
+      {
+        "name_str": "アヘエビ",
+        "name_id": 305509
+      }
+    ]
+  },
+  {
+    "genre": "しぐれういちほー",
+    "items": [
+      {
+        "name_str": "しぐれうい",
+        "name_id": 605801
+      },
+      {
+        "name_str": "しぐれうい（私服）",
+        "name_id": 605802
+      },
+      {
+        "name_str": "しぐれうい（夏服）",
+        "name_id": 605803
+      },
+      {
+        "name_str": "しぐれうい（9さい）",
+        "name_id": 605804
+      }
+    ]
+  },
+  {
+    "genre": "しゅわしゅわちほー",
+    "items": [
+      {
+        "name_str": "らいむっくま",
+        "name_id": 100101
+      },
+      {
+        "name_str": "れもんっくま",
+        "name_id": 100102
+      },
+      {
+        "name_str": "でらっくま",
+        "name_id": 100103
+      },
+      {
+        "name_str": "らん",
+        "name_id": 100104
+      },
+      {
+        "name_str": "どりー",
+        "name_id": 100105
+      }
+    ]
+  },
+  {
+    "genre": "しゅわしゅわちほー2",
+    "items": [
+      {
+        "name_str": "乙姫",
+        "name_id": 150101
+      },
+      {
+        "name_str": "ラズ",
+        "name_id": 150102
+      },
+      {
+        "name_str": "シフォン",
+        "name_id": 150103
+      },
+      {
+        "name_str": "ソルト",
+        "name_id": 150104
+      },
+      {
+        "name_str": "しゃま",
+        "name_id": 150105
+      },
+      {
+        "name_str": "みるく",
+        "name_id": 150106
+      }
+    ]
+  },
+  {
+    "genre": "すみっコぐらしちほー",
+    "items": [
+      {
+        "name_str": "ひよこ？",
+        "name_id": 155201
+      },
+      {
+        "name_str": "しろくま",
+        "name_id": 155202
+      },
+      {
+        "name_str": "ぺんぎん？",
+        "name_id": 155203
+      },
+      {
+        "name_str": "とんかつ",
+        "name_id": 155204
+      },
+      {
+        "name_str": "ねこ",
+        "name_id": 155205
+      },
+      {
+        "name_str": "とかげ",
+        "name_id": 155206
+      },
+      {
+        "name_str": "ざっそう",
+        "name_id": 155207
+      },
+      {
+        "name_str": "えびふらいのしっぽ",
+        "name_id": 155208
+      }
+    ]
+  },
+  {
+    "genre": "すりぃちほー",
+    "items": [
+      {
+        "name_str": "すりぃ",
+        "name_id": 255901
+      },
+      {
+        "name_str": "ナース",
+        "name_id": 255902
+      },
+      {
+        "name_str": "ボーイ",
+        "name_id": 255903
+      },
+      {
+        "name_str": "ガール",
+        "name_id": 255904
+      },
+      {
+        "name_str": "審査員",
+        "name_id": 255905
+      },
+      {
+        "name_str": "親衛隊",
+        "name_id": 255906
+      },
+      {
+        "name_str": "ひょっとこJK",
+        "name_id": 255907
+      },
+      {
+        "name_str": "ピエロ",
+        "name_id": 255908
+      },
+      {
+        "name_str": "侍",
+        "name_id": 255909
+      },
+      {
+        "name_str": "牛男",
+        "name_id": 255910
+      },
+      {
+        "name_str": "舞踏会の姉貴",
+        "name_id": 255911
+      },
+      {
+        "name_str": "黒須 紘",
+        "name_id": 255912
+      }
+    ]
+  },
+  {
+    "genre": "その他",
+    "items": [
+      {
+        "name_str": "UNiVERSE しゃま＆みるく",
+        "name_id": 209502
+      },
+      {
+        "name_str": "FESTiVAL ラズ＆シフォン＆ソルト",
+        "name_id": 309503
+      },
+      {
+        "name_str": "BUDDiES 乙姫＆ラズ",
+        "name_id": 409507
+      },
+      {
+        "name_str": "PRiSM ソルト＆みるく",
+        "name_id": 509506
+      }
+    ]
+  },
+  {
+    "genre": "そらみこちほー",
+    "items": [
+      {
+        "name_str": "ときのそら",
+        "name_id": 106201
+      },
+      {
+        "name_str": "さくらみこ",
+        "name_id": 106202
+      },
+      {
+        "name_str": "ときのそら 舞",
+        "name_id": 106203
+      },
+      {
+        "name_str": "さくらみこ 舞",
+        "name_id": 106204
+      }
+    ]
+  },
+  {
+    "genre": "でらっくすちほー",
+    "items": [
+      {
+        "name_str": "ラズ",
+        "name_id": 301
+      },
+      {
+        "name_str": "ソルト",
+        "name_id": 302
+      },
+      {
+        "name_str": "シフォン",
+        "name_id": 303
+      },
+      {
+        "name_str": "乙姫",
+        "name_id": 304
+      },
+      {
+        "name_str": "しゃま",
+        "name_id": 305
+      },
+      {
+        "name_str": "みるく",
+        "name_id": 306
+      },
+      {
+        "name_str": "たぬっくま",
+        "name_id": 392
+      },
+      {
+        "name_str": "ひげっくま",
+        "name_id": 393
+      },
+      {
+        "name_str": "おねむっくま",
+        "name_id": 394
+      },
+      {
+        "name_str": "めがねっくま",
+        "name_id": 395
+      }
+    ]
+  },
+  {
+    "genre": "でらっくすちほー2",
+    "items": [
+      {
+        "name_str": "maimaiちゃん",
+        "name_id": 50701
+      },
+      {
+        "name_str": "はっぴー",
+        "name_id": 50702
+      },
+      {
+        "name_str": "カメ",
+        "name_id": 50703
+      },
+      {
+        "name_str": "タイ",
+        "name_id": 50704
+      },
+      {
+        "name_str": "エリザビー",
+        "name_id": 50705
+      }
+    ]
+  },
+  {
+    "genre": "なないろちほー",
+    "items": [
+      {
+        "name_str": "ソルト（ぷりずむ）",
+        "name_id": 550101
+      },
+      {
+        "name_str": "みるく（ぷりずむ）",
+        "name_id": 550102
+      },
+      {
+        "name_str": "しゃま（ウタヒメナイトストーム）",
+        "name_id": 550103
+      },
+      {
+        "name_str": "みるく（ウタヒメナイトストーム）",
+        "name_id": 550104
+      },
+      {
+        "name_str": "ソルト（ぷりずむぷらす）",
+        "name_id": 550105
+      },
+      {
+        "name_str": "みるく（ぷりずむぷらす）",
+        "name_id": 550106
+      }
+    ]
+  },
+  {
+    "genre": "ななひらちほー",
+    "items": [
+      {
+        "name_str": "ななひら",
+        "name_id": 505901
+      },
+      {
+        "name_str": "ベベ",
+        "name_id": 505902
+      },
+      {
+        "name_str": "みてー",
+        "name_id": 505903
+      },
+      {
+        "name_str": "おもち",
+        "name_id": 505904
+      },
+      {
+        "name_str": "ななひら（おめかしワンピ）",
+        "name_id": 505905
+      }
+    ]
+  },
+  {
+    "genre": "にじさんじちほー",
+    "items": [
+      {
+        "name_str": "える",
+        "name_id": 105901
+      },
+      {
+        "name_str": "シスター・クレア",
+        "name_id": 105902
+      },
+      {
+        "name_str": "ジョー・力一",
+        "name_id": 105903
+      },
+      {
+        "name_str": "ドーラ",
+        "name_id": 105904
+      },
+      {
+        "name_str": "月ノ美兎",
+        "name_id": 105905
+      },
+      {
+        "name_str": "剣持刀也",
+        "name_id": 105906
+      },
+      {
+        "name_str": "森中花咲",
+        "name_id": 105907
+      },
+      {
+        "name_str": "静凛",
+        "name_id": 105908
+      },
+      {
+        "name_str": "鷹宮リオン",
+        "name_id": 105909
+      },
+      {
+        "name_str": "樋口楓",
+        "name_id": 105910
+      },
+      {
+        "name_str": "本間ひまわり",
+        "name_id": 105911
+      },
+      {
+        "name_str": "緑仙",
+        "name_id": 105912
+      }
+    ]
+  },
+  {
+    "genre": "にじさんじのB級バラエティ（仮）ちほー",
+    "items": [
+      {
+        "name_str": "椎名唯華",
+        "name_id": 455601
+      },
+      {
+        "name_str": "花畑チャイカ",
+        "name_id": 455602
+      },
+      {
+        "name_str": "だいたいイブラヒム",
+        "name_id": 455603
+      },
+      {
+        "name_str": "ほぼイブラヒム",
+        "name_id": 455604
+      },
+      {
+        "name_str": "怨筆くん",
+        "name_id": 455605
+      },
+      {
+        "name_str": "イブラヒムのご近所さん",
+        "name_id": 455606
+      },
+      {
+        "name_str": "サバーニャ",
+        "name_id": 455607
+      }
+    ]
+  },
+  {
+    "genre": "はじまりのちほー",
+    "items": [
+      {
+        "name_str": "でらっくま",
+        "name_id": 101
+      },
+      {
+        "name_str": "いえてぃっくま",
+        "name_id": 102
+      },
+      {
+        "name_str": "りすっくま",
+        "name_id": 103
+      },
+      {
+        "name_str": "ぱんだっくま",
+        "name_id": 104
+      },
+      {
+        "name_str": "みつよしっくま",
+        "name_id": 105
+      }
+    ]
+  },
+  {
+    "genre": "はじまりのちほー2",
+    "items": [
+      {
+        "name_str": "あおはるっくま",
+        "name_id": 50101
+      },
+      {
+        "name_str": "にんじゃっくま",
+        "name_id": 50102
+      },
+      {
+        "name_str": "どらごっくま",
+        "name_id": 50103
+      },
+      {
+        "name_str": "えんじぇっくま",
+        "name_id": 50104
+      },
+      {
+        "name_str": "くろばらっくま",
+        "name_id": 50105
+      }
+    ]
+  },
+  {
+    "genre": "はるまきごはんちほー",
+    "items": [
+      {
+        "name_str": "メルティ",
+        "name_id": 155901
+      },
+      {
+        "name_str": "青い子",
+        "name_id": 155902
+      },
+      {
+        "name_str": "ナナ",
+        "name_id": 155903
+      },
+      {
+        "name_str": "リリ",
+        "name_id": 155904
+      },
+      {
+        "name_str": "マカロン",
+        "name_id": 155905
+      }
+    ]
+  },
+  {
+    "genre": "まいまいまいごえんちほー",
+    "items": [
+      {
+        "name_str": "シンタ",
+        "name_id": 455501
+      },
+      {
+        "name_str": "ヒカル",
+        "name_id": 455502
+      },
+      {
+        "name_str": "ダイゴロウ",
+        "name_id": 455503
+      },
+      {
+        "name_str": "カナタ",
+        "name_id": 455504
+      },
+      {
+        "name_str": "ハヤテ",
+        "name_id": 455505
+      },
+      {
+        "name_str": "ゾーヤ",
+        "name_id": 455506
+      },
+      {
+        "name_str": "ライオン",
+        "name_id": 455507
+      },
+      {
+        "name_str": "ライム",
+        "name_id": 455508
+      },
+      {
+        "name_str": "マリア",
+        "name_id": 455509
+      },
+      {
+        "name_str": "ユズリハ",
+        "name_id": 455510
+      },
+      {
+        "name_str": "マドカ",
+        "name_id": 455511
+      },
+      {
+        "name_str": "マモル",
+        "name_id": 455512
+      },
+      {
+        "name_str": "リンリン",
+        "name_id": 455513
+      },
+      {
+        "name_str": "ワタル",
+        "name_id": 455514
+      },
+      {
+        "name_str": "ダイヤ",
+        "name_id": 455515
+      },
+      {
+        "name_str": "アキ",
+        "name_id": 455516
+      },
+      {
+        "name_str": "岡田ユウ",
+        "name_id": 455517
+      },
+      {
+        "name_str": "ルミ先生",
+        "name_id": 455518
+      },
+      {
+        "name_str": "マイ",
+        "name_id": 455519
+      }
+    ]
+  },
+  {
+    "genre": "まちカドまぞくちほー",
+    "items": [
+      {
+        "name_str": "吉田優子",
+        "name_id": 105101
+      },
+      {
+        "name_str": "千代田桃",
+        "name_id": 105102
+      },
+      {
+        "name_str": "リリス",
+        "name_id": 105103
+      },
+      {
+        "name_str": "陽夏木ミカン",
+        "name_id": 105104
+      },
+      {
+        "name_str": "佐田杏里",
+        "name_id": 105105
+      },
+      {
+        "name_str": "吉田良子",
+        "name_id": 105106
+      },
+      {
+        "name_str": "吉田清子",
+        "name_id": 105107
+      },
+      {
+        "name_str": "小倉しおん",
+        "name_id": 105108
+      }
+    ]
+  },
+  {
+    "genre": "みかんヶ岡ちほー",
+    "items": [
+      {
+        "name_str": "萌木ゆずか",
+        "name_id": 50401
+      },
+      {
+        "name_str": "萌木ほのか",
+        "name_id": 50402
+      },
+      {
+        "name_str": "萌木はるか",
+        "name_id": 50403
+      },
+      {
+        "name_str": "萌木いよか",
+        "name_id": 50404
+      },
+      {
+        "name_str": "萌木せとか",
+        "name_id": 50405
+      }
+    ]
+  },
+  {
+    "genre": "ゆこぴちほー",
+    "items": [
+      {
+        "name_str": "歌愛ユキ（強風オールバック）",
+        "name_id": 455301
+      },
+      {
+        "name_str": "あおられ犬",
+        "name_id": 455302
+      },
+      {
+        "name_str": "カスタネットからす（強風オールバック）",
+        "name_id": 455303
+      },
+      {
+        "name_str": "はと1",
+        "name_id": 455304
+      },
+      {
+        "name_str": "はと2",
+        "name_id": 455305
+      },
+      {
+        "name_str": "はと3",
+        "name_id": 455306
+      },
+      {
+        "name_str": "はともどき",
+        "name_id": 455307
+      },
+      {
+        "name_str": "歌愛ユキ（寝起きヤシの木）",
+        "name_id": 455308
+      },
+      {
+        "name_str": "髪結いぬ",
+        "name_id": 455309
+      },
+      {
+        "name_str": "カスタネットからす（寝起きヤシの木）",
+        "name_id": 455310
+      },
+      {
+        "name_str": "トライアングルはともどき",
+        "name_id": 455311
+      },
+      {
+        "name_str": "ヤシの木",
+        "name_id": 455312
+      }
+    ]
+  },
+  {
+    "genre": "ゆるキャン△ SEASON2ちほー",
+    "items": [
+      {
+        "name_str": "各務原 なでしこ",
+        "name_id": 205701
+      },
+      {
+        "name_str": "志摩 リン",
+        "name_id": 205702
+      },
+      {
+        "name_str": "大垣 千明",
+        "name_id": 205703
+      },
+      {
+        "name_str": "犬山 あおい",
+        "name_id": 205704
+      },
+      {
+        "name_str": "斉藤 恵那",
+        "name_id": 205705
+      },
+      {
+        "name_str": "土岐 綾乃",
+        "name_id": 205706
+      }
+    ]
+  },
+  {
+    "genre": "アイドルマスター SideMちほー",
+    "items": [
+      {
+        "name_str": "天道 輝",
+        "name_id": 205201
+      },
+      {
+        "name_str": "桜庭 薫",
+        "name_id": 205202
+      },
+      {
+        "name_str": "柏木 翼",
+        "name_id": 205203
+      }
+    ]
+  },
+  {
+    "genre": "アイドルマスター ミリオンライブ！ちほー",
+    "items": [
+      {
+        "name_str": "最上 静香",
+        "name_id": 205101
+      },
+      {
+        "name_str": "箱崎 星梨花",
+        "name_id": 205102
+      },
+      {
+        "name_str": "野々原 茜",
+        "name_id": 205103
+      },
+      {
+        "name_str": "北沢 志保",
+        "name_id": 205104
+      },
+      {
+        "name_str": "北上 麗花",
+        "name_id": 205105
+      }
+    ]
+  },
+  {
+    "genre": "イロドリミドリちほー",
+    "items": [
+      {
+        "name_str": "明坂 芹菜",
+        "name_id": 4001
+      },
+      {
+        "name_str": "御形 アリシアナ",
+        "name_id": 4002
+      },
+      {
+        "name_str": "天王洲 なずな",
+        "name_id": 4003
+      },
+      {
+        "name_str": "小仏 凪",
+        "name_id": 4004
+      },
+      {
+        "name_str": "箱部 なる",
+        "name_id": 4005
+      },
+      {
+        "name_str": "月鈴 那知",
+        "name_id": 4006
+      },
+      {
+        "name_str": "月鈴 白奈",
+        "name_id": 4007
+      },
+      {
+        "name_str": "五十嵐 撫子",
+        "name_id": 4008
+      },
+      {
+        "name_str": "萩原 七々瀬",
+        "name_id": 4009
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー",
+    "items": [
+      {
+        "name_str": "星咲 あかり",
+        "name_id": 53301
+      },
+      {
+        "name_str": "藤沢 柚子",
+        "name_id": 53302
+      },
+      {
+        "name_str": "三角 葵",
+        "name_id": 53303
+      },
+      {
+        "name_str": "日向 千夏",
+        "name_id": 53304
+      },
+      {
+        "name_str": "藍原 椿",
+        "name_id": 53305
+      },
+      {
+        "name_str": "九條 楓",
+        "name_id": 53306
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー2",
+    "items": [
+      {
+        "name_str": "柏木 美亜",
+        "name_id": 106101
+      },
+      {
+        "name_str": "東雲 つむぎ",
+        "name_id": 106102
+      },
+      {
+        "name_str": "高瀬 梨緒",
+        "name_id": 106103
+      },
+      {
+        "name_str": "逢坂 茜",
+        "name_id": 106104
+      },
+      {
+        "name_str": "珠洲島 有栖",
+        "name_id": 106105
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー3",
+    "items": [
+      {
+        "name_str": "桜井 春菜",
+        "name_id": 156001
+      },
+      {
+        "name_str": "早乙女 彩華",
+        "name_id": 156002
+      },
+      {
+        "name_str": "井之原 小星",
+        "name_id": 156003
+      },
+      {
+        "name_str": "柏木 咲姫",
+        "name_id": 156004
+      },
+      {
+        "name_str": "結城 莉玖",
+        "name_id": 156005
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー4",
+    "items": [
+      {
+        "name_str": "星咲 あかり（No Limit RED Force）",
+        "name_id": 206201
+      },
+      {
+        "name_str": "藤沢 柚子（No Limit RED Force）",
+        "name_id": 206202
+      },
+      {
+        "name_str": "三角 葵（No Limit RED Force）",
+        "name_id": 206203
+      },
+      {
+        "name_str": "皇城 セツナ",
+        "name_id": 206204
+      },
+      {
+        "name_str": "珠洲島 有栖（ぱくぱく☆がーる）",
+        "name_id": 206205
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー5",
+    "items": [
+      {
+        "name_str": "星咲 あかり（Transcend Lights）",
+        "name_id": 256001
+      },
+      {
+        "name_str": "藤沢 柚子（Transcend Lights）",
+        "name_id": 256002
+      },
+      {
+        "name_str": "三角 葵（Transcend Lights）",
+        "name_id": 256003
+      },
+      {
+        "name_str": "日向 千夏（Transcend Lights）",
+        "name_id": 256004
+      },
+      {
+        "name_str": "皇城 セツナ（Transcend Lights）",
+        "name_id": 256005
+      },
+      {
+        "name_str": "高瀬 梨緒（シュータードレス）",
+        "name_id": 256006
+      },
+      {
+        "name_str": "結城 莉玖（シュータードレス）",
+        "name_id": 256007
+      },
+      {
+        "name_str": "藍原 椿（シュータードレス）",
+        "name_id": 256008
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー6",
+    "items": [
+      {
+        "name_str": "星咲 あかり（STARRED HEART）",
+        "name_id": 355801
+      },
+      {
+        "name_str": "結城 莉玖（STARRED HEART）",
+        "name_id": 355802
+      },
+      {
+        "name_str": "珠洲島 有栖（STARRED HEART）",
+        "name_id": 355803
+      },
+      {
+        "name_str": "九條 楓（STARRED HEART）",
+        "name_id": 355804
+      },
+      {
+        "name_str": "東雲 つむぎ（STARRED HEART）",
+        "name_id": 355805
+      },
+      {
+        "name_str": "逢坂 茜（シュータードレス）",
+        "name_id": 355806
+      },
+      {
+        "name_str": "珠洲島 有栖（シュータードレス）",
+        "name_id": 355807
+      },
+      {
+        "name_str": "九條 楓（シュータードレス）",
+        "name_id": 355808
+      },
+      {
+        "name_str": "皇城 セツナ（シュータードレス）",
+        "name_id": 355809
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー7",
+    "items": [
+      {
+        "name_str": "柏木 咲姫（シュータードレス）",
+        "name_id": 456101
+      },
+      {
+        "name_str": "井之原 小星（シュータードレス）",
+        "name_id": 456102
+      },
+      {
+        "name_str": "日向 千夏（シュータードレス）",
+        "name_id": 456103
+      },
+      {
+        "name_str": "柏木 美亜（シュータードレス）",
+        "name_id": 456104
+      },
+      {
+        "name_str": "東雲 つむぎ（シュータードレス）",
+        "name_id": 456105
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー8",
+    "items": [
+      {
+        "name_str": "星咲 あかり（いちげき！）",
+        "name_id": 506001
+      },
+      {
+        "name_str": "藤沢 柚子（いちげき！）",
+        "name_id": 506002
+      },
+      {
+        "name_str": "三角 葵（いちげき！）",
+        "name_id": 506003
+      },
+      {
+        "name_str": "高瀬 梨緒（いちげき！）",
+        "name_id": 506004
+      },
+      {
+        "name_str": "結城 莉玖（いちげき！）",
+        "name_id": 506005
+      },
+      {
+        "name_str": "藍原 椿（いちげき！）",
+        "name_id": 506006
+      },
+      {
+        "name_str": "早乙女 彩華（いちげき！）",
+        "name_id": 506007
+      },
+      {
+        "name_str": "桜井 春菜（いちげき！）",
+        "name_id": 506008
+      },
+      {
+        "name_str": "柏木 咲姫（いちげき！）",
+        "name_id": 506009
+      },
+      {
+        "name_str": "井之原 小星（いちげき！）",
+        "name_id": 506010
+      },
+      {
+        "name_str": "逢坂 茜（いちげき！）",
+        "name_id": 506011
+      },
+      {
+        "name_str": "珠洲島 有栖（いちげき！）",
+        "name_id": 506012
+      },
+      {
+        "name_str": "九條 楓（いちげき！）",
+        "name_id": 506013
+      },
+      {
+        "name_str": "日向 千夏（いちげき！）",
+        "name_id": 506014
+      },
+      {
+        "name_str": "柏木 美亜（いちげき！）",
+        "name_id": 506015
+      },
+      {
+        "name_str": "東雲 つむぎ（いちげき！）",
+        "name_id": 506016
+      },
+      {
+        "name_str": "皇城 セツナ（いちげき！）",
+        "name_id": 506017
+      }
+    ]
+  },
+  {
+    "genre": "オンゲキちほー9",
+    "items": [
+      {
+        "name_str": "星咲 あかり（WakeUP MakeUP FEVER!）",
+        "name_id": 606101
+      },
+      {
+        "name_str": "高瀬 梨緒（WakeUP MakeUP FEVER!）",
+        "name_id": 606102
+      },
+      {
+        "name_str": "藍原 椿（WakeUP MakeUP FEVER!）",
+        "name_id": 606103
+      },
+      {
+        "name_str": "桜井 春菜（WakeUP MakeUP FEVER!）",
+        "name_id": 606104
+      },
+      {
+        "name_str": "東雲 つむぎ（WakeUP MakeUP FEVER!）",
+        "name_id": 606105
+      },
+      {
+        "name_str": "早乙女 彩華（シュータードレス）",
+        "name_id": 606106
+      },
+      {
+        "name_str": "桜井 春菜（シュータードレス）",
+        "name_id": 606107
+      }
+    ]
+  },
+  {
+    "genre": "オーイシ×加藤のピザラジオちほー",
+    "items": [
+      {
+        "name_str": "オーイシマサヨシ",
+        "name_id": 205401
+      },
+      {
+        "name_str": "加藤純一",
+        "name_id": 205402
+      }
+    ]
+  },
+  {
+    "genre": "キノシタちほー",
+    "items": [
+      {
+        "name_str": "キノシタ",
+        "name_id": 205601
+      },
+      {
+        "name_str": "鏡音リン（ポッピンキャンディ☆フィーバー！）",
+        "name_id": 205602
+      },
+      {
+        "name_str": "音街ウナ（ポッピンキャンディ☆フィーバー！）",
+        "name_id": 205603
+      },
+      {
+        "name_str": "音街ウナ（どぅーまいべすと！）",
+        "name_id": 205604
+      },
+      {
+        "name_str": "鏡音リン（スターリースカイ☆パレード）",
+        "name_id": 205605
+      },
+      {
+        "name_str": "音街ウナ（スターリースカイ☆パレード）",
+        "name_id": 205606
+      },
+      {
+        "name_str": "音街ウナ（はやくそれになりたい！）",
+        "name_id": 205607
+      }
+    ]
+  },
+  {
+    "genre": "グルーヴコースターちほー",
+    "items": [
+      {
+        "name_str": "リンカ",
+        "name_id": 405201
+      },
+      {
+        "name_str": "セイネ",
+        "name_id": 405202
+      },
+      {
+        "name_str": "ユメ",
+        "name_id": 405203
+      },
+      {
+        "name_str": "ユウ",
+        "name_id": 405204
+      },
+      {
+        "name_str": "グルーヴコースター筐体",
+        "name_id": 405205
+      },
+      {
+        "name_str": "HEADPHONE CRAB",
+        "name_id": 405206
+      }
+    ]
+  },
+  {
+    "genre": "グルーヴコースターちほー2",
+    "items": [
+      {
+        "name_str": "セイネ（10周年）",
+        "name_id": 455401
+      },
+      {
+        "name_str": "ユメ（10周年）",
+        "name_id": 455402
+      },
+      {
+        "name_str": "リンカ（10周年）",
+        "name_id": 455403
+      },
+      {
+        "name_str": "フルメタル ずんど子ちゃん",
+        "name_id": 455404
+      },
+      {
+        "name_str": "ポリビニル どんつくくん",
+        "name_id": 455405
+      }
+    ]
+  },
+  {
+    "genre": "ゲームセンターCXちほー",
+    "items": [
+      {
+        "name_str": "有野課長",
+        "name_id": 255601
+      },
+      {
+        "name_str": "12代目AD松井",
+        "name_id": 255602
+      },
+      {
+        "name_str": "16代目AD加賀",
+        "name_id": 255603
+      },
+      {
+        "name_str": "MA谷澤＆14代目AD大須賀",
+        "name_id": 255604
+      },
+      {
+        "name_str": "カメラマン阿部",
+        "name_id": 255605
+      },
+      {
+        "name_str": "王様",
+        "name_id": 255606
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー",
+    "items": [
+      {
+        "name_str": "モモ",
+        "name_id": 100401
+      },
+      {
+        "name_str": "アカツキ",
+        "name_id": 100402
+      },
+      {
+        "name_str": "ナノハ",
+        "name_id": 100403
+      },
+      {
+        "name_str": "ソウ",
+        "name_id": 100404
+      },
+      {
+        "name_str": "ノア",
+        "name_id": 100405
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー2",
+    "items": [
+      {
+        "name_str": "モモ",
+        "name_id": 150301
+      },
+      {
+        "name_str": "トキヤ",
+        "name_id": 150302
+      },
+      {
+        "name_str": "コハク",
+        "name_id": 150303
+      },
+      {
+        "name_str": "ノア",
+        "name_id": 150304
+      },
+      {
+        "name_str": "アカツキ",
+        "name_id": 150305
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー3",
+    "items": [
+      {
+        "name_str": "アカツキ",
+        "name_id": 300301
+      },
+      {
+        "name_str": "コハク",
+        "name_id": 300302
+      },
+      {
+        "name_str": "暁",
+        "name_id": 300303
+      },
+      {
+        "name_str": "ノア",
+        "name_id": 300304
+      },
+      {
+        "name_str": "ソウ",
+        "name_id": 300305
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー4",
+    "items": [
+      {
+        "name_str": "アカツキ",
+        "name_id": 350301
+      },
+      {
+        "name_str": "ノア（過去）",
+        "name_id": 350302
+      },
+      {
+        "name_str": "コハク",
+        "name_id": 350303
+      },
+      {
+        "name_str": "アカツキ（正装）",
+        "name_id": 350304
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー5",
+    "items": [
+      {
+        "name_str": "ノア",
+        "name_id": 400301
+      },
+      {
+        "name_str": "ソウ",
+        "name_id": 400302
+      },
+      {
+        "name_str": "トキヤ",
+        "name_id": 400303
+      },
+      {
+        "name_str": "ナノハ",
+        "name_id": 400304
+      },
+      {
+        "name_str": "ユウキ",
+        "name_id": 400305
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー6",
+    "items": [
+      {
+        "name_str": "アカツキ",
+        "name_id": 500101
+      },
+      {
+        "name_str": "コハク",
+        "name_id": 500102
+      },
+      {
+        "name_str": "天空の王",
+        "name_id": 500103
+      },
+      {
+        "name_str": "大地の王",
+        "name_id": 500104
+      }
+    ]
+  },
+  {
+    "genre": "スカイストリートちほー7",
+    "items": [
+      {
+        "name_str": "トキヤ（ぬいぐるみ）",
+        "name_id": 600401
+      },
+      {
+        "name_str": "モモ",
+        "name_id": 600402
+      },
+      {
+        "name_str": "コハク",
+        "name_id": 600403
+      },
+      {
+        "name_str": "ノア",
+        "name_id": 600404
+      }
+    ]
+  },
+  {
+    "genre": "ゾンビランドサガちほー",
+    "items": [
+      {
+        "name_str": "源さくら",
+        "name_id": 3601
+      },
+      {
+        "name_str": "二階堂サキ",
+        "name_id": 3602
+      },
+      {
+        "name_str": "水野愛",
+        "name_id": 3603
+      },
+      {
+        "name_str": "紺野純子",
+        "name_id": 3604
+      },
+      {
+        "name_str": "ゆうぎり",
+        "name_id": 3605
+      },
+      {
+        "name_str": "星川リリィ",
+        "name_id": 3606
+      },
+      {
+        "name_str": "山田たえ",
+        "name_id": 3607
+      },
+      {
+        "name_str": "巽幸太郎",
+        "name_id": 3608
+      },
+      {
+        "name_str": "ロメロ",
+        "name_id": 3609
+      },
+      {
+        "name_str": "警察官Ａ",
+        "name_id": 3610
+      }
+    ]
+  },
+  {
+    "genre": "ツユちほー",
+    "items": [
+      {
+        "name_str": "くらべられっ子ちゃん",
+        "name_id": 255201
+      },
+      {
+        "name_str": "あのバスちゃん",
+        "name_id": 255202
+      },
+      {
+        "name_str": "天使ちゃん",
+        "name_id": 255203
+      },
+      {
+        "name_str": "ナイ",
+        "name_id": 255204
+      }
+    ]
+  },
+  {
+    "genre": "デフォルト",
+    "items": [
+      {
+        "name_str": "デフォルト",
+        "name_id": 1
+      },
+      {
+        "name_str": "ユーザーアイコン",
+        "name_id": 10
+      }
+    ]
+  },
+  {
+    "genre": "トリコロちほー",
+    "items": [
+      {
+        "name_str": "maiぱっど",
+        "name_id": 600101
+      },
+      {
+        "name_str": "らいむっくま（さーくる）",
+        "name_id": 600102
+      },
+      {
+        "name_str": "れもんっくま（さーくる）",
+        "name_id": 600103
+      },
+      {
+        "name_str": "でらっくま（さーくる）",
+        "name_id": 600104
+      },
+      {
+        "name_str": "シフォン（さーくる）",
+        "name_id": 600105
+      },
+      {
+        "name_str": "しゃま（さーくる）",
+        "name_id": 600106
+      },
+      {
+        "name_str": "乙姫（廃墟にいますキャンペーン）",
+        "name_id": 600107
+      }
+    ]
+  },
+  {
+    "genre": "ドラゴンちほー",
+    "items": [
+      {
+        "name_str": "バハムート",
+        "name_id": 501
+      },
+      {
+        "name_str": "ニーズヘッグ",
+        "name_id": 502
+      },
+      {
+        "name_str": "ファフニール",
+        "name_id": 503
+      },
+      {
+        "name_str": "ラタトスク",
+        "name_id": 504
+      },
+      {
+        "name_str": "フレーズベルグ",
+        "name_id": 505
+      }
+    ]
+  },
+  {
+    "genre": "ドラゴンちほー2",
+    "items": [
+      {
+        "name_str": "アスク",
+        "name_id": 350401
+      },
+      {
+        "name_str": "LED",
+        "name_id": 350402
+      },
+      {
+        "name_str": "エムブラ",
+        "name_id": 350403
+      }
+    ]
+  },
+  {
+    "genre": "ドラゴンちほー3",
+    "items": [
+      {
+        "name_str": "エムブラ",
+        "name_id": 450301
+      },
+      {
+        "name_str": "クエレブレ",
+        "name_id": 450302
+      },
+      {
+        "name_str": "シグルズ",
+        "name_id": 450303
+      },
+      {
+        "name_str": "アスク",
+        "name_id": 450304
+      }
+    ]
+  },
+  {
+    "genre": "ドラゴンちほー4",
+    "items": [
+      {
+        "name_str": "シグルズ",
+        "name_id": 550201
+      },
+      {
+        "name_str": "ブリュレ",
+        "name_id": 550202
+      },
+      {
+        "name_str": "カラメル",
+        "name_id": 550203
+      },
+      {
+        "name_str": "ドラゴンの王",
+        "name_id": 550204
+      }
+    ]
+  },
+  {
+    "genre": "ナユタン星人ちほー",
+    "items": [
+      {
+        "name_str": "アンドロメダ子",
+        "name_id": 105301
+      },
+      {
+        "name_str": "アンドロメダ男",
+        "name_id": 105302
+      },
+      {
+        "name_str": "チビキャラA",
+        "name_id": 105303
+      },
+      {
+        "name_str": "チビキャラB",
+        "name_id": 105304
+      },
+      {
+        "name_str": "チビキャラC",
+        "name_id": 105305
+      },
+      {
+        "name_str": "チビキャラD",
+        "name_id": 105306
+      }
+    ]
+  },
+  {
+    "genre": "ハピフェスちほー",
+    "items": [
+      {
+        "name_str": "ラズ（ふぇすてぃばる）",
+        "name_id": 300101
+      },
+      {
+        "name_str": "シフォン（ふぇすてぃばる）",
+        "name_id": 300102
+      },
+      {
+        "name_str": "ソルト（ふぇすてぃばる）",
+        "name_id": 300103
+      },
+      {
+        "name_str": "でらっくま（ふぇすてぃばる）",
+        "name_id": 300104
+      },
+      {
+        "name_str": "らいむっくま（ふぇすてぃばる）",
+        "name_id": 300105
+      },
+      {
+        "name_str": "れもんっくま（ふぇすてぃばる）",
+        "name_id": 300106
+      }
+    ]
+  },
+  {
+    "genre": "ハピフェスちほー2",
+    "items": [
+      {
+        "name_str": "ラズ（ツムギボシ）",
+        "name_id": 350101
+      },
+      {
+        "name_str": "シフォン（ツムギボシ）",
+        "name_id": 350102
+      },
+      {
+        "name_str": "ソルト（ツムギボシ）",
+        "name_id": 350103
+      },
+      {
+        "name_str": "ダンディ・ダン（ツムギボシ）",
+        "name_id": 350104
+      },
+      {
+        "name_str": "エリザビー（ツムギボシ）",
+        "name_id": 350105
+      }
+    ]
+  },
+  {
+    "genre": "パーリィちほー",
+    "items": [
+      {
+        "name_str": "乙姫（ばでぃーず）",
+        "name_id": 400101
+      },
+      {
+        "name_str": "ラズ（ばでぃーず）",
+        "name_id": 400102
+      },
+      {
+        "name_str": "SDダンディ・ダン",
+        "name_id": 400103
+      },
+      {
+        "name_str": "SD亀",
+        "name_id": 400104
+      },
+      {
+        "name_str": "SD鯛",
+        "name_id": 400105
+      },
+      {
+        "name_str": "SD光吉 猛修",
+        "name_id": 400106
+      },
+      {
+        "name_str": "しゃま（Party☆People☆Princess）",
+        "name_id": 400107
+      },
+      {
+        "name_str": "みるく（Party☆People☆Princess）",
+        "name_id": 400108
+      }
+    ]
+  },
+  {
+    "genre": "パーリィちほー2",
+    "items": [
+      {
+        "name_str": "乙姫（ばでぃーずぷらす）",
+        "name_id": 450101
+      },
+      {
+        "name_str": "ラズ（ばでぃーずぷらす）",
+        "name_id": 450102
+      },
+      {
+        "name_str": "乙姫（のじゃロリック）",
+        "name_id": 450103
+      },
+      {
+        "name_str": "ラズ（のじゃロリック）",
+        "name_id": 450104
+      }
+    ]
+  },
+  {
+    "genre": "ヒメヒナちほー",
+    "items": [
+      {
+        "name_str": "田中ヒメ",
+        "name_id": 355101
+      },
+      {
+        "name_str": "田中ヒメ（藍の華）",
+        "name_id": 355102
+      },
+      {
+        "name_str": "田中ヒメ（希織歌）",
+        "name_id": 355103
+      },
+      {
+        "name_str": "鈴木ヒナ",
+        "name_id": 355104
+      },
+      {
+        "name_str": "鈴木ヒナ（藍の華）",
+        "name_id": 355105
+      },
+      {
+        "name_str": "鈴木ヒナ（希織歌）",
+        "name_id": 355106
+      }
+    ]
+  },
+  {
+    "genre": "ビックカメラちほー",
+    "items": [
+      {
+        "name_str": "本店たん",
+        "name_id": 155701
+      },
+      {
+        "name_str": "さがみたん",
+        "name_id": 155702
+      },
+      {
+        "name_str": "さっぽろたん",
+        "name_id": 155703
+      },
+      {
+        "name_str": "なごやたん",
+        "name_id": 155704
+      },
+      {
+        "name_str": "はまたん",
+        "name_id": 155705
+      },
+      {
+        "name_str": "岡山たん",
+        "name_id": 155706
+      },
+      {
+        "name_str": "水戸たん",
+        "name_id": 155707
+      },
+      {
+        "name_str": "川崎たん",
+        "name_id": 155708
+      },
+      {
+        "name_str": "なんばたん",
+        "name_id": 155709
+      },
+      {
+        "name_str": "柏たん",
+        "name_id": 155710
+      },
+      {
+        "name_str": "藍手いおり & TELUちゃん",
+        "name_id": 155711
+      },
+      {
+        "name_str": "激おこバンバンちゃん",
+        "name_id": 155712
+      }
+    ]
+  },
+  {
+    "genre": "ビートまりおちほー",
+    "items": [
+      {
+        "name_str": "ビートまりお",
+        "name_id": 555601
+      },
+      {
+        "name_str": "八意永琳",
+        "name_id": 555602
+      },
+      {
+        "name_str": "因幡てゐ",
+        "name_id": 555603
+      },
+      {
+        "name_str": "藤原妹紅",
+        "name_id": 555604
+      },
+      {
+        "name_str": "蓬莱山輝夜",
+        "name_id": 555605
+      },
+      {
+        "name_str": "鈴仙・優曇華院・イナバ",
+        "name_id": 555606
+      }
+    ]
+  },
+  {
+    "genre": "ピノキオピーちほー",
+    "items": [
+      {
+        "name_str": "シスター（神っぽいな）",
+        "name_id": 355201
+      },
+      {
+        "name_str": "魔法少女（魔法少女とチョコレゐト）",
+        "name_id": 355202
+      },
+      {
+        "name_str": "アイマイナ",
+        "name_id": 355203
+      },
+      {
+        "name_str": "どうしてちゃん",
+        "name_id": 355204
+      },
+      {
+        "name_str": "アルティメットセンパイ",
+        "name_id": 355205
+      },
+      {
+        "name_str": "ピノキオピー",
+        "name_id": 355206
+      }
+    ]
+  },
+  {
+    "genre": "ブルーアーカイブちほー",
+    "items": [
+      {
+        "name_str": "アル",
+        "name_id": 605101
+      },
+      {
+        "name_str": "カヨコ",
+        "name_id": 605102
+      },
+      {
+        "name_str": "ムツキ",
+        "name_id": 605103
+      },
+      {
+        "name_str": "ハルカ",
+        "name_id": 605104
+      },
+      {
+        "name_str": "ヨシミ",
+        "name_id": 605105
+      },
+      {
+        "name_str": "アイリ",
+        "name_id": 605106
+      },
+      {
+        "name_str": "カズサ",
+        "name_id": 605107
+      },
+      {
+        "name_str": "ナツ",
+        "name_id": 605108
+      }
+    ]
+  },
+  {
+    "genre": "プロジェクトセカイちほー",
+    "items": [
+      {
+        "name_str": "東雲 彰人",
+        "name_id": 105801
+      },
+      {
+        "name_str": "白石 杏",
+        "name_id": 105802
+      },
+      {
+        "name_str": "小豆沢 こはね",
+        "name_id": 105803
+      },
+      {
+        "name_str": "青柳 冬弥",
+        "name_id": 105804
+      },
+      {
+        "name_str": "初音ミク（Vivid BAD SQUAD）",
+        "name_id": 105805
+      },
+      {
+        "name_str": "宵崎 奏",
+        "name_id": 105806
+      },
+      {
+        "name_str": "朝比奈 まふゆ",
+        "name_id": 105807
+      },
+      {
+        "name_str": "東雲 絵名",
+        "name_id": 105808
+      },
+      {
+        "name_str": "暁山 瑞希",
+        "name_id": 105809
+      },
+      {
+        "name_str": "初音ミク（25時、ナイトコードで。）",
+        "name_id": 105810
+      }
+    ]
+  },
+  {
+    "genre": "プロジェクトセカイちほー2",
+    "items": [
+      {
+        "name_str": "神代 類",
+        "name_id": 206001
+      },
+      {
+        "name_str": "鳳 えむ",
+        "name_id": 206002
+      },
+      {
+        "name_str": "天馬 司",
+        "name_id": 206003
+      },
+      {
+        "name_str": "草薙 寧々",
+        "name_id": 206004
+      },
+      {
+        "name_str": "初音ミク（ワンダーランズ×ショウタイム）",
+        "name_id": 206005
+      },
+      {
+        "name_str": "星乃 一歌",
+        "name_id": 206006
+      },
+      {
+        "name_str": "天馬 咲希",
+        "name_id": 206007
+      },
+      {
+        "name_str": "望月 穂波",
+        "name_id": 206008
+      },
+      {
+        "name_str": "日野森 志歩",
+        "name_id": 206009
+      },
+      {
+        "name_str": "初音ミク（Leo/need）",
+        "name_id": 206010
+      },
+      {
+        "name_str": "桐谷 遥",
+        "name_id": 206011
+      },
+      {
+        "name_str": "花里 みのり",
+        "name_id": 206012
+      },
+      {
+        "name_str": "日野森 雫",
+        "name_id": 206013
+      },
+      {
+        "name_str": "桃井 愛莉",
+        "name_id": 206014
+      },
+      {
+        "name_str": "初音ミク（MORE MORE JUMP！）",
+        "name_id": 206015
+      }
+    ]
+  },
+  {
+    "genre": "プロジェクトセカイちほー3",
+    "items": [
+      {
+        "name_str": "初音ミク",
+        "name_id": 305301
+      },
+      {
+        "name_str": "鏡音リン",
+        "name_id": 305302
+      },
+      {
+        "name_str": "鏡音レン",
+        "name_id": 305303
+      },
+      {
+        "name_str": "巡音ルカ",
+        "name_id": 305304
+      },
+      {
+        "name_str": "MEIKO",
+        "name_id": 305305
+      },
+      {
+        "name_str": "KAITO",
+        "name_id": 305306
+      }
+    ]
+  },
+  {
+    "genre": "プロジェクトセカイちほー4",
+    "items": [
+      {
+        "name_str": "星乃 一歌",
+        "name_id": 406301
+      },
+      {
+        "name_str": "天馬 咲希",
+        "name_id": 406302
+      },
+      {
+        "name_str": "望月 穂波",
+        "name_id": 406303
+      },
+      {
+        "name_str": "日野森 志歩",
+        "name_id": 406304
+      },
+      {
+        "name_str": "初音ミク（Leo/need）",
+        "name_id": 406305
+      },
+      {
+        "name_str": "花里 みのり",
+        "name_id": 406306
+      },
+      {
+        "name_str": "桐谷 遥",
+        "name_id": 406307
+      },
+      {
+        "name_str": "桃井 愛莉",
+        "name_id": 406308
+      },
+      {
+        "name_str": "日野森 雫",
+        "name_id": 406309
+      },
+      {
+        "name_str": "初音ミク（MORE MORE JUMP！）",
+        "name_id": 406310
+      },
+      {
+        "name_str": "小豆沢 こはね",
+        "name_id": 406311
+      },
+      {
+        "name_str": "白石 杏",
+        "name_id": 406312
+      },
+      {
+        "name_str": "東雲 彰人",
+        "name_id": 406313
+      },
+      {
+        "name_str": "青柳 冬弥",
+        "name_id": 406314
+      },
+      {
+        "name_str": "初音ミク（Vivid BAD SQUAD）",
+        "name_id": 406315
+      },
+      {
+        "name_str": "天馬 司",
+        "name_id": 406316
+      },
+      {
+        "name_str": "鳳 えむ",
+        "name_id": 406317
+      },
+      {
+        "name_str": "草薙 寧々",
+        "name_id": 406318
+      },
+      {
+        "name_str": "神代 類",
+        "name_id": 406319
+      },
+      {
+        "name_str": "初音ミク（ワンダーランズ×ショウタイム）",
+        "name_id": 406320
+      },
+      {
+        "name_str": "宵崎 奏",
+        "name_id": 406321
+      },
+      {
+        "name_str": "朝比奈 まふゆ",
+        "name_id": 406322
+      },
+      {
+        "name_str": "東雲 絵名",
+        "name_id": 406323
+      },
+      {
+        "name_str": "暁山 瑞希",
+        "name_id": 406324
+      },
+      {
+        "name_str": "初音ミク（25時、ナイトコードで。）",
+        "name_id": 406325
+      }
+    ]
+  },
+  {
+    "genre": "ヘブンバーンズレッドちほー",
+    "items": [
+      {
+        "name_str": "茅森月歌",
+        "name_id": 405301
+      },
+      {
+        "name_str": "和泉ユキ",
+        "name_id": 405302
+      },
+      {
+        "name_str": "逢川めぐみ",
+        "name_id": 405303
+      },
+      {
+        "name_str": "東城つかさ",
+        "name_id": 405304
+      },
+      {
+        "name_str": "朝倉可憐",
+        "name_id": 405305
+      },
+      {
+        "name_str": "國見タマ",
+        "name_id": 405306
+      },
+      {
+        "name_str": "蒼井えりか",
+        "name_id": 405307
+      },
+      {
+        "name_str": "水瀬いちご",
+        "name_id": 405308
+      },
+      {
+        "name_str": "水瀬すもも",
+        "name_id": 405309
+      },
+      {
+        "name_str": "樋口聖華",
+        "name_id": 405310
+      },
+      {
+        "name_str": "柊木梢",
+        "name_id": 405311
+      },
+      {
+        "name_str": "ビャッコ",
+        "name_id": 405312
+      },
+      {
+        "name_str": "七瀬七海",
+        "name_id": 405313
+      }
+    ]
+  },
+  {
+    "genre": "ポプテピピックちほー",
+    "items": [
+      {
+        "name_str": "ポプ子/ボブネミミッミ",
+        "name_id": 3801
+      },
+      {
+        "name_str": "ピピ美/ボブネミミッミ",
+        "name_id": 3802
+      },
+      {
+        "name_str": "ポプ子",
+        "name_id": 3803
+      },
+      {
+        "name_str": "ピピ美",
+        "name_id": 3804
+      },
+      {
+        "name_str": "キングレコード",
+        "name_id": 3805
+      }
+    ]
+  },
+  {
+    "genre": "ポンコツクエストちほー",
+    "items": [
+      {
+        "name_str": "カク",
+        "name_id": 53601
+      },
+      {
+        "name_str": "イムラ",
+        "name_id": 53602
+      },
+      {
+        "name_str": "ミツイ",
+        "name_id": 53603
+      },
+      {
+        "name_str": "クロヌマ",
+        "name_id": 53604
+      },
+      {
+        "name_str": "ツチダ",
+        "name_id": 53605
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー",
+    "items": [
+      {
+        "name_str": "SAM_RAI",
+        "name_id": 401
+      },
+      {
+        "name_str": "BEN_KEI",
+        "name_id": 402
+      },
+      {
+        "name_str": "SIN_BA",
+        "name_id": 403
+      },
+      {
+        "name_str": "TO_KI",
+        "name_id": 404
+      },
+      {
+        "name_str": "黒姫",
+        "name_id": 405
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー2",
+    "items": [
+      {
+        "name_str": "ピリポ",
+        "name_id": 50201
+      },
+      {
+        "name_str": "ケファ",
+        "name_id": 50202
+      },
+      {
+        "name_str": "バルトルメ",
+        "name_id": 50203
+      },
+      {
+        "name_str": "アンドレアス",
+        "name_id": 50204
+      },
+      {
+        "name_str": "イーシュ",
+        "name_id": 50205
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー3",
+    "items": [
+      {
+        "name_str": "壱王",
+        "name_id": 100301
+      },
+      {
+        "name_str": "仁王",
+        "name_id": 100302
+      },
+      {
+        "name_str": "雷天",
+        "name_id": 100303
+      },
+      {
+        "name_str": "焔天",
+        "name_id": 100304
+      },
+      {
+        "name_str": "黒姫",
+        "name_id": 100305
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー4",
+    "items": [
+      {
+        "name_str": "濡羽",
+        "name_id": 200301
+      },
+      {
+        "name_str": "高麗",
+        "name_id": 200302
+      },
+      {
+        "name_str": "黒橡",
+        "name_id": 200303
+      },
+      {
+        "name_str": "赤墨",
+        "name_id": 200304
+      },
+      {
+        "name_str": "紫黒",
+        "name_id": 200305
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー5",
+    "items": [
+      {
+        "name_str": "家菊",
+        "name_id": 250201
+      },
+      {
+        "name_str": "橘花",
+        "name_id": 250202
+      },
+      {
+        "name_str": "黒桜",
+        "name_id": 250203
+      },
+      {
+        "name_str": "紫藤",
+        "name_id": 250204
+      },
+      {
+        "name_str": "藪椿",
+        "name_id": 250205
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー6",
+    "items": [
+      {
+        "name_str": "黒姫",
+        "name_id": 300201
+      },
+      {
+        "name_str": "紫黒",
+        "name_id": 300202
+      },
+      {
+        "name_str": "高麗",
+        "name_id": 300203
+      },
+      {
+        "name_str": "濡羽",
+        "name_id": 300204
+      },
+      {
+        "name_str": "イーシュ",
+        "name_id": 300205
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー7",
+    "items": [
+      {
+        "name_str": "プロトタイプI",
+        "name_id": 400201
+      },
+      {
+        "name_str": "ケファ",
+        "name_id": 400202
+      },
+      {
+        "name_str": "バルトルメ",
+        "name_id": 400203
+      },
+      {
+        "name_str": "マトフェイ",
+        "name_id": 400204
+      },
+      {
+        "name_str": "黒姫",
+        "name_id": 400205
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー8",
+    "items": [
+      {
+        "name_str": "黒楼十夜子",
+        "name_id": 450201
+      },
+      {
+        "name_str": "黒姫（プロトタイプ）",
+        "name_id": 450202
+      },
+      {
+        "name_str": "黒楼哉輝",
+        "name_id": 450203
+      },
+      {
+        "name_str": "紅丸（プロトタイプ）",
+        "name_id": 450204
+      }
+    ]
+  },
+  {
+    "genre": "メトロポリスちほー9",
+    "items": [
+      {
+        "name_str": "リグエル",
+        "name_id": 500401
+      },
+      {
+        "name_str": "酒呑童子",
+        "name_id": 500402
+      },
+      {
+        "name_str": "濡羽",
+        "name_id": 500403
+      },
+      {
+        "name_str": "黒姫",
+        "name_id": 500404
+      }
+    ]
+  },
+  {
+    "genre": "ランダム",
+    "items": [
+      {
+        "name_str": "全体からランダム",
+        "name_id": 2
+      },
+      {
+        "name_str": "お気に入りからランダム",
+        "name_id": 3
+      }
+    ]
+  },
+  {
+    "genre": "ワールドダイスター 夢のステラリウムちほー",
+    "items": [
+      {
+        "name_str": "鳳 ここな",
+        "name_id": 505501
+      },
+      {
+        "name_str": "静香",
+        "name_id": 505502
+      },
+      {
+        "name_str": "カトリナ・グリーベル",
+        "name_id": 505503
+      },
+      {
+        "name_str": "新妻 八恵",
+        "name_id": 505504
+      },
+      {
+        "name_str": "柳場 ぱんだ",
+        "name_id": 505505
+      },
+      {
+        "name_str": "流石 知冴",
+        "name_id": 505506
+      },
+      {
+        "name_str": "千寿 暦",
+        "name_id": 505507
+      },
+      {
+        "name_str": "ラモーナ・ウォルフ",
+        "name_id": 505508
+      },
+      {
+        "name_str": "王 雪",
+        "name_id": 505509
+      },
+      {
+        "name_str": "リリヤ・クルトベイ",
+        "name_id": 505510
+      },
+      {
+        "name_str": "与那国 緋花里",
+        "name_id": 505511
+      }
+    ]
+  },
+  {
+    "genre": "三枝明那ちほー",
+    "items": [
+      {
+        "name_str": "三枝明那",
+        "name_id": 555901
+      },
+      {
+        "name_str": "三枝明那（うぇいびー）",
+        "name_id": 555902
+      },
+      {
+        "name_str": "三枝明那（UniVerse/A）",
+        "name_id": 555903
+      },
+      {
+        "name_str": "三枝明那（UniVerse/B）",
+        "name_id": 555904
+      }
+    ]
+  },
+  {
+    "genre": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…ちほー",
+    "items": [
+      {
+        "name_str": "カタリナ・クラエス",
+        "name_id": 155601
+      },
+      {
+        "name_str": "ジオルド・スティアート",
+        "name_id": 155602
+      },
+      {
+        "name_str": "キース・クラエス",
+        "name_id": 155603
+      },
+      {
+        "name_str": "ソフィア・アスカルト",
+        "name_id": 155604
+      },
+      {
+        "name_str": "マリア・キャンベル",
+        "name_id": 155605
+      },
+      {
+        "name_str": "アラン・スティアート",
+        "name_id": 155606
+      },
+      {
+        "name_str": "ニコル・アスカルト",
+        "name_id": 155607
+      },
+      {
+        "name_str": "メアリ・ハント",
+        "name_id": 155608
+      }
+    ]
+  },
+  {
+    "genre": "五等分の花嫁∽ちほー",
+    "items": [
+      {
+        "name_str": "中野 一花",
+        "name_id": 605301
+      },
+      {
+        "name_str": "中野 二乃",
+        "name_id": 605302
+      },
+      {
+        "name_str": "中野 三玖",
+        "name_id": 605303
+      },
+      {
+        "name_str": "中野 四葉",
+        "name_id": 605304
+      },
+      {
+        "name_str": "中野 五月",
+        "name_id": 605305
+      }
+    ]
+  },
+  {
+    "genre": "先輩がうざい後輩の話ちほー",
+    "items": [
+      {
+        "name_str": "五十嵐双葉",
+        "name_id": 305101
+      },
+      {
+        "name_str": "武田晴海",
+        "name_id": 305102
+      },
+      {
+        "name_str": "桜井桃子",
+        "name_id": 305103
+      },
+      {
+        "name_str": "風間蒼太",
+        "name_id": 305104
+      },
+      {
+        "name_str": "黒部夏美",
+        "name_id": 305105
+      },
+      {
+        "name_str": "桜井優人",
+        "name_id": 305106
+      },
+      {
+        "name_str": "月城モナ",
+        "name_id": 305107
+      },
+      {
+        "name_str": "おじいちゃん",
+        "name_id": 305108
+      },
+      {
+        "name_str": "しろまんた",
+        "name_id": 305109
+      }
+    ]
+  },
+  {
+    "genre": "劇場版プロジェクトセカイ 壊れたセカイと歌えないミクちほー",
+    "items": [
+      {
+        "name_str": "閉ざされた窓のセカイの初音ミク",
+        "name_id": 605501
+      },
+      {
+        "name_str": "星乃 一歌",
+        "name_id": 605502
+      },
+      {
+        "name_str": "天馬 咲希",
+        "name_id": 605503
+      },
+      {
+        "name_str": "望月 穂波",
+        "name_id": 605504
+      },
+      {
+        "name_str": "日野森 志歩",
+        "name_id": 605505
+      },
+      {
+        "name_str": "教室のセカイの巡音ルカ",
+        "name_id": 605506
+      },
+      {
+        "name_str": "花里 みのり",
+        "name_id": 605507
+      },
+      {
+        "name_str": "桐谷 遥",
+        "name_id": 605508
+      },
+      {
+        "name_str": "桃井 愛莉",
+        "name_id": 605509
+      },
+      {
+        "name_str": "日野森 雫",
+        "name_id": 605510
+      },
+      {
+        "name_str": "ステージのセカイの鏡音リン",
+        "name_id": 605511
+      },
+      {
+        "name_str": "小豆沢 こはね",
+        "name_id": 605512
+      },
+      {
+        "name_str": "白石 杏",
+        "name_id": 605513
+      },
+      {
+        "name_str": "東雲 彰人",
+        "name_id": 605514
+      },
+      {
+        "name_str": "青柳 冬弥",
+        "name_id": 605515
+      },
+      {
+        "name_str": "ストリートのセカイの鏡音レン",
+        "name_id": 605516
+      },
+      {
+        "name_str": "ストリートのセカイのMEIKO",
+        "name_id": 605517
+      },
+      {
+        "name_str": "天馬 司",
+        "name_id": 605518
+      },
+      {
+        "name_str": "鳳 えむ",
+        "name_id": 605519
+      },
+      {
+        "name_str": "草薙 寧々",
+        "name_id": 605520
+      },
+      {
+        "name_str": "神代 類",
+        "name_id": 605521
+      },
+      {
+        "name_str": "ワンダーランドのセカイのKAITO",
+        "name_id": 605522
+      },
+      {
+        "name_str": "宵崎 奏",
+        "name_id": 605523
+      },
+      {
+        "name_str": "朝比奈 まふゆ",
+        "name_id": 605524
+      },
+      {
+        "name_str": "東雲 絵名",
+        "name_id": 605525
+      },
+      {
+        "name_str": "暁山 瑞希",
+        "name_id": 605526
+      },
+      {
+        "name_str": "誰もいないセカイの初音ミク",
+        "name_id": 605527
+      },
+      {
+        "name_str": "開かれた窓のセカイの初音ミク",
+        "name_id": 605528
+      }
+    ]
+  },
+  {
+    "genre": "周防パトラちほー",
+    "items": [
+      {
+        "name_str": "周防パトラ",
+        "name_id": 456001
+      },
+      {
+        "name_str": "周防パトラ（サイバー）",
+        "name_id": 456002
+      },
+      {
+        "name_str": "周防パトラ（制服）",
+        "name_id": 456003
+      },
+      {
+        "name_str": "周防パトラ（白制服）",
+        "name_id": 456004
+      },
+      {
+        "name_str": "周防パトラ（魔法少女）",
+        "name_id": 456005
+      },
+      {
+        "name_str": "周防パトラ（第9衣装）",
+        "name_id": 456006
+      },
+      {
+        "name_str": "かにかま",
+        "name_id": 456007
+      }
+    ]
+  },
+  {
+    "genre": "夢限大みゅーたいぷちほー",
+    "items": [
+      {
+        "name_str": "仲町あられ",
+        "name_id": 505601
+      },
+      {
+        "name_str": "宮永ののか",
+        "name_id": 505602
+      },
+      {
+        "name_str": "峰月律",
+        "name_id": 505603
+      },
+      {
+        "name_str": "藤都子",
+        "name_id": 505604
+      },
+      {
+        "name_str": "千石ユノ",
+        "name_id": 505605
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー",
+    "items": [
+      {
+        "name_str": "百合咲ミカ",
+        "name_id": 601
+      },
+      {
+        "name_str": "白銅寺アズリ",
+        "name_id": 602
+      },
+      {
+        "name_str": "兎花宮イオフィ",
+        "name_id": 603
+      },
+      {
+        "name_str": "白王院ラグ",
+        "name_id": 604
+      },
+      {
+        "name_str": "兎花宮サラ",
+        "name_id": 605
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー2",
+    "items": [
+      {
+        "name_str": "ブリュンヒルデ",
+        "name_id": 50601
+      },
+      {
+        "name_str": "ジグニュー",
+        "name_id": 50602
+      },
+      {
+        "name_str": "ジークルーネ",
+        "name_id": 50603
+      },
+      {
+        "name_str": "グリムゲルデ",
+        "name_id": 50604
+      },
+      {
+        "name_str": "シュヴェルトライテ",
+        "name_id": 50605
+      },
+      {
+        "name_str": "ヴァルトラウテ",
+        "name_id": 50606
+      },
+      {
+        "name_str": "オーディン",
+        "name_id": 50607
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー3",
+    "items": [
+      {
+        "name_str": "百合咲ミカ",
+        "name_id": 100501
+      },
+      {
+        "name_str": "八剱月アルマ",
+        "name_id": 100502
+      },
+      {
+        "name_str": "白銅寺アズリ",
+        "name_id": 100503
+      },
+      {
+        "name_str": "白法院ラグ",
+        "name_id": 100504
+      },
+      {
+        "name_str": "八剱月アルマ(堕天)",
+        "name_id": 100505
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー4",
+    "items": [
+      {
+        "name_str": "白明星ルキ",
+        "name_id": 200201
+      },
+      {
+        "name_str": "ラキ",
+        "name_id": 200202
+      },
+      {
+        "name_str": "アトロ",
+        "name_id": 200203
+      },
+      {
+        "name_str": "クロト",
+        "name_id": 200204
+      },
+      {
+        "name_str": "ルシファー",
+        "name_id": 200205
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー5",
+    "items": [
+      {
+        "name_str": "百合咲ミカ",
+        "name_id": 250301
+      },
+      {
+        "name_str": "白銅寺アズリ",
+        "name_id": 250302
+      },
+      {
+        "name_str": "白法院ラグ",
+        "name_id": 250303
+      },
+      {
+        "name_str": "兎花宮イオフィ",
+        "name_id": 250304
+      },
+      {
+        "name_str": "庭白ガヴィ",
+        "name_id": 250305
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー6",
+    "items": [
+      {
+        "name_str": "ディアン",
+        "name_id": 300401
+      },
+      {
+        "name_str": "レヌス",
+        "name_id": 300402
+      },
+      {
+        "name_str": "ルフタ",
+        "name_id": 300403
+      },
+      {
+        "name_str": "ヴァハ",
+        "name_id": 300404
+      },
+      {
+        "name_str": "ブリギット",
+        "name_id": 300405
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー7",
+    "items": [
+      {
+        "name_str": "コカビエル",
+        "name_id": 450401
+      },
+      {
+        "name_str": "アルマ",
+        "name_id": 450402
+      },
+      {
+        "name_str": "アルオス",
+        "name_id": 450403
+      },
+      {
+        "name_str": "セレプリス",
+        "name_id": 450404
+      },
+      {
+        "name_str": "ルシファー",
+        "name_id": 450405
+      }
+    ]
+  },
+  {
+    "genre": "天界ちほー8",
+    "items": [
+      {
+        "name_str": "ヴィリーウス",
+        "name_id": 500201
+      },
+      {
+        "name_str": "モンベルド",
+        "name_id": 500202
+      },
+      {
+        "name_str": "八剱月アルマ",
+        "name_id": 500203
+      },
+      {
+        "name_str": "白法院ラグ",
+        "name_id": 500204
+      }
+    ]
+  },
+  {
+    "genre": "宇宙すてーしょんちほー",
+    "items": [
+      {
+        "name_str": "でらっくま（ゆにばーす）",
+        "name_id": 200101
+      },
+      {
+        "name_str": "れもんっくま（ゆにばーす）",
+        "name_id": 200102
+      },
+      {
+        "name_str": "らいむっくま（ゆにばーす）",
+        "name_id": 200103
+      },
+      {
+        "name_str": "しゃま（ゆにばーす）",
+        "name_id": 200104
+      },
+      {
+        "name_str": "みるく（ゆにばーす）",
+        "name_id": 200105
+      }
+    ]
+  },
+  {
+    "genre": "宇宙すてーしょんちほー2",
+    "items": [
+      {
+        "name_str": "ちびみるく",
+        "name_id": 250101
+      },
+      {
+        "name_str": "SDしゃま",
+        "name_id": 250102
+      },
+      {
+        "name_str": "SDみるく",
+        "name_id": 250103
+      },
+      {
+        "name_str": "金の牛乳瓶",
+        "name_id": 250104
+      },
+      {
+        "name_str": "Joker",
+        "name_id": 250105
+      }
+    ]
+  },
+  {
+    "genre": "宇崎ちゃんは遊びたい！ちほー",
+    "items": [
+      {
+        "name_str": "宇崎 花",
+        "name_id": 205801
+      },
+      {
+        "name_str": "桜井 真一",
+        "name_id": 205802
+      },
+      {
+        "name_str": "亜細 亜実",
+        "name_id": 205803
+      },
+      {
+        "name_str": "榊 逸仁",
+        "name_id": 205804
+      },
+      {
+        "name_str": "亜細 亜紀彦",
+        "name_id": 205805
+      },
+      {
+        "name_str": "宇崎 月",
+        "name_id": 205806
+      },
+      {
+        "name_str": "KUSO CAT",
+        "name_id": 205807
+      }
+    ]
+  },
+  {
+    "genre": "実績",
+    "items": [
+      {
+        "name_str": "maimai でらっくす",
+        "name_id": 11
+      },
+      {
+        "name_str": "らん",
+        "name_id": 12
+      },
+      {
+        "name_str": "どりー",
+        "name_id": 13
+      },
+      {
+        "name_str": "UMA",
+        "name_id": 53501
+      },
+      {
+        "name_str": "UNiVERSE",
+        "name_id": 209501
+      },
+      {
+        "name_str": "Feryquitous",
+        "name_id": 255406
+      },
+      {
+        "name_str": "Sakuzyo",
+        "name_id": 255407
+      },
+      {
+        "name_str": "xi",
+        "name_id": 255408
+      },
+      {
+        "name_str": "YsK439",
+        "name_id": 255409
+      },
+      {
+        "name_str": "SEGA本社",
+        "name_id": 259501
+      },
+      {
+        "name_str": "FESTiVAL",
+        "name_id": 309501
+      },
+      {
+        "name_str": "Lia=Fail",
+        "name_id": 309502
+      },
+      {
+        "name_str": "MEGAREX",
+        "name_id": 355511
+      },
+      {
+        "name_str": "DJPoyoshi",
+        "name_id": 355512
+      },
+      {
+        "name_str": "lapix",
+        "name_id": 355513
+      },
+      {
+        "name_str": "rejection",
+        "name_id": 355514
+      },
+      {
+        "name_str": "Zekk",
+        "name_id": 355515
+      },
+      {
+        "name_str": "DJ勝也",
+        "name_id": 355516
+      },
+      {
+        "name_str": "Mameyudoufu",
+        "name_id": 355517
+      },
+      {
+        "name_str": "Blacklolita",
+        "name_id": 355518
+      },
+      {
+        "name_str": "YUKIYANAGI",
+        "name_id": 355519
+      },
+      {
+        "name_str": "BUDDiES",
+        "name_id": 409501
+      },
+      {
+        "name_str": "共に走る",
+        "name_id": 409502
+      },
+      {
+        "name_str": "女の子",
+        "name_id": 409503
+      },
+      {
+        "name_str": "かわいい女の子",
+        "name_id": 409504
+      },
+      {
+        "name_str": "旅行スタンプ（月面基地）",
+        "name_id": 409505
+      },
+      {
+        "name_str": "旅行スタンプ（???）",
+        "name_id": 409506
+      },
+      {
+        "name_str": "♡でらっくま♡",
+        "name_id": 458001
+      },
+      {
+        "name_str": "♡乙姫♡",
+        "name_id": 458011
+      },
+      {
+        "name_str": "♡ラズ♡",
+        "name_id": 458012
+      },
+      {
+        "name_str": "♡シフォン♡",
+        "name_id": 458013
+      },
+      {
+        "name_str": "♡ソルト♡",
+        "name_id": 458014
+      },
+      {
+        "name_str": "♡しゃま♡",
+        "name_id": 458015
+      },
+      {
+        "name_str": "♡みるく♡",
+        "name_id": 458016
+      },
+      {
+        "name_str": "♡らいむっくま＆れもんっくま♡",
+        "name_id": 458017
+      },
+      {
+        "name_str": "♡乙姫（すぷらっしゅ）♡",
+        "name_id": 458018
+      },
+      {
+        "name_str": "♡しゃま（ゆにばーす）♡",
+        "name_id": 458019
+      },
+      {
+        "name_str": "♡みるく（ゆにばーす）♡",
+        "name_id": 458020
+      },
+      {
+        "name_str": "♡ちびみるく♡",
+        "name_id": 458021
+      },
+      {
+        "name_str": "♡百合咲 ミカ♡",
+        "name_id": 458022
+      },
+      {
+        "name_str": "♡ラズ（ふぇすてぃばる）♡",
+        "name_id": 458023
+      },
+      {
+        "name_str": "♡シフォン（ふぇすてぃばる）♡",
+        "name_id": 458024
+      },
+      {
+        "name_str": "♡ソルト（ふぇすてぃばる）♡",
+        "name_id": 458025
+      },
+      {
+        "name_str": "♡黒姫♡",
+        "name_id": 458026
+      },
+      {
+        "name_str": "♡乙姫（ばでぃーず）♡",
+        "name_id": 458028
+      },
+      {
+        "name_str": "♡らいむっくま＆れもんっくま（ばでぃーず）♡",
+        "name_id": 458029
+      },
+      {
+        "name_str": "♡ラズ（ばでぃーず）♡",
+        "name_id": 458030
+      },
+      {
+        "name_str": "♡ソルト（ぷりずむ）♡",
+        "name_id": 508031
+      },
+      {
+        "name_str": "PRiSM",
+        "name_id": 509501
+      },
+      {
+        "name_str": "KALEIDXSCOPE -青春エリア-",
+        "name_id": 509502
+      },
+      {
+        "name_str": "KALEIDXSCOPE -神様エリア-",
+        "name_id": 509503
+      },
+      {
+        "name_str": "KALEIDXSCOPE -黒薔薇エリア-",
+        "name_id": 509504
+      },
+      {
+        "name_str": "KALEIDXSCOPE -終末エリア-",
+        "name_id": 509505
+      },
+      {
+        "name_str": "♡みるく（ぷりずむ）♡",
+        "name_id": 558032
+      },
+      {
+        "name_str": "♡リズ♡",
+        "name_id": 558034
+      },
+      {
+        "name_str": "KALEIDXSCOPE -はじまりエリア-",
+        "name_id": 559501
+      },
+      {
+        "name_str": "KALEIDXSCOPE -世界樹エリア-",
+        "name_id": 559502
+      },
+      {
+        "name_str": "KALEIDXSCOPE -プリズムエリア-",
+        "name_id": 559503
+      },
+      {
+        "name_str": "KALEIDXSCOPE -旧き世界-",
+        "name_id": 559504
+      },
+      {
+        "name_str": "KALEIDXSCOPE -PRiSM-",
+        "name_id": 559505
+      },
+      {
+        "name_str": "閉ざされた青の扉",
+        "name_id": 559506
+      },
+      {
+        "name_str": "閉ざされた白の扉",
+        "name_id": 559507
+      },
+      {
+        "name_str": "閉ざされた紫の扉",
+        "name_id": 559508
+      },
+      {
+        "name_str": "閉ざされた黒の扉",
+        "name_id": 559509
+      },
+      {
+        "name_str": "閉ざされた黄の扉",
+        "name_id": 559510
+      },
+      {
+        "name_str": "閉ざされた赤の扉",
+        "name_id": 559511
+      },
+      {
+        "name_str": "♡シフォン（さーくる）♡",
+        "name_id": 608035
+      },
+      {
+        "name_str": "CiRCLE",
+        "name_id": 609501
+      },
+      {
+        "name_str": "モ°ルモ°ル",
+        "name_id": 609502
+      },
+      {
+        "name_str": "TEmPTaTiON",
+        "name_id": 609503
+      },
+      {
+        "name_str": "Paradisoda",
+        "name_id": 609504
+      },
+      {
+        "name_str": "[X]",
+        "name_id": 609505
+      },
+      {
+        "name_str": "#狂った民族２ PRAVARGYAZOOQA",
+        "name_id": 609506
+      },
+      {
+        "name_str": "隠密あんみつDX",
+        "name_id": 609507
+      },
+      {
+        "name_str": "VERTeX (rintaro soma deconstructed remix)",
+        "name_id": 609508
+      },
+      {
+        "name_str": "CiRCLE シフォン＆しゃま",
+        "name_id": 609509
+      }
+    ]
+  },
+  {
+    "genre": "小春六花・夏色花梨・花隈千冬ちほー",
+    "items": [
+      {
+        "name_str": "小春六花",
+        "name_id": 555701
+      },
+      {
+        "name_str": "夏色花梨",
+        "name_id": 555702
+      },
+      {
+        "name_str": "花隈千冬",
+        "name_id": 555703
+      },
+      {
+        "name_str": "小春六花（私服）",
+        "name_id": 555704
+      },
+      {
+        "name_str": "ラキストン",
+        "name_id": 555705
+      },
+      {
+        "name_str": "夏色花梨（私服）",
+        "name_id": 555706
+      },
+      {
+        "name_str": "エカテリーナ",
+        "name_id": 555707
+      },
+      {
+        "name_str": "花隈千冬（私服）",
+        "name_id": 555708
+      },
+      {
+        "name_str": "ラークパッチ",
+        "name_id": 555709
+      }
+    ]
+  },
+  {
+    "genre": "小林さんちのメイドラゴンSちほー",
+    "items": [
+      {
+        "name_str": "トール",
+        "name_id": 255101
+      },
+      {
+        "name_str": "カンナ",
+        "name_id": 255102
+      },
+      {
+        "name_str": "エルマ",
+        "name_id": 255103
+      },
+      {
+        "name_str": "ルコア",
+        "name_id": 255104
+      },
+      {
+        "name_str": "イルル",
+        "name_id": 255105
+      },
+      {
+        "name_str": "小林さん",
+        "name_id": 255106
+      }
+    ]
+  },
+  {
+    "genre": "怪獣娘ちほー",
+    "items": [
+      {
+        "name_str": "アギラ",
+        "name_id": 4101
+      },
+      {
+        "name_str": "ミクラス",
+        "name_id": 4102
+      },
+      {
+        "name_str": "ウインダム",
+        "name_id": 4103
+      },
+      {
+        "name_str": "キングジョー",
+        "name_id": 4104
+      },
+      {
+        "name_str": "ガッツ星人",
+        "name_id": 4105
+      },
+      {
+        "name_str": "ブラック指令",
+        "name_id": 4106
+      },
+      {
+        "name_str": "ペガッサ星人",
+        "name_id": 4107
+      },
+      {
+        "name_str": "シルバーブルーメ",
+        "name_id": 4108
+      },
+      {
+        "name_str": "ノーバ",
+        "name_id": 4109
+      },
+      {
+        "name_str": "ガタノゾーア",
+        "name_id": 4110
+      }
+    ]
+  },
+  {
+    "genre": "東北ずん子ちほー",
+    "items": [
+      {
+        "name_str": "東北ずん子",
+        "name_id": 406101
+      },
+      {
+        "name_str": "東北ずん子（チア）",
+        "name_id": 406102
+      },
+      {
+        "name_str": "東北イタコ",
+        "name_id": 406103
+      },
+      {
+        "name_str": "東北イタコ（チア）",
+        "name_id": 406104
+      },
+      {
+        "name_str": "東北きりたん",
+        "name_id": 406105
+      },
+      {
+        "name_str": "東北きりたん（チア）",
+        "name_id": 406106
+      },
+      {
+        "name_str": "四国めたん",
+        "name_id": 406107
+      },
+      {
+        "name_str": "九州そら",
+        "name_id": 406108
+      },
+      {
+        "name_str": "ずんだもん",
+        "name_id": 406109
+      }
+    ]
+  },
+  {
+    "genre": "東方Project 博麗神社～春祭りちほー",
+    "items": [
+      {
+        "name_str": "博麗 霊夢",
+        "name_id": 255701
+      },
+      {
+        "name_str": "霧雨 魔理沙",
+        "name_id": 255702
+      },
+      {
+        "name_str": "古明地 さとり",
+        "name_id": 255703
+      },
+      {
+        "name_str": "古明地 こいし",
+        "name_id": 255704
+      },
+      {
+        "name_str": "レミリア・スカーレット",
+        "name_id": 255705
+      },
+      {
+        "name_str": "フランドール・スカーレット",
+        "name_id": 255706
+      }
+    ]
+  },
+  {
+    "genre": "東方Project×アトレ秋葉原ちほー",
+    "items": [
+      {
+        "name_str": "霧雨魔理沙",
+        "name_id": 53901
+      },
+      {
+        "name_str": "鈴仙優曇華院イナバ",
+        "name_id": 53902
+      },
+      {
+        "name_str": "洩矢諏訪子",
+        "name_id": 53903
+      },
+      {
+        "name_str": "藤原妹紅",
+        "name_id": 53904
+      },
+      {
+        "name_str": "火焔猫燐",
+        "name_id": 53905
+      }
+    ]
+  },
+  {
+    "genre": "東方Project×イロドリミドリちほー",
+    "items": [
+      {
+        "name_str": "明坂 芹菜（東方Project：射命丸 文）",
+        "name_id": 355401
+      },
+      {
+        "name_str": "御形 アリシアナ（東方Project：小野塚 小町）",
+        "name_id": 355402
+      },
+      {
+        "name_str": "天王洲 なずな（東方Project：風見 幽香）",
+        "name_id": 355403
+      },
+      {
+        "name_str": "小仏 凪（東方Project：四季映姫・ヤマザナドゥ）",
+        "name_id": 355404
+      },
+      {
+        "name_str": "箱部 なる（東方Project：チルノ　ウソテイver.）",
+        "name_id": 355405
+      },
+      {
+        "name_str": "月鈴 那知（東方Project：因幡 てゐ）",
+        "name_id": 355406
+      },
+      {
+        "name_str": "月鈴 白奈（東方Project：鈴仙・優曇華院・イナバ）",
+        "name_id": 355407
+      },
+      {
+        "name_str": "明坂 芹菜（東方Project：蓬莱山 輝夜）",
+        "name_id": 355408
+      },
+      {
+        "name_str": "御形 アリシアナ（東方Project：八意 永琳）",
+        "name_id": 355409
+      },
+      {
+        "name_str": "天王洲 なずな（東方Project：因幡 てゐ）",
+        "name_id": 355410
+      },
+      {
+        "name_str": "小仏 凪（東方Project：博麗 霊夢）",
+        "name_id": 355411
+      },
+      {
+        "name_str": "箱部 なる（東方Project：チルノ）",
+        "name_id": 355412
+      },
+      {
+        "name_str": "月鈴 那知（東方Project：伊吹 萃香）",
+        "name_id": 355413
+      },
+      {
+        "name_str": "月鈴 白奈（東方Project：霧雨 魔理沙）",
+        "name_id": 355414
+      }
+    ]
+  },
+  {
+    "genre": "東方Project×オンゲキちほー",
+    "items": [
+      {
+        "name_str": "博麗 霊夢",
+        "name_id": 305401
+      },
+      {
+        "name_str": "霧雨 魔理沙",
+        "name_id": 305402
+      },
+      {
+        "name_str": "チルノ",
+        "name_id": 305403
+      },
+      {
+        "name_str": "レミリア・スカーレット",
+        "name_id": 305404
+      },
+      {
+        "name_str": "フランドール・スカーレット",
+        "name_id": 305405
+      }
+    ]
+  },
+  {
+    "genre": "東方Projectちほー",
+    "items": [
+      {
+        "name_str": "博麗霊夢",
+        "name_id": 3401
+      },
+      {
+        "name_str": "霧雨魔理沙",
+        "name_id": 3402
+      },
+      {
+        "name_str": "十六夜咲夜",
+        "name_id": 3403
+      },
+      {
+        "name_str": "レミリア・スカーレット",
+        "name_id": 3404
+      },
+      {
+        "name_str": "フランドール・スカーレット",
+        "name_id": 3405
+      },
+      {
+        "name_str": "魂魄妖夢",
+        "name_id": 3406
+      },
+      {
+        "name_str": "八雲紫",
+        "name_id": 3407
+      },
+      {
+        "name_str": "鈴仙・優曇華院・イナバ",
+        "name_id": 3408
+      },
+      {
+        "name_str": "蓬莱山輝夜",
+        "name_id": 3409
+      },
+      {
+        "name_str": "藤原妹紅",
+        "name_id": 3410
+      }
+    ]
+  },
+  {
+    "genre": "東方Projectリバイバルちほー",
+    "items": [
+      {
+        "name_str": "アリス・マーガトロイド",
+        "name_id": 105501
+      },
+      {
+        "name_str": "霧雨魔理沙",
+        "name_id": 105502
+      },
+      {
+        "name_str": "チルノ",
+        "name_id": 105503
+      },
+      {
+        "name_str": "博麗霊夢",
+        "name_id": 105504
+      },
+      {
+        "name_str": "射命丸文",
+        "name_id": 105505
+      }
+    ]
+  },
+  {
+    "genre": "東方Projectリバイバルちほー2",
+    "items": [
+      {
+        "name_str": "メルラン・プリズムリバー",
+        "name_id": 155501
+      },
+      {
+        "name_str": "ルナサ・プリズムリバー",
+        "name_id": 155502
+      },
+      {
+        "name_str": "リリカ・プリズムリバー",
+        "name_id": 155503
+      },
+      {
+        "name_str": "丁礼田舞",
+        "name_id": 155504
+      },
+      {
+        "name_str": "爾子田里乃",
+        "name_id": 155505
+      },
+      {
+        "name_str": "ミスティア・ローレライ",
+        "name_id": 155506
+      },
+      {
+        "name_str": "鬼人正邪",
+        "name_id": 155507
+      }
+    ]
+  },
+  {
+    "genre": "東方ダンマクカグラ ファンタジア・ロストちほー",
+    "items": [
+      {
+        "name_str": "橙",
+        "name_id": 455701
+      },
+      {
+        "name_str": "西行寺 幽々子",
+        "name_id": 455702
+      },
+      {
+        "name_str": "八雲 藍",
+        "name_id": 455703
+      },
+      {
+        "name_str": "洩矢 諏訪子",
+        "name_id": 455704
+      },
+      {
+        "name_str": "依神 紫苑",
+        "name_id": 455705
+      },
+      {
+        "name_str": "依神 女苑",
+        "name_id": 455706
+      },
+      {
+        "name_str": "クラウンピース",
+        "name_id": 455707
+      },
+      {
+        "name_str": "赤蛮奇",
+        "name_id": 455708
+      }
+    ]
+  },
+  {
+    "genre": "東方ダンマクカグラちほー",
+    "items": [
+      {
+        "name_str": "博麗 霊夢",
+        "name_id": 205501
+      },
+      {
+        "name_str": "霧雨 魔理沙",
+        "name_id": 205502
+      },
+      {
+        "name_str": "八雲 紫",
+        "name_id": 205503
+      },
+      {
+        "name_str": "宇佐見 菫子",
+        "name_id": 205504
+      },
+      {
+        "name_str": "魂魄 妖夢",
+        "name_id": 205505
+      }
+    ]
+  },
+  {
+    "genre": "樋口楓ちほー",
+    "items": [
+      {
+        "name_str": "樋口楓",
+        "name_id": 305701
+      },
+      {
+        "name_str": "樋口楓（AIM）",
+        "name_id": 305702
+      },
+      {
+        "name_str": "樋口楓（アーティスト衣装）",
+        "name_id": 305703
+      },
+      {
+        "name_str": "ぷち樋口楓",
+        "name_id": 305704
+      },
+      {
+        "name_str": "ぷち樋口楓（自転車通学）",
+        "name_id": 305705
+      },
+      {
+        "name_str": "ぷち樋口楓（アーティスト衣装）",
+        "name_id": 305706
+      },
+      {
+        "name_str": "ささみちゃん",
+        "name_id": 305707
+      }
+    ]
+  },
+  {
+    "genre": "炎炎ノ消防隊ちほー",
+    "items": [
+      {
+        "name_str": "森羅日下部",
+        "name_id": 155101
+      },
+      {
+        "name_str": "アーサー・ボイル",
+        "name_id": 155102
+      },
+      {
+        "name_str": "秋樽桜備",
+        "name_id": 155103
+      },
+      {
+        "name_str": "武久火縄",
+        "name_id": 155104
+      },
+      {
+        "name_str": "茉希尾瀬",
+        "name_id": 155105
+      },
+      {
+        "name_str": "アイリス",
+        "name_id": 155106
+      }
+    ]
+  },
+  {
+    "genre": "異世界おじさんちほー",
+    "items": [
+      {
+        "name_str": "おじさん",
+        "name_id": 405501
+      },
+      {
+        "name_str": "おじさん（現代）",
+        "name_id": 405502
+      },
+      {
+        "name_str": "たかふみ",
+        "name_id": 405503
+      },
+      {
+        "name_str": "藤宮",
+        "name_id": 405504
+      },
+      {
+        "name_str": "エルフ",
+        "name_id": 405505
+      },
+      {
+        "name_str": "メイベル",
+        "name_id": 405506
+      },
+      {
+        "name_str": "アリシア",
+        "name_id": 405507
+      },
+      {
+        "name_str": "沢江",
+        "name_id": 405508
+      },
+      {
+        "name_str": "おじエル",
+        "name_id": 405509
+      }
+    ]
+  },
+  {
+    "genre": "異世界かるてっとちほー",
+    "items": [
+      {
+        "name_str": "カズマ",
+        "name_id": 53201
+      },
+      {
+        "name_str": "アクア",
+        "name_id": 53202
+      },
+      {
+        "name_str": "めぐみん",
+        "name_id": 53203
+      },
+      {
+        "name_str": "ダクネス",
+        "name_id": 53204
+      },
+      {
+        "name_str": "アインズ",
+        "name_id": 53205
+      },
+      {
+        "name_str": "アルベド",
+        "name_id": 53206
+      },
+      {
+        "name_str": "デミウルゴス",
+        "name_id": 53207
+      },
+      {
+        "name_str": "シャルティア",
+        "name_id": 53208
+      },
+      {
+        "name_str": "スバル",
+        "name_id": 53209
+      },
+      {
+        "name_str": "エミリア&パック",
+        "name_id": 53210
+      },
+      {
+        "name_str": "レム",
+        "name_id": 53211
+      },
+      {
+        "name_str": "ラム",
+        "name_id": 53212
+      },
+      {
+        "name_str": "ターニャ",
+        "name_id": 53213
+      },
+      {
+        "name_str": "ヴィーシャ",
+        "name_id": 53214
+      },
+      {
+        "name_str": "レルゲン",
+        "name_id": 53215
+      },
+      {
+        "name_str": "ヴァイス",
+        "name_id": 53216
+      }
+    ]
+  },
+  {
+    "genre": "神椿市協奏中。ちほー",
+    "items": [
+      {
+        "name_str": "可不",
+        "name_id": 555201
+      },
+      {
+        "name_str": "星界",
+        "name_id": 555202
+      },
+      {
+        "name_str": "裏命",
+        "name_id": 555203
+      },
+      {
+        "name_str": "狐子",
+        "name_id": 555204
+      },
+      {
+        "name_str": "羽累",
+        "name_id": 555205
+      }
+    ]
+  },
+  {
+    "genre": "結月ゆかりちほー",
+    "items": [
+      {
+        "name_str": "結月ゆかり/幾望の月",
+        "name_id": 4201
+      },
+      {
+        "name_str": "結月ゆかり/フリィダム ロリィタ",
+        "name_id": 4202
+      },
+      {
+        "name_str": "結月ゆかり/チュルリラ・チュルリラ・ダッダッダ！",
+        "name_id": 4203
+      },
+      {
+        "name_str": "結月ゆかり/幸せになれる隠しコマンドがあるらしい",
+        "name_id": 4204
+      },
+      {
+        "name_str": "結月ゆかり/サヨナラチェーンソー",
+        "name_id": 4205
+      }
+    ]
+  },
+  {
+    "genre": "舞ヶ原シンセ研究会ちほー",
+    "items": [
+      {
+        "name_str": "藤堂 陽南袴",
+        "name_id": 206301
+      },
+      {
+        "name_str": "桔梗 小夜曲",
+        "name_id": 206302
+      },
+      {
+        "name_str": "芒崎 奏",
+        "name_id": 206303
+      }
+    ]
+  },
+  {
+    "genre": "花譜ちほー",
+    "items": [
+      {
+        "name_str": "花譜 第一形態 雛鳥",
+        "name_id": 455201
+      },
+      {
+        "name_str": "花譜 第二形態 青雀",
+        "name_id": 455202
+      },
+      {
+        "name_str": "花譜 第三形態 燕",
+        "name_id": 455203
+      },
+      {
+        "name_str": "花譜 第四形態 雉",
+        "name_id": 455204
+      }
+    ]
+  },
+  {
+    "genre": "葬送のフリーレンちほー",
+    "items": [
+      {
+        "name_str": "フリーレン",
+        "name_id": 505101
+      },
+      {
+        "name_str": "フェルン",
+        "name_id": 505102
+      },
+      {
+        "name_str": "シュタルク",
+        "name_id": 505103
+      },
+      {
+        "name_str": "ヒンメル",
+        "name_id": 505104
+      },
+      {
+        "name_str": "ハイター",
+        "name_id": 505105
+      },
+      {
+        "name_str": "アイゼン",
+        "name_id": 505106
+      },
+      {
+        "name_str": "ザイン",
+        "name_id": 505107
+      },
+      {
+        "name_str": "リュグナー",
+        "name_id": 505108
+      },
+      {
+        "name_str": "リーニエ",
+        "name_id": 505109
+      },
+      {
+        "name_str": "ドラート",
+        "name_id": 505110
+      },
+      {
+        "name_str": "アウラ",
+        "name_id": 505111
+      }
+    ]
+  },
+  {
+    "genre": "裏 月面ちほー",
+    "items": [
+      {
+        "name_str": "宇宙飛行士（Apollo）",
+        "name_id": 405901
+      }
+    ]
+  },
+  {
+    "genre": "那須どうぶつ王国ちほー",
+    "items": [
+      {
+        "name_str": "ポリー",
+        "name_id": 555401
+      },
+      {
+        "name_str": "ボル",
+        "name_id": 555402
+      },
+      {
+        "name_str": "ポリー（あくび）",
+        "name_id": 555403
+      },
+      {
+        "name_str": "顔のパーツが中心に寄っているポリー",
+        "name_id": 555404
+      },
+      {
+        "name_str": "スナネコ",
+        "name_id": 555405
+      }
+    ]
+  },
+  {
+    "genre": "重音テトちほー",
+    "items": [
+      {
+        "name_str": "重音テト",
+        "name_id": 505801
+      },
+      {
+        "name_str": "重音テト（2008）",
+        "name_id": 505802
+      },
+      {
+        "name_str": "重音テト（SV）",
+        "name_id": 505803
+      },
+      {
+        "name_str": "重音テッド",
+        "name_id": 505804
+      },
+      {
+        "name_str": "重音テト（人マニア）",
+        "name_id": 505805
+      }
+    ]
+  },
+  {
+    "genre": "電音部ちほー",
+    "items": [
+      {
+        "name_str": "日高零奈",
+        "name_id": 305801
+      },
+      {
+        "name_str": "東雲和音",
+        "name_id": 305802
+      },
+      {
+        "name_str": "茅野ふたば",
+        "name_id": 305803
+      },
+      {
+        "name_str": "鳳凰火凛",
+        "name_id": 305804
+      },
+      {
+        "name_str": "瀬戸海月",
+        "name_id": 305805
+      },
+      {
+        "name_str": "大賀ルキア",
+        "name_id": 305806
+      }
+    ]
+  },
+  {
+    "genre": "青春ちほー",
+    "items": [
+      {
+        "name_str": "水野舞衣",
+        "name_id": 201
+      },
+      {
+        "name_str": "青沼優",
+        "name_id": 202
+      },
+      {
+        "name_str": "葵巴",
+        "name_id": 203
+      },
+      {
+        "name_str": "花田美空",
+        "name_id": 204
+      },
+      {
+        "name_str": "浅葱光一",
+        "name_id": 205
+      }
+    ]
+  },
+  {
+    "genre": "音楽的同位体　可不ちほー",
+    "items": [
+      {
+        "name_str": "可不",
+        "name_id": 355701
+      },
+      {
+        "name_str": "可不（花となれ）",
+        "name_id": 355702
+      },
+      {
+        "name_str": "可不（私のドッペルゲンガー）",
+        "name_id": 355703
+      }
+    ]
+  },
+  {
+    "genre": "高天原ちほー",
+    "items": [
+      {
+        "name_str": "ニギ",
+        "name_id": 150501
+      },
+      {
+        "name_str": "シンキョウ",
+        "name_id": 150502
+      },
+      {
+        "name_str": "メノウ",
+        "name_id": 150503
+      },
+      {
+        "name_str": "アマヒコ",
+        "name_id": 150504
+      },
+      {
+        "name_str": "オオヒメ",
+        "name_id": 150505
+      }
+    ]
+  },
+  {
+    "genre": "高天原ちほー2",
+    "items": [
+      {
+        "name_str": "ミクマリ",
+        "name_id": 600301
+      },
+      {
+        "name_str": "クロツネ",
+        "name_id": 600302
+      },
+      {
+        "name_str": "ニギ",
+        "name_id": 600303
+      },
+      {
+        "name_str": "メノウ",
+        "name_id": 600304
+      }
+    ]
+  },
+  {
+    "genre": "＃コンパスちほー",
+    "items": [
+      {
+        "name_str": "グスタフ ハイドリヒ",
+        "name_id": 53401
+      },
+      {
+        "name_str": "マリア=S=レオンブルク",
+        "name_id": 53402
+      },
+      {
+        "name_str": "ヴィーナス ポロロッチョ",
+        "name_id": 53403
+      },
+      {
+        "name_str": "メグメグ",
+        "name_id": 53404
+      },
+      {
+        "name_str": "Voidoll",
+        "name_id": 53405
+      },
+      {
+        "name_str": "リリカ",
+        "name_id": 53406
+      },
+      {
+        "name_str": "ルチアーノ",
+        "name_id": 53407
+      },
+      {
+        "name_str": "双挽 乃保",
+        "name_id": 53408
+      },
+      {
+        "name_str": "桜華 忠臣",
+        "name_id": 53409
+      }
+    ]
+  },
+  {
+    "genre": "＃コンパスちほー2",
+    "items": [
+      {
+        "name_str": "ラヴィ・シュシュマルシュ",
+        "name_id": 455901
+      },
+      {
+        "name_str": "ステリア・ララ・シルワ",
+        "name_id": 455902
+      },
+      {
+        "name_str": "Bugdoll",
+        "name_id": 455903
+      }
+    ]
+  }
+]
