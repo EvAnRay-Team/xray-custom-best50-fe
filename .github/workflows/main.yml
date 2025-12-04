@@ -19,6 +19,3 @@ jobs:
 
       - name: 安装依赖
         run: npm ci          # 比 npm install 更快且可重复
-
-      - name: 运行 preview
-        run: npm run preview
