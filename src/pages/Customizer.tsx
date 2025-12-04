@@ -11,6 +11,7 @@ import { Dialog } from "primereact/dialog";
 import { InputText } from "primereact/inputtext";
 import { Chip } from "primereact/chip";
 import { InputGroup } from "primereact/inputgroup";
+import { useTranslation } from "react-i18next";
 import frameDropdownData from "../dropdown/frame_dropdown_data.json";
 import iconDropdownData from "../dropdown/icon_dropdown_data.json";
 import plateDropdownData from "../dropdown/plate_dropdown_data.json";
@@ -906,6 +907,7 @@ type FormData = {
 };
 
 const Customizer = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<FormData>({
     background: backgrounds[0].value,
     rank: rankSets[0].value,
@@ -1052,8 +1054,12 @@ const Customizer = () => {
                 <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showBg ? <MinusIcon /> : <PlusIcon />}
                 </Button>
-                <span className="align-middle font-medium text-sm">背景レイヤー</span>
-                <span className="ml-4 text-xs text-surface-500 align-middle">{backgrounds.length} 选项</span>
+                <span className="align-middle font-medium text-sm">
+                  {t("customizer.backgroundLayer")}
+                </span>
+                <span className="ml-4 text-xs text-surface-500 align-middle">
+                  {t("common.optionCount", { count: backgrounds.length })}
+                </span>
               </Fieldset.Legend>
               <Motion in={showBg} name="p-toggleable-content">
                 <Fieldset.Content>
@@ -1087,8 +1093,12 @@ const Customizer = () => {
                 <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showRank ? <MinusIcon /> : <PlusIcon />}
                 </Button>
-                <span className="align-middle font-medium text-sm">rank</span>
-                <span className="ml-4 text-xs text-surface-500 align-middle">{rankSets.length} 选项</span>
+                <span className="align-middle font-medium text-sm">
+                  {t("customizer.rank")}
+                </span>
+                <span className="ml-4 text-xs text-surface-500 align-middle">
+                  {t("common.optionCount", { count: rankSets.length })}
+                </span>
               </Fieldset.Legend>
               <Motion in={showRank} name="p-toggleable-content">
                 <Fieldset.Content>
@@ -1121,8 +1131,12 @@ const Customizer = () => {
                 <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showDan ? <MinusIcon /> : <PlusIcon />}
                 </Button>
-                <span className="align-middle font-medium text-sm">dan</span>
-                <span className="ml-4 text-xs text-surface-500 align-middle">{danSets.length} 选项</span>
+                <span className="align-middle font-medium text-sm">
+                  {t("customizer.dan")}
+                </span>
+                <span className="ml-4 text-xs text-surface-500 align-middle">
+                  {t("common.optionCount", { count: danSets.length })}
+                </span>
               </Fieldset.Legend>
               <Motion in={showDan} name="p-toggleable-content">
                 <Fieldset.Content>
@@ -1156,8 +1170,12 @@ const Customizer = () => {
                 <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showGameClass ? <MinusIcon /> : <PlusIcon />}
                 </Button>
-                <span className="align-middle font-medium text-sm">class</span>
-                <span className="ml-4 text-xs text-surface-500 align-middle">{classSets.length} 选项</span>
+                <span className="align-middle font-medium text-sm">
+                  {t("customizer.class")}
+                </span>
+                <span className="ml-4 text-xs text-surface-500 align-middle">
+                  {t("common.optionCount", { count: classSets.length })}
+                </span>
               </Fieldset.Legend>
               <Motion in={showGameClass} name="p-toggleable-content">
                 <Fieldset.Content>
@@ -1190,7 +1208,9 @@ const Customizer = () => {
                 <Button type="button" variant="text" size="small" className="mr-2 align-middle">
                   {showCollectibles ? <MinusIcon /> : <PlusIcon />}
                 </Button>
-                <span className="align-middle font-medium text-sm">collectibles</span>
+                <span className="align-middle font-medium text-sm">
+                  {t("customizer.collectibles")}
+                </span>
               </Fieldset.Legend>
               <Motion in={showCollectibles} name="p-toggleable-content">
                 <Fieldset.Content>
@@ -1269,7 +1289,7 @@ const Customizer = () => {
                     </InputGroup>
                   </div>
                   <p className="mt-2 text-xs text-surface-500 dark:text-surface-400">
-                    提示：点击每一项右侧的放大镜按钮，从列表中选择对应的姓名框 / 头像 / 框体。
+                    {t("customizer.collectiblesHint")}
                   </p>
                 </Fieldset.Content>
               </Motion>
@@ -1286,7 +1306,9 @@ const Customizer = () => {
                 >
                   {showRecommendChara ? <MinusIcon /> : <PlusIcon />}
                 </Button>
-                <span className="align-middle font-medium text-sm">Recommend / Chara 配置模式</span>
+                <span className="align-middle font-medium text-sm">
+                  {t("customizer.modeTitle")}
+                </span>
               </Fieldset.Legend>
               <Motion in={showRecommendChara} name="p-toggleable-content">
                 <Fieldset.Content>
@@ -1298,7 +1320,9 @@ const Customizer = () => {
                       severity={formData.frameMode === "recommend" ? "primary" : "secondary"}
                       onClick={() => handleInputChange("frameMode", "recommend")}
                     >
-                      <span className="align-middle font-medium text-sm">Recommend</span>
+                      <span className="align-middle font-medium text-sm">
+                        {t("customizer.modeRecommend")}
+                      </span>
                     </Button>
                     <Button
                       type="button"
@@ -1307,7 +1331,9 @@ const Customizer = () => {
                       severity={formData.frameMode === "chara" ? "primary" : "secondary"}
                       onClick={() => handleInputChange("frameMode", "chara")}
                     >
-                      <span className="align-middle font-medium text-sm">Chara</span>
+                      <span className="align-middle font-medium text-sm">
+                        {t("customizer.modeChara")}
+                      </span>
                     </Button>
                   </div>
                   <div className="mt-3 text-sm">
@@ -1343,7 +1369,7 @@ const Customizer = () => {
                                     name={`travelConfigs[${index}].buddy`}
                                     readOnly
                                     size="small"
-                                    placeholder="旅行パートナー"
+                                    placeholder={t("customizer.travelPartnerPlaceholder")}
                                     value={cfg.buddy}
                                     onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleTravelConfigChange(index, "buddy", e.target.value)}
                                   />
@@ -1383,7 +1409,7 @@ const Customizer = () => {
                                   <InputText
                                     name={`travelConfigs[${index}].level`}
                                     size="small"
-                                    placeholder="レベル (1-9999)"
+                                    placeholder={t("customizer.levelPlaceholder")}
                                     value={String(cfg.level ?? "")}
                                     onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                                       const raw = e.target.value.replace(/[^0-9]/g, "");
@@ -1442,9 +1468,9 @@ const Customizer = () => {
         <Dialog.Portal style={{ width: '40rem', maxWidth: '90vw' }}>
           <Dialog.Header>
             <Dialog.Title>
-              {selectingField === "plate" && "选择姓名框"}
-              {selectingField === "icon" && "选择头像"}
-              {selectingField === "frame" && "选择框体"}
+              {selectingField === "plate" && t("customizer.dialogChoosePlate")}
+              {selectingField === "icon" && t("customizer.dialogChooseIcon")}
+              {selectingField === "frame" && t("customizer.dialogChooseFrame")}
             </Dialog.Title>
             <Dialog.HeaderActions>
               <Dialog.Close />
@@ -1457,7 +1483,7 @@ const Customizer = () => {
                 <div className="flex flex-col gap-4">
                   <div>
                     <label className="block text-sm font-medium mb-2 text-surface-700 dark:text-surface-300">
-                      选择分类 ({dropdownData.length})
+                      {t("customizer.dialogChooseCategoryLabel")} ({dropdownData.length})
                     </label>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-48 overflow-y-auto p-1 border border-surface-200 dark:border-surface-700 rounded-lg">
                       {dropdownData.map((genreData) => (
@@ -1480,7 +1506,7 @@ const Customizer = () => {
                   {selectedGenreData ? (
                     <div>
                       <label className="block text-sm font-medium mb-2 text-surface-700 dark:text-surface-300">
-                        选择项目 - {selectedGenreData.genre} ({selectedGenreData.items.length})
+                        {t("customizer.dialogChooseItemLabel")} - {selectedGenreData.genre} ({selectedGenreData.items.length})
                       </label>
                       <div className="grid grid-cols-1 gap-2 max-h-64 overflow-y-auto p-1 border border-surface-200 dark:border-surface-700 rounded-lg">
                         {selectedGenreData.items.map((item) => (
@@ -1523,7 +1549,7 @@ const Customizer = () => {
                     </div>
                   ) : (
                     <div className="text-sm text-surface-500 dark:text-surface-400 text-center py-8">
-                      请先选择一个分类
+                      {t("customizer.dialogChooseCategoryPlaceholder")}
                     </div>
                   )}
                 </div>
