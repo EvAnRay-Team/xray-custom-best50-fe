@@ -1,0 +1,24 @@
+name: npm-run-preview
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.21.1   # 按需改成 16/20 等
+
+      - name: 安装依赖
+        run: npm ci          # 比 npm install 更快且可重复
+
+      - name: 运行 preview
+        run: npm run preview
